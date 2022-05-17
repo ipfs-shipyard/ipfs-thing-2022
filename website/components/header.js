@@ -1,6 +1,7 @@
 import { Navbar, Button, DarkThemeToggle } from 'flowbite-react'
 
 export default function Header({config}) {
+  //<DarkThemeToggle />
   return (
 
     <div className="header justify-self-start sticky top-0 z-40 w-full backdrop-blur
@@ -23,7 +24,7 @@ export default function Header({config}) {
             </span>
           </Navbar.Brand>
           <div className="flex md:order-2">
-            <DarkThemeToggle />
+
             <a href="/schedule">
               <Button>
                 Schedule
