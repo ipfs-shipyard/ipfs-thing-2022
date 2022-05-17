@@ -1,0 +1,19 @@
+name = "libp2p Builders Meetup"
+org = "libp2p stewards"
+dri = "@jbenet"
+website = "https://libp2p.io"
+
+date = "2022-07-11"
+days = 2
+times = "11:00 - 19:00"
+venueName = ""
+venueAddress = ""
+
+attendees = "150"
+tickets = "Waitlist"
+difficulty = "All Welcome"
+tags = ["Talks", "Workshops"]
+
+description = """
+libp2p meetup
+"""

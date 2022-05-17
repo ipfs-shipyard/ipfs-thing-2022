@@ -1,0 +1,19 @@
+name = "IPFS Co-working"
+org = "Protocol Labs"
+dri = "@jbenet"
+website = "https://protocol.ai/labday"
+
+date = "2022-07-12"
+days = 3
+times = "11:00 - 19:00"
+venueName = ""
+venueAddress = ""
+
+attendees = "150"
+tickets = "Waitlist"
+difficulty = "All Welcome"
+tags = ["Talks", "Workshops"]
+
+description = """
+Co-working on IPFS projects
+"""
