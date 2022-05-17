@@ -24,10 +24,11 @@ export function Layout({ children, config }) {
   )
 }
 
-export function Section({ title, children }) {
+export function Section({ title, className, children }) {
+  className = className || ""
   return (
-    <div className="w-full min-h-[10vh]" id={ slugify(title) }>
-      <div className="container max-w-8xl mx-auto pt-40 pb-10">
+    <div className={`w-full py-20 min-h-[10vh] ${className}`} id={ slugify(title) }>
+      <div className="container max-w-8xl mx-auto pb-10">
         <h1 className="text-4xl font-bold">
           {title}
         </h1>

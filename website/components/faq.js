@@ -5,6 +5,22 @@ import { Accordion } from 'flowbite-react'
 
 export default function FAQ({ config }) {
   const faq = (config.faq) || {}
+
+
+  const sponsors = (config.devent.sponsors) || []
+  var sponsorsEl = (
+    <Section title="Sponsors">
+      <div className="container max-w-8xl mx-auto flex flex-wrap gap-20 justify-center items-center align-middle">
+        {sponsors.map((s) => (
+          <a href={s[1]} target="_blank" alt={s[0]} className="basis-52 h-[100px] inline-block align-middle">
+            <img src={s[2]} className="object-contain object-center h-full"/>
+          </a>
+        ))}
+      </div>
+    </Section>
+  )
+  if (!(sponsors.length > 0)) sponsorsEl = ""
+
   return (
 <>
 
@@ -13,6 +29,8 @@ export default function FAQ({ config }) {
             <ReactMarkdown>{ config.devent.about }</ReactMarkdown>
         </div>
     </Section>
+
+    {sponsorsEl}
 
     <Section title="FAQ">
       <div className="container max-w-8xl mx-auto">
