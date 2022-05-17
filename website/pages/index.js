@@ -18,7 +18,7 @@ export default function Index({ events, config }) {
           Scroll right for more ->
         </div>
 
-          <div className="overflow-x-scroll p-6 w-full min-h-[40vh]">
+          <div className="overflow-x-scroll p-6 w-full min-h-[40vh] bg-gray-100/70">
             <ScrollContainer className="scroll-container">
               <ScheduleTable events={events} config={config} numDays='10' />
             </ScrollContainer>
