@@ -2,17 +2,16 @@
 import Head from 'next/head'
 import Link from "next/link";
 import Hero from "../components/hero.js"
-import {Section} from "../components/layout.js"
+import {Layout, Section} from "../components/layout.js"
 import {ScheduleTable} from "../components/scheduletable.js"
 import ScrollContainer from 'react-indiana-drag-scroll'
 import FAQ from "../components/faq.js"
-import {loadEvents} from "../lib/eventdata.js"
+import {loadEvents, loadConfig} from "../lib/data.js"
 
-export default function Index({ events }) {
+export default function Index({ events, config }) {
   return (
-    <>
-
-      <Hero />
+    <Layout config={config}>
+      <Hero config={config} />
 
       <Section title="Schedule">
         <div className="-mt-10 mr-20 text-gray-400 text-sm float-right">
@@ -21,7 +20,7 @@ export default function Index({ events }) {
 
           <div className="overflow-x-scroll p-6 w-full min-h-[40vh]">
             <ScrollContainer className="scroll-container">
-              <ScheduleTable events={events} numDays='10' />
+              <ScheduleTable events={events} config={config} numDays='10' />
             </ScrollContainer>
 
           <div className="mt-10 mr-14 text-gray-400 text-sm float-right">
@@ -31,16 +30,18 @@ export default function Index({ events }) {
 
       </Section>
 
-      <FAQ />
-
-    </>
+      <FAQ config={config} />
+    </Layout>
   )
 }
 
-
 // This also gets called at build time
 export async function getStaticProps() {
-  var events = await loadEvents()
-  return { props: { events: events } }
+  return {
+    props: {
+      events: await loadEvents(),
+      config: await loadConfig(),
+    }
+  }
 }
 

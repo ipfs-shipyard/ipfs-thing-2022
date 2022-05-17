@@ -1,6 +1,6 @@
 import { Navbar, Button, DarkThemeToggle } from 'flowbite-react'
 
-export default function Header() {
+export default function Header({config}) {
   return (
 
     <div className="header justify-self-start sticky top-0 z-40 w-full backdrop-blur
@@ -14,12 +14,12 @@ export default function Header() {
         >
           <Navbar.Brand>
             <img
-              src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+              src={config.devent.logo}
               className="mr-3 h-6 sm:h-9"
-              alt="FIL Austin"
+              alt={config.devent.name}
             />
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-              FIL Austin
+              {config.devent.name}
             </span>
           </Navbar.Brand>
           <div className="flex md:order-2">
@@ -37,9 +37,6 @@ export default function Header() {
             </Navbar.Link>
             <Navbar.Link href="#faq">
               FAQ
-            </Navbar.Link>
-            <Navbar.Link href="#contact">
-              Contact
             </Navbar.Link>
           </Navbar.Collapse>
         </Navbar>

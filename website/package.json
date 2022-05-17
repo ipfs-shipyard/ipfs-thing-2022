@@ -23,7 +23,12 @@
   "dependencies": {
     "animejs": "^3.2.1",
     "dayjs": "^1.11.2",
-    "react-indiana-drag-scroll": "^2.1.0"
+    "marked": "^4.0.15",
+    "react-indiana-drag-scroll": "^2.1.0",
+    "react-markdown": "^8.0.3",
+    "rehype-react": "^7.1.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

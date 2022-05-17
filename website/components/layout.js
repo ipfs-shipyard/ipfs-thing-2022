@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from './header.js'
 import Footer from './footer.js'
 
-export default function Layout({ children }) {
+export function Layout({ children, config }) {
   return (
     <>
       <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
@@ -10,7 +10,7 @@ export default function Layout({ children }) {
           <title>FIL Austin</title>
         </Head>
 
-        <Header />
+        <Header config={config} />
 
         <div className="flex-none items-center min-h-full w-full">
           <main className="content">
@@ -18,7 +18,7 @@ export default function Layout({ children }) {
           </main>
         </div>
 
-        <Footer />
+        <Footer config={config} />
       </div>
     </>
   )
@@ -47,3 +47,5 @@ function slugify(s) {
     .replace(/[\s_-]+/g, '-')
     .replace(/^-+|-+$/g, '')
 }
+
+export default Layout

@@ -1,0 +1,56 @@
+[devent]
+
+name="FIL Austin"
+dates="June 6 - 10, 2022"
+tagline="A collaborative series of events bringing together the Filecoin community in Austin, TX, USA."
+
+link="https://fil-austin.io"
+logo="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+bgimg="https://www.dlrgroup.com/wp-content/uploads/2022/02/Austin_cc_weblg-1536x1024.jpg"
+
+org="Filecoin Foundation"
+orglink="https://fil.org"
+
+about="""
+FIL Austin is a week-long gathering of the Filecoin community with many independent events.
+There will be talks, workshops, panels, networking, and more –
+all dedicated to expanding the Filecoin network and growing the Web3 ecosystem.
+
+Join us IRL and in the Metaverse!
+"""
+
+[faq]
+
+"What is FIL Austin?" = """
+FIL Austin is an epic decentralized event organized by the community, for the community.
+"""
+
+"So, a decentralized event is a set of events?" = """
+That's correct! Instead of organizing a single event, FIL Austin follows a decentralied event format,
+which enables lots of groups to organize their own events surrounding FIL Austin.
+
+We were inspired by [https://devconnect.org](DevConnect).
+"""
+
+"Do I need to buy tickets?" = """
+Each event is ticketed separately. Some don't require tickets.
+Be sure to check the event's website!
+"""
+
+"How do I contact the organizers?" = """
+You can reach out to us at _____@fil.org.
+"""
+
+[footer]
+
+[footer.links]
+"Filecoin" = "https://filecoin.io"
+"Filecoin Foundation" = "https://fil.org"
+
+[footer.legal]
+"Privacy Policy" = "#"
+"Terms & Conditions" = "#"
+
+[footer.social]
+twitter = "filecoin"
+github = "filecoin-project"

@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import anime from 'animejs'
 
-export default function Hero() {
+export default function Hero({config}) {
   useEffect(() => {
     const logoAnimation = anime({
         targets: '.fil-stagger img',
@@ -19,9 +19,8 @@ export default function Hero() {
   return (
 
 <div className="overflow-hidden lg:flex
-  bg-center bg-no-repeat bg-cover bg-color
-  bg-[url('https://www.dlrgroup.com/wp-content/uploads/2022/02/Austin_cc_weblg-1536x1024.jpg')]
-  ">
+  bg-center bg-no-repeat bg-cover bg-color"
+  style={{backgroundImage: `url(${config.devent.bgimg})`}} >
 <div className="relative overflow-hidden text-gray-300 lg:flex w-full
   bg-black/75
   ">
@@ -33,17 +32,16 @@ export default function Hero() {
       ">
 
       <div className="mt-2 text-6xl font-bold text-white sm:text-8xl">
-        FIL Austin
+        {config.devent.name}
       </div>
 
       <div className="text-4xl text-white font-medium">
-        June 6 - 10, 2022
+         {config.devent.dates}
       </div>
 
 
       <div className="hidden text-xl text-white lg:mt-2 lg:block my-5">
-        A collaborative series of events bringing together the Filecoin community
-        in Austin, TX, USA.
+         {config.devent.tagline}
       </div>
 
       <div className="space-x-5">
