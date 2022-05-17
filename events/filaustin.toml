@@ -1,0 +1,16 @@
+name = "FIL Austin"
+org = "Filecoin Foundation"
+dri = "@claratsao"
+website = "https://protocol.ai/labday"
+
+date = "2022-06-08"
+days = 1
+times = "09:00 - 18:00"
+
+attendees = "500"
+difficulty = "All Welcome"
+tags = ["Talks", "Discussions"]
+
+description = """
+FIL Austin is bringing the community together for workshops, panels, networking, and more – all dedicated to expanding the Filecoin network and growing the Web3 ecosystem. Join us IRL and in the Metaverse (details forthcoming).
+"""
