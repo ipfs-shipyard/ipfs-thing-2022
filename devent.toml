@@ -1,1 +1,92 @@
-ipfs-camp.toml
+[devent]
+
+# the name of the devent
+name="IPFS Camp"
+
+# the dates the devent runs
+dateStart = "2022-07-11"
+dateEnd = "2022-07-15"
+
+# a pithy tag line you want to show in the "hero/splash" part of the landing page
+tagline="A collaborative series of events bringing together the IPFS community in Amsterdam."
+
+# a link to the devent website (what domain do you expect to use?)
+link="https://2022.ipfs.camp"
+
+# a link to a logo image for the event
+logo="https://raw.githubusercontent.com/ipfs-inactive/logo/master/raster-generated/ipfs-logo-512-ice-text.png"
+
+# a link to a large res image for the hero/splash background.
+# you likely want to use the devent location/city or something meaningful to the community
+bgimg="https://icdn.digitaltrends.com/image/digitaltrends/amsterdam-city-smart-cities.jpg"
+
+# the organizers of the devent (usually a group)
+org="Orgnizer Group"
+
+# the website of the organizers
+orglink="https://protocol.ai"
+
+# some text about the event -- will show up in the "About" section
+# write a little or a lot, up to you.
+about="""
+  IPFS Camp is a week-long gathering of the IPFS community with many independent events.
+  There will be talks, workshops, panels, networking, and more –
+  all dedicated to expanding the IPFS community and all the projects
+  related to IPFS.
+"""
+
+# list any event sponsors.
+# the format here is:
+# [
+#   ["Sponsor Name", "https://sponsor.com", "https://sponsor.com/sponsor-logo.jpg"],
+# ]
+sponsors = [
+  ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
+  ["IPFS", "https://ipfs.io", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvRa8mVnNqbyV2vx0Uy7aq7WLnoEnjodzogIIYiH5JOj8SfXC86--TsOXoUkduXpRog&usqp=CAU" ],
+  ["PL Research", "https://research.protocol.ai", "https://research.protocol.ai/images/pl_research_logo.svg" ],
+  ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
+]
+
+# this is a Frequently Asked Questions section.
+#
+# the format is:
+# "Question here?" = """
+# Answer here at length.
+# """
+[faq]
+
+"What is IPFS Camp?" = """
+  IPFS Camp is an epic decentralized event organized by the community, for the community.
+"""
+
+"So, a decentralized event is a set of events?" = """
+  That's correct! Instead of organizing a single event, IPFS Camp follows a decentralied event format,
+  which enables lots of groups to organize their own events surrounding IPFS Camp.
+
+  We were inspired by [https://devconnect.org](DevConnect).
+"""
+
+"Do I need to buy tickets?" = """
+  Each event is ticketed separately. Some don't require tickets.
+  Be sure to check the event's website for ticket information!
+"""
+
+"How do I contact the organizers?" = """
+  You can reach out to us at _____@_____.
+"""
+
+# this is a footer section, with any footer links you may want.
+# there are three sections: links (general), legal (policy + terms), and social.
+[footer]
+
+[footer.links]
+"IPFS" = "https://ipfs.io"
+"IPFS Camp" = "https://ipfs.camp"
+
+[footer.legal]
+"Privacy Policy" = "#"
+"Terms & Conditions" = "#"
+
+[footer.social]
+twitter = "ipfs"
+github = "ipfs"
