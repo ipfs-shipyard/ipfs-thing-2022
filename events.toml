@@ -23,7 +23,7 @@ dri = "@jbenet"
 website = "https://protocol.ai/labday"
 
 date = "2022-06-06"
-days = 1
+days = 2
 times = "11:00 - 19:00"
 
 attendees = "150"
