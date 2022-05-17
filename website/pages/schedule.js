@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import Footer from '../components/footer.js'
 
+import {Section} from '../components/layout.js'
 import {ScheduleTable} from "../components/scheduletable.js"
 import {loadEvents, loadConfig} from "../lib/data.js"
 
@@ -13,14 +14,15 @@ export default function Schedule({ events, config }) {
         <title>{config.devent.name} | Schedule</title>
       </Head>
 
-      <div className="flex-none items-center min-h-full w-full">
-        <main className="content">
-          <div className="m-20">
-            <ScheduleTable events={events} config={config} />
-            }
-          </div>
-        </main>
-      </div>
+      <Section title={`${config.devent.name} - Schedule`}>
+        <div className="flex-none items-center min-h-full w-full">
+          <main className="content">
+            <div className="m-20">
+              <ScheduleTable events={events} config={config} />
+            </div>
+          </main>
+        </div>
+      </Section>
 
       <Footer config={config} />
     </div>

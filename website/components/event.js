@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from 'react'
 import { Modal, Button } from 'flowbite-react'
 
@@ -99,9 +100,13 @@ export function EventModal({ children, event }) {
               </p>
             </Modal.Body>
             <Modal.Footer>
-              <Button onClick={close}>
-                Website
-              </Button>
+              <Link href={event.website} prefetch={false} target="_blank">
+                <a target="_blank" rel="noreferrer">
+                  <Button>
+                    Website
+                  </Button>
+                </a>
+              </Link>
               <Button
                 color="alternative"
                 onClick={close}

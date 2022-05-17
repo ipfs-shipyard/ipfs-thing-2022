@@ -32,6 +32,7 @@ export function ScheduleTable({ events, config }) {
           </div>
         ))}
       </div>
+
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}
         <div className="grid grid-cols-1  w-[250px]"> <div className="col-span-1  col-start-1  col-end-1"></div></div>
         <div className="grid grid-cols-2  w-[500px]"> <div className="col-span-2  col-start-2  col-end-2"></div></div>
