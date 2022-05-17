@@ -4,6 +4,7 @@ import Link from "next/link";
 import Hero from "../components/hero.js"
 import {Layout, Section} from "../components/layout.js"
 import {ScheduleTable} from "../components/scheduletable.js"
+import {AddEventModal} from "../components/event.js"
 import ScrollContainer from 'react-indiana-drag-scroll'
 import FAQ from "../components/faq.js"
 import {loadEvents, loadConfig} from "../lib/data.js"
@@ -38,6 +39,8 @@ export default function Index({ events, config }) {
         </div>
 
       </Section>
+
+      <AddEventModal />
 
       <FAQ config={config} />
     </Layout>

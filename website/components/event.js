@@ -1,14 +1,14 @@
 import Link from "next/link";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Modal, Button } from 'flowbite-react'
 
 import dayjs from 'dayjs'
 
-export function Card({ children }) {
+export function Card({ children, onClick }) {
   return (
     <div className={`eventcard p-0.5 shadow-md h-full whitespace-normal
       bg-gray-400 hover:bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500
-      `}>
+      `} onClick={onClick}>
       <div className="block p-3 bg-white sm:px-3 sm:py-2 h-full
         hover:bg-gradient-to-r from-blue-500/10 via-cyan-500/10 to-green-500/10
         ">
@@ -50,18 +50,16 @@ export function EventCard({ event }) {
 
 export function BlankCard() {
   return (
-    <AddEventModal>
-      <Card>
-        <div className="place-content-center my-5 text-center text-gray-300 hover:text-gray-500">
-          <div className="text-6xl">
-            +
-          </div>
-          <div className="text-xl font-bold">
-            Add your event
-          </div>
+    <Card onClick={() => window && window.showAddEventModal()}>
+      <div className="place-content-center w-full m-0 py-5 text-center text-gray-300 hover:text-gray-500">
+        <div className="text-6xl">
+          +
         </div>
-      </Card>
-    </AddEventModal>
+        <div className="text-xl font-bold">
+          Add your event
+        </div>
+      </div>
+    </Card>
   )
 }
 
@@ -71,6 +69,7 @@ export function EventModal({ children, event }) {
   const close = () => setOpenModal(false)
   const isOpen = () => openModal === true
 
+  bindKey('Escape', close)
 
   return (
     <>
@@ -121,17 +120,21 @@ export function EventModal({ children, event }) {
   )
 }
 
-export function AddEventModal({ children }) {
+export function AddEventModal() {
   const [openModal, setOpenModal] = useState(false);
   const open = () => setOpenModal(true)
   const close = () => setOpenModal(false)
   const isOpen = () => openModal === true
 
+  // add opener to window.
+  if (typeof window !== 'undefined') {
+    window.showAddEventModal = open
+  }
+
+  bindKey('Escape', close)
+
   return (
     <>
-      <div className="h-full w-full" onClick={open}>
-        {children}
-      </div>
       <Modal show={isOpen()} onClose={close}>
         <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
           <div className="bg-white dark:bg-gray-400">
@@ -167,6 +170,24 @@ export function Tag({ children }) {
       {children}
     </button>
   )
+}
+
+function bindKey(bindKey, handler) {
+  const kHandler = ({key}) => {
+    if (key === bindKey) handler()
+  }
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('keydown', kHandler);
+    }
+
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('keydown', kHandler);
+      }
+    }
+  }, []);
 }
 
 function dateStr(date, days) {

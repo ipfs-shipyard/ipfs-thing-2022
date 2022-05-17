@@ -48,14 +48,16 @@ export default function Hero({config}) {
       </div>
 
       <div className="space-x-5">
+
         <a
-          href=""
+          href="#"
+          onClick={() => window && window.showAddEventModal()}
           className="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600"
         >
           Host an event
         </a>
         <a
-          href=""
+          href="/schedule"
           className="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-gray-500 rounded-lg hover:bg-blue-600"
         >
           Schedule

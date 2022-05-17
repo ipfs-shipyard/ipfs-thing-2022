@@ -4,6 +4,7 @@ import Footer from '../components/footer.js'
 
 import {Section} from '../components/layout.js'
 import {ScheduleTable} from "../components/scheduletable.js"
+import {AddEventModal} from "../components/event.js"
 import {loadEvents, loadConfig} from "../lib/data.js"
 
 export default function Schedule({ events, config }) {
@@ -24,6 +25,8 @@ export default function Schedule({ events, config }) {
         </div>
       </Section>
 
+
+      <AddEventModal />
       <Footer config={config} />
     </div>
   )
