@@ -9,7 +9,7 @@ days = 1
 times = "09:00 - 18:00"
 
 attendees = "500"
-difficulty = "All Are Welcome"
+difficulty = "All Welcome"
 tags = ["Talks", "Discussions"]
 
 description = """
@@ -28,7 +28,7 @@ times = "11:00 - 19:00"
 
 attendees = "150"
 tickets = "Waitlist"
-difficulty = "All Are Welcome"
+difficulty = "All Welcome"
 tags = ["Talks", "Workshops"]
 
 description = """
@@ -47,7 +47,7 @@ times = "10:00 - 16:00"
 
 attendees = "100"
 tickets = "Sold out"
-difficulty = "All Are Welcome"
+difficulty = "All Welcome"
 tags = ["Talks", "Discussions", "CryptoEcon"]
 
 description = """
@@ -86,7 +86,7 @@ times = "10:00 - 24:00"
 
 attendees = 300
 tickets = "Tickets Available"
-difficulty = "All Are Welcome"
+difficulty = "All Welcome"
 tags = ["Hackathon"]
 
 description = """

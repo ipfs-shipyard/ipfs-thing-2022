@@ -1,4 +1,21 @@
+import { useEffect } from 'react'
+import anime from 'animejs'
+
 export default function Hero() {
+  useEffect(() => {
+    const logoAnimation = anime({
+        targets: '.fil-stagger img',
+        scale: [
+          {value: 1, duration: 2000},
+          {value: .1, easing: 'easeOutSine', duration: 500},
+          {value: 1, easing: 'easeInOutQuad', duration: 1200},
+          {value: 1, duration: 4000},
+        ],
+        delay: anime.stagger(200, {grid: [6, 4], from: 'center'}),
+        loop: true,
+    })
+  }, []);
+
   return (
 
 <div className="overflow-hidden lg:flex
@@ -6,7 +23,7 @@ export default function Hero() {
   bg-[url('https://www.dlrgroup.com/wp-content/uploads/2022/02/Austin_cc_weblg-1536x1024.jpg')]
   ">
 <div className="relative overflow-hidden text-gray-300 lg:flex w-full
-  lg:bg-gradient-to-r bg-gradient-to-b from-gray-900/80 to-sky-900/10
+  bg-black/75
   ">
 <div className="container lg:flex max-w-8xl mx-auto">
 
@@ -32,7 +49,7 @@ export default function Hero() {
       <div className="space-x-5">
         <a
           href=""
-          class="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600"
+          className="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600"
         >
           Host an event
         </a>
@@ -47,7 +64,59 @@ export default function Hero() {
     </div>
   </div>
 
-  <div className="relative w-full h-64 sm:h-96 lg:w-1/2 lg:h-auto">
+  <div className="container self-center flex place-content-center">
+
+    <div className="grid grid-cols-6 gap-4 place-content-center fil-stagger">
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
+        className="w-[64px] m-0" />
+    </div>
+
   </div>
 
 </div>

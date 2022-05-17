@@ -14,26 +14,31 @@ export default function Header() {
         >
           <Navbar.Brand>
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
               className="mr-3 h-6 sm:h-9"
-              alt="dEvent Logo"
+              alt="FIL Austin"
             />
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-              dEvent
+              FIL Austin
             </span>
           </Navbar.Brand>
           <div className="flex md:order-2">
             <DarkThemeToggle />
-            <Button>
-              Schedule
-            </Button>
+            <a href="/schedule">
+              <Button>
+                Schedule
+              </Button>
+            </a>
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="/navbars">
+            <Navbar.Link href="#about">
               About
             </Navbar.Link>
-            <Navbar.Link href="/navbars">
+            <Navbar.Link href="#faq">
+              FAQ
+            </Navbar.Link>
+            <Navbar.Link href="#contact">
               Contact
             </Navbar.Link>
           </Navbar.Collapse>

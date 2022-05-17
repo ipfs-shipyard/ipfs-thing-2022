@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/jbenet/dEvent-website#readme",
   "dependencies": {
-    "dayjs": "^1.11.2"
+    "animejs": "^3.2.1",
+    "dayjs": "^1.11.2",
+    "react-indiana-drag-scroll": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
