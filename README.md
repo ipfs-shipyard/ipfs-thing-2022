@@ -1,6 +1,6 @@
-# <your d-event name> - dEvent-website
+# ipfs-camp 2022 - dEvent-website
 
-<your d-event name> is a decentralized event series,
+ipfs-camp 2022 is a decentralized event series,
 using this github repository and website to coordinate event listings.
 
 
