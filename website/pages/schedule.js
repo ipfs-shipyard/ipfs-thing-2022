@@ -16,7 +16,8 @@ export default function Schedule({ events, config }) {
       <div className="flex-none items-center min-h-full w-full">
         <main className="content">
           <div className="m-20">
-            <ScheduleTable events={events} numDays='10' />
+            <ScheduleTable events={events} config={config} />
+            }
           </div>
         </main>
       </div>

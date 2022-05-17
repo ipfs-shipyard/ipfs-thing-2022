@@ -7,7 +7,7 @@ export function Layout({ children, config }) {
     <>
       <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
         <Head>
-          <title>FIL Austin</title>
+          <title>{config.devent.name}</title>
         </Head>
 
         <Header config={config} />

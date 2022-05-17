@@ -1,10 +1,11 @@
 import { useEffect } from 'react'
 import anime from 'animejs'
+import dayjs from 'dayjs'
 
 export default function Hero({config}) {
   useEffect(() => {
     const logoAnimation = anime({
-        targets: '.fil-stagger img',
+        targets: '.logo-stagger img',
         scale: [
           {value: 1, duration: 2000},
           {value: .1, easing: 'easeOutSine', duration: 500},
@@ -15,6 +16,8 @@ export default function Hero({config}) {
         loop: true,
     })
   }, []);
+
+  const logoArr = Array(24).fill(config.devent.logo)
 
   return (
 
@@ -36,7 +39,7 @@ export default function Hero({config}) {
       </div>
 
       <div className="text-4xl text-white font-medium">
-         {config.devent.dates}
+         {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}
       </div>
 
 
@@ -64,55 +67,10 @@ export default function Hero({config}) {
 
   <div className="container self-center flex place-content-center">
 
-    <div className="grid grid-cols-6 gap-4 place-content-center fil-stagger">
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
-      <img src="https://cryptologos.cc/logos/filecoin-fil-logo.png"
-        className="w-[64px] m-0" />
+    <div className="grid grid-cols-6 gap-4 place-content-center logo-stagger">
+      {logoArr.map(s => (
+        <img src={s} className="w-[64px] m-0" />
+      ))}
     </div>
 
   </div>
@@ -122,4 +80,16 @@ export default function Hero({config}) {
 </div>
 
   )
+}
+
+function dateRangeStr(startDate, endDate) {
+  const start = dayjs(startDate)
+  const end = dayjs(endDate)
+  if (dayjs(start).year() != dayjs(end).year()) {
+    return start.format('YYYY MMMM D - ') + end.format('YYYY MMMM D')
+  } else if (dayjs(start).month() != dayjs(end).month()) {
+    return start.format('YYYY MMMM D - ') + end.format('MMMM D')
+  } else {
+    return start.format('YYYY MMMM D - ') + end.format('D')
+  }
 }

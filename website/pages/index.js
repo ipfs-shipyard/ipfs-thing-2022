@@ -20,7 +20,7 @@ export default function Index({ events, config }) {
 
           <div className="overflow-x-scroll p-6 w-full min-h-[40vh] bg-gray-100/70">
             <ScrollContainer className="scroll-container">
-              <ScheduleTable events={events} config={config} numDays='10' />
+              <ScheduleTable events={events} config={config} />
             </ScrollContainer>
 
           <div className="mt-10 mr-14 text-gray-400 text-sm float-right">
