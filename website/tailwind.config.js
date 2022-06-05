@@ -24,9 +24,9 @@ module.exports = {
   ],
   safelist: colorSaveList,
   theme: {
-   extend: {
+    extend: {
       colors: colorExtend,
-   }
+    }
   },
   plugins: [
     require('flowbite/plugin'),
