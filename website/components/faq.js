@@ -25,7 +25,7 @@ export default function FAQ({ config }) {
 <>
 
     <Section title="About">
-        <div className="container max-w-8xl mx-auto">
+        <div className="container max-w-8xl mx-auto prose">
             <ReactMarkdown>{ config.devent.about }</ReactMarkdown>
         </div>
     </Section>

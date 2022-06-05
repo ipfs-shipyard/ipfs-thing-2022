@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState, useEffect } from 'react'
 import { Modal, Button } from 'flowbite-react'
+import ReactMarkdown from 'react-markdown'
 
 import dayjs from 'dayjs'
 
@@ -94,8 +95,8 @@ export function EventModal({ children, event }) {
                   <Tag>{tag}</Tag>
                 ))}
               </div>
-              <p className="text-base leading-relaxed">
-                {event.description}
+              <p className="text-base leading-relaxed prose">
+                <ReactMarkdown>{event.description}</ReactMarkdown>
               </p>
             </Modal.Body>
             <Modal.Footer>
