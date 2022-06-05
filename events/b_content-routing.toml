@@ -1,0 +1,91 @@
+# the name of your event
+name = "Content Routing: Performance & Privacy"
+
+# the name of the group organizing the event
+org = "PL Starfleet"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@jbenet" # @willscott
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+# website = ""
+
+# the start date of the event
+date = "2022-07-13"
+
+# how many days the event lasts (1 - N)
+days = 2
+
+# the event times (shows up in the event card)
+times = "09:00 - 17:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = ""
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = ""
+
+# the max number of attendees of the event
+attendees = "150"
+
+
+# these is unsued:
+# tickets = "Waitlist"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks", "Workshops"]
+
+# a color, to group key events visually. use sparingly
+# color="purple"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+
+This is a track for Content Routing protocols.
+
+## Day 1 - Performance
+
+| time  | speaker    | topic |
+|:-----:|------------|-------|
+| 09:00 |            | Welcome standup discussion |
+| 09:45 | ?          | Content Routing Track Intro |
+| 10:00 | @jbenet    | Content Routing Intro: Performance |
+| 10:45 |            | Open Slot |
+| 11:30 |            | Break |
+| 11:45 | ?          | Open Slot |
+| 12:30 | ?          | Open Slot |
+| 13:00 |            | Lunch Break |
+| 14:00 | ?          | Open Slot |
+| 14:45 | ?          | Open Slot |
+| 15:30 | ?          | Open Slot |
+| 16:15 |            | Break |
+| 16:30 | ?          | Open Slot |
+
+
+## Day 2 - Privacy
+
+| time  | speaker    | topic |
+|:-----:|------------|-------|
+| 09:00 |            | Welcome standup discussion |
+| 09:45 | ?          | Content Routing Track Intro |
+| 10:00 | @jbenet    | Content Routing Intro: Privacy |
+| 10:45 | ?          | Open Slot |
+| 11:30 |            | Break |
+| 11:45 | ?          | Open Slot |
+| 12:30 | ?          | ORAMs: Oblivious Random Access Memory & Content Routing |
+| 13:00 |            | Lunch Break |
+| 14:00 | ?          | FHE: Fully Homomorphic Encryption & Content Routing |
+| 14:45 | ?          | Open Slot |
+| 15:30 | ?          | Open Slot |
+| 16:15 |            | Break |
+| 16:30 | ?          | Open Slot |
+
+"""
