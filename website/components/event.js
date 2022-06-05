@@ -5,14 +5,23 @@ import ReactMarkdown from 'react-markdown'
 
 import dayjs from 'dayjs'
 
-export function Card({ children, onClick }) {
+export function Card({ children, color, onClick }) {
+
+  var borderColor = 'bg-gray-400'
+  var bgColor = 'bg-white'
+
+  if (color) {
+    borderColor = 'bg-' + color + '-400'
+    bgColor = 'bg-' + color + '-100'
+  }
+
   return (
     <div className={`eventcard p-0.5 shadow-md h-full whitespace-normal
-      bg-gray-400 hover:bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500
+      ${borderColor} hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500
       `} onClick={onClick}>
-      <div className="block p-3 bg-white sm:px-3 sm:py-2 h-full
-        hover:bg-gradient-to-r from-blue-500/10 via-cyan-500/10 to-green-500/10
-        ">
+      <div className={`block p-3 sm:px-3 sm:py-2 h-full
+        ${bgColor} hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10
+        `}>
         <div className="text-xs text-gray-600">
           { children }
         </div>
@@ -25,7 +34,7 @@ export function Card({ children, onClick }) {
 export function EventCard({ event }) {
   return (
     <EventModal event={event}>
-      <Card>
+      <Card color={event.color}>
         <h5 className="text-lg font-bold text-gray-900">
           {event.name}
         </h5>
