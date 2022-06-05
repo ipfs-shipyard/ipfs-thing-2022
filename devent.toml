@@ -1,24 +1,30 @@
 [devent]
 
 # the name of the devent
-name="IPFS Camp"
+name="IPFS Alþing"
 
 # the dates the devent runs
 dateStart = "2022-07-11"
-dateEnd = "2022-07-15"
+dateEnd = "2022-07-17"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
-tagline="A collaborative series of events bringing together the IPFS community in Amsterdam."
+tagline="""
+_þing (n). assembly, meeting, council. parliament._
+
+
+A collaborative series of workshops for IPFS Implementors.
+Hosted at the Harpa in Iceland.
+"""
 
 # a link to the devent website (what domain do you expect to use?)
 link="https://2022.ipfs.camp"
 
 # a link to a logo image for the event
-logo="https://raw.githubusercontent.com/ipfs-inactive/logo/master/raster-generated/ipfs-logo-512-ice-text.png"
+logo="./ipfs-logo.png"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="https://icdn.digitaltrends.com/image/digitaltrends/amsterdam-city-smart-cities.jpg"
+bgimg="./harpa.jpg"
 
 # the organizers of the devent (usually a group)
 org="Protocol Labs"
