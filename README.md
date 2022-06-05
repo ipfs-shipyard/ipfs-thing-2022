@@ -52,5 +52,6 @@ Publish:
 ```
 cd website
 npm run build
-ipfs add -r
+npm run export
+ipfs add -r out
 ```
