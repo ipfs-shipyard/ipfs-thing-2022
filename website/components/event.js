@@ -109,13 +109,15 @@ export function EventModal({ children, event }) {
               </p>
             </Modal.Body>
             <Modal.Footer>
-              <Link href={event.website} prefetch={false} target="_blank">
-                <a target="_blank" rel="noreferrer">
-                  <Button>
-                    Website
-                  </Button>
-                </a>
-              </Link>
+              {event.website &&
+                <Link href={event.website} prefetch={false} target="_blank">
+                  <a target="_blank" rel="noreferrer">
+                    <Button>
+                      Website
+                    </Button>
+                  </a>
+                </Link>
+              }
               <Button
                 color="alternative"
                 onClick={close}

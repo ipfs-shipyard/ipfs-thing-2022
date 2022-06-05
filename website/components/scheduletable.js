@@ -11,6 +11,7 @@ export function ScheduleTable({ events, config }) {
   const days = genDates(startDate, numDays)
 
   arr.map((e, i) => e.startDay = dayOffset(startDate, e.date))
+  const eventWithinRange = (e) => (e.startDay >= 0 && e.startDay < numDays)
 
   return (
     <>
@@ -22,15 +23,14 @@ export function ScheduleTable({ events, config }) {
           </div>
         ))}
         {arr.map((e, i) => (
-          <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full`}>
-            <EventCard event={e} key={i} />
-          </div>
+          eventWithinRange(e) &&
+            <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full`}>
+              <EventCard event={e} key={i} />
+            </div>
         ))}
-        {days.map((d, i) => (
-          <div className={`col-start-${(i + 1)} col-span-1 shrink-0 h-full`}>
-            <BlankCard />
-          </div>
-        ))}
+        <div className={`col-start-1 col-span-${numDays} shrink-0 h-full`}>
+          <BlankCard />
+        </div>
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}
