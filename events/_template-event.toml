@@ -1,19 +1,19 @@
-# the name of your event
-name = "Co-work"
+# the name of your track or event
+name = "Your Event Name"
 
 # the name of the group organizing the event
-org = "Protocol Labs"
+org = "Your Org"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@jbenet"
+dri = "@yourname"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://protocol.ai/labday"
+website = "https://ipfs-althing.io"
 
 # the start date of the event
-date = "2022-06-06"
+date = "2022-07-11"
 
 # how many days the event lasts (1 - N)
 days = 2
@@ -42,8 +42,12 @@ difficulty = "All Welcome"
 # pick 1-4
 tags = ["Talks", "Workshops"]
 
+# a color, to group key events visually. use sparingly
+# color="purple"
+
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-This is a day of technical talks and workshops about projects across computing and innovation systems. Check out the line up on the website. Social gathering 17:00 - 19:00.
+This is a day of technical talks and workshops about projects across computing and innovation systems. 
+Check out the line up on the website. Social gathering 17:00 - 19:00.
 """
