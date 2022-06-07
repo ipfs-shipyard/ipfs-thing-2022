@@ -1,7 +1,7 @@
 [devent]
 
 # the name of the devent
-name="IPFS Alþing"
+name="IPFS þing"
 
 # the dates the devent runs
 dateStart = "2022-07-11"
@@ -9,8 +9,7 @@ dateEnd = "2022-07-17"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
-_þing (n). assembly, meeting, council. parliament._
-
+_þing (n). thing, assembly, meeting, council. parliament._
 
 A collaborative series of workshops for IPFS Implementors.
 Hosted at the Harpa in Iceland.
@@ -20,11 +19,11 @@ Hosted at the Harpa in Iceland.
 link="https://2022.ipfs.camp"
 
 # a link to a logo image for the event
-logo="./ipfs-logo.png"
+logo="ipfs-logo.png"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="./harpa.jpg"
+bgimg="harpa.jpg"
 
 # the organizers of the devent (usually a group)
 org="Protocol Labs"
@@ -35,11 +34,20 @@ orglink="https://protocol.ai"
 # some text about the event -- will show up in the "About" section
 # write a little or a lot, up to you.
 about="""
-  IPFS Camp is a week-long gathering of the IPFS community with many independent events.
-  There will be talks, workshops, panels, networking, and more –
-  all dedicated to expanding the IPFS community and all the projects
-  related to IPFS.
+IPFS þing (thing) is a week-long gathering of the IPFS implementor community with 
+many separate tracks. 
+There will be talks, workshops, hacking time, and more –
+all dedicated to improving IPFS implementations.
+
+
+## Venue
+
+The event will happen at the [Harpa](https://goo.gl/maps/qQkLYrFprPMvAFaj7).
+
 """
+
+# url for this event repo
+repo="https://github.com/ipfs-shipyard/ipfs-thing-2022"
 
 # list any event sponsors.
 # the format here is:
@@ -48,9 +56,7 @@ about="""
 # ]
 sponsors = [
   ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
-  ["IPFS", "https://ipfs.io", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvRa8mVnNqbyV2vx0Uy7aq7WLnoEnjodzogIIYiH5JOj8SfXC86--TsOXoUkduXpRog&usqp=CAU" ],
   ["PL Research", "https://research.protocol.ai", "https://research.protocol.ai/images/pl_research_logo.svg" ],
-  ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
 ]
 
 # this is a Frequently Asked Questions section.
@@ -87,7 +93,7 @@ sponsors = [
 
 [footer.links]
 "IPFS" = "https://ipfs.io"
-"IPFS Camp" = "https://ipfs.camp"
+"Event Github" = "https://github.com/ipfs-shipyard/ipfs-thing"
 
 [footer.legal]
 "Privacy Policy" = "#"

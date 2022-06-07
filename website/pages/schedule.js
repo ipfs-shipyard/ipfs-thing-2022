@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import Footer from '../components/footer.js'
 
-import {Section} from '../components/layout.js'
+import {Section, BaseScript} from '../components/layout.js'
 import {ScheduleTable} from "../components/scheduletable.js"
 import {AddEventModal} from "../components/event.js"
 import {loadEvents, loadConfig} from "../lib/data.js"
@@ -13,6 +13,7 @@ export default function Schedule({ events, config }) {
     <div className="flex flex-col min-h-screen bg-white">
       <Head>
         <title>{config.devent.name} | Schedule</title>
+        <BaseScript />
       </Head>
 
       <Section title={`${config.devent.name} - Schedule`}>

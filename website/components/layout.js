@@ -8,6 +8,7 @@ export function Layout({ children, config }) {
       <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
         <Head>
           <title>{config.devent.name}</title>
+          <BaseScript />
         </Head>
 
         <Header config={config} />
@@ -37,6 +38,23 @@ export function Section({ title, className, children }) {
         {children}
       </div>
     </div>
+  )
+}
+
+const ipfsBaseScript = `
+(function () {
+  const { pathname } = window.location
+  const ipfsMatch = /.*\\/\\w{40,100}\\//.exec(pathname)
+  const base = document.createElement('base')
+
+  base.href = ipfsMatch ? ipfsMatch[0] : '/'
+  document.head.append(base)
+})();
+`
+
+export function BaseScript() {
+  return (
+    <script dangerouslySetInnerHTML={{__html: ipfsBaseScript}} />
   )
 }
 

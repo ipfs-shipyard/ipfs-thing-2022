@@ -6,7 +6,7 @@ import {Layout, Section} from "../components/layout.js"
 import {ScheduleTable} from "../components/scheduletable.js"
 import {AddEventModal} from "../components/event.js"
 import ScrollContainer from 'react-indiana-drag-scroll'
-import FAQ from "../components/faq.js"
+import About from "../components/about.js"
 import {loadEvents, loadConfig} from "../lib/data.js"
 
 export default function Index({ events, config }) {
@@ -42,7 +42,7 @@ export default function Index({ events, config }) {
 
       <AddEventModal config={config} />
 
-      <FAQ config={config} />
+      <About config={config} />
     </Layout>
   )
 }

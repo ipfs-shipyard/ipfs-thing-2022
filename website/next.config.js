@@ -1,4 +1,5 @@
 module.exports = {
+  assetPrefix: './',
   trailingSlash: true,
   exportTrailingSlash: true,
   webpack: (config, { isServer }) => {
