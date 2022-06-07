@@ -59,8 +59,6 @@ tags = ["Talks", "Workshops"]
 #
 description = """
 
-# IPFS Implementations
-
 Hear from many IPFS Implementations
 
 ## Schedule
@@ -74,7 +72,7 @@ Hear from many IPFS Implementations
 | 14:00 | @gmasgras  | IPFS Gateways |
 | 14:15 | @expede    | WNFS |
 | 14:30 | @b5 & @dig | Iroh |
-| 14:45 | @b5 & @dig | Iroh |
+| 14:45 |            | Open Slot |
 | 15:00 |            | Break |
 | 15:15 | @jbenet    | Filecoin: Lotus, Venus, Forest, Fuhon |
 | 15:30 | @why or @cake | Estuary |

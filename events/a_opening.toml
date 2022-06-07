@@ -1,5 +1,5 @@
 # the name of your event
-name = "IPFS Alþing Opening"
+name = "IPFS þing Opening"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -47,13 +47,13 @@ color="orange"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-A few short talks introducing the IPFS Alþing week, how it will work, & what to expect.
+A few short talks introducing the IPFS þing week, how it will work, & what to expect.
 
 | time  | speaker    | topic |
 |:----:|:-----------:|:-----:|
 | 09:00 |            | Meet & Greet |
 | 09:20 | ?          | Welcome & Introductions |
-| 10:30 | ?          | IPFS Alþing Intro and Q&A |
+| 10:30 | ?          | IPFS þing Intro and Q&A |
 | 11:00 | @jbenet    | Kickoff Keynote |
 
 """
