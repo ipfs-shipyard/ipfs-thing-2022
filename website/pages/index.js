@@ -40,7 +40,7 @@ export default function Index({ events, config }) {
 
       </Section>
 
-      <AddEventModal />
+      <AddEventModal config={config} />
 
       <FAQ config={config} />
     </Layout>

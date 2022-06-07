@@ -1,7 +1,8 @@
-import ReactMarkdown from 'react-markdown'
 import { useEffect } from 'react'
 import anime from 'animejs'
 import dayjs from 'dayjs'
+import ReactMarkdown from 'react-markdown'
+import gfm from 'remark-gfm'
 
 export default function Hero({config}) {
   useEffect(() => {
@@ -45,7 +46,7 @@ export default function Hero({config}) {
 
 
       <div className="hidden text-xl text-white lg:mt-2 lg:block my-5 prose">
-         <ReactMarkdown>{config.devent.tagline}</ReactMarkdown>
+         <ReactMarkdown remarkPlugins={[gfm]}>{config.devent.tagline}</ReactMarkdown>
       </div>
 
       <div className="space-x-5">

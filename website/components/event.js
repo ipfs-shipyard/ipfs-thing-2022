@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState, useEffect } from 'react'
 import { Modal, Button } from 'flowbite-react'
 import ReactMarkdown from 'react-markdown'
+import gfm from 'remark-gfm'
 
 import dayjs from 'dayjs'
 
@@ -86,13 +87,13 @@ export function EventModal({ children, event }) {
       <div className="h-full w-full" onClick={open}>
         {children}
       </div>
-      <Modal show={isOpen()} onClose={close}>
+      <Modal show={isOpen()} onClose={close} size="3xl">
         <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
           <div className="bg-white dark:bg-gray-400">
             <Modal.Header>
               {event.name}
             </Modal.Header>
-            <Modal.Body className="space-y-6">
+            <Modal.Body className="space-y-6 overflow-y-scroll max-h-[70vh]">
               <ul className="list-disc ml-4">
                 <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
                 <li><b>Times</b>: {event.times}</li>
@@ -105,7 +106,7 @@ export function EventModal({ children, event }) {
                 ))}
               </div>
               <p className="text-base leading-relaxed prose">
-                <ReactMarkdown>{event.description}</ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[gfm]}>{event.description}</ReactMarkdown>
               </p>
             </Modal.Body>
             <Modal.Footer>
@@ -132,7 +133,7 @@ export function EventModal({ children, event }) {
   )
 }
 
-export function AddEventModal() {
+export function AddEventModal({ config }) {
   const [openModal, setOpenModal] = useState(false);
   const open = () => setOpenModal(true)
   const close = () => setOpenModal(false)
@@ -158,10 +159,11 @@ export function AddEventModal() {
 
               Steps to list your event:
               <ol className="list-decimal ml-4 mt-3">
-                <li><b>Step 1</b>: Please read this document: [link]</li>
-                <li><b>Step 2</b>: File a pull-request here: [link]</li>
-                <li><b>Step 3</b>: Address any comments until your PR is merged.</li>
-                <li><b>Step 4</b>: Profit! ⭐️💙</li>
+                <li><b>Step 1</b>: Read & file a pull-request in this repo: <br />
+                  <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600"
+                     href={config.devent.repo} target="_blank">{config.devent.repo}</a></li>
+                <li><b>Step 2</b>: Address any comments until your PR is merged.</li>
+                <li><b>Step 3</b>: Profit! ⭐️💙</li>
               </ol>
             </Modal.Body>
             <Modal.Footer>

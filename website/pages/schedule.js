@@ -26,7 +26,7 @@ export default function Schedule({ events, config }) {
       </Section>
 
 
-      <AddEventModal />
+      <AddEventModal config={config} />
       <Footer config={config} />
     </div>
   )
