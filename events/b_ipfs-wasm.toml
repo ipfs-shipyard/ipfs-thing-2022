@@ -65,13 +65,16 @@ Come and discuss how to imbue IPFS with WASM magical powers.
 
 ## Schedule
 
+(?) - denotes tenative (not confirmed)
+
+
 | time  | speaker    | topic |
 |:-----:|------------|-------|
 | 09:00 |            | Welcome standup discussion |
 | 09:30 | @yourname  | Track Intro |
 | 10:00 | ?          | Open Slot |
-| 10:45 | @raulk     | FVM Deep Dive |
-| 11:30 | @stebalien | WASM + IPLD |
+| 10:45 | @raulk ?   | FVM Deep Dive |
+| 11:30 | @stebalien ? | WASM + IPLD |
 | 12:15 |            | Lunch Break |
 | 13:00 | ?          | Open Slot |
 | 13:30 |            | Open Slot |
