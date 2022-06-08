@@ -73,9 +73,9 @@ teams = [
 """
 
 "Who is it for?" = """
-  Participants should be maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. <KINDLY CLARIFY THAT THIS IS INVITE-ONLY> If this describes you and you haven't received an invitation, please email <@ipfs.io EMAIL ADDRESS THAT MOSH HAS REQUESTED>.
+  This invite-only event brings together maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. If this describes you and you haven't received an invitation, please email <@ipfs.io EMAIL ADDRESS THAT MOSH HAS REQUESTED>.
   
-  If you are a user, tooling developer, <INSERT MYRIAD OF POSSIBLE ROLES HERE>, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details coming soon!
+  If you are a user, tooling developer, <INSERT MYRIAD OF POSSIBLE ROLES HERE>, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details on IPFS camp are coming soon, and will be announced on [twitter](https://twitter.com/ipfs).
 """
 
 "How do I contact the organizers?" = """
