@@ -1,4 +1,3 @@
-
 import { Section } from './layout.js'
 import { Accordion } from 'flowbite-react'
 import ReactMarkdown from 'react-markdown'
@@ -31,7 +30,7 @@ export default function About({ config }) {
         </div>
     </Section>
 
-    {sponsorsEl}
+    {teamsEl}
 
     <Section title="FAQ">
       <div className="container max-w-8xl mx-auto">
