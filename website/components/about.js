@@ -8,11 +8,11 @@ export default function About({ config }) {
   const faq = (config.faq) || {}
 
 
-  const sponsors = (config.devent.sponsors) || []
-  var sponsorsEl = (
-    <Section title="Sponsors">
+  const teams = (config.devent.teams) || []
+  var teamsEl = (
+    <Section title="Participating Teams">
       <div className="container max-w-8xl mx-auto flex flex-wrap gap-20 justify-center items-center align-middle">
-        {sponsors.map((s) => (
+        {teams.map((s) => (
           <a href={s[1]} target="_blank" alt={s[0]} className="basis-52 h-[100px] inline-block align-middle">
             <img src={s[2]} className="object-contain object-center h-full"/>
           </a>
@@ -20,7 +20,7 @@ export default function About({ config }) {
       </div>
     </Section>
   )
-  if (!(sponsors.length > 0)) sponsorsEl = ""
+  if (!(teams.length > 0)) teamsEl = ""
 
   return (
 <>
