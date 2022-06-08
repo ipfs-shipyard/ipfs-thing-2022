@@ -26,10 +26,10 @@ logo="ipfs-logo.png"
 bgimg="harpa.jpg"
 
 # the organizers of the devent (usually a group)
-org="Protocol Labs"
+org="the IPFS Team"
 
 # the website of the organizers
-orglink="https://protocol.ai"
+orglink="https://ipfs.io/team/"
 
 # some text about the event -- will show up in the "About" section
 # write a little or a lot, up to you.
@@ -49,12 +49,13 @@ The event will happen at the [Harpa](https://goo.gl/maps/qQkLYrFprPMvAFaj7).
 # url for this event repo
 repo="https://github.com/ipfs-shipyard/ipfs-thing-2022"
 
-# list any event sponsors.
+# list the participating teams.
 # the format here is:
 # [
-#   ["Sponsor Name", "https://sponsor.com", "https://sponsor.com/sponsor-logo.jpg"],
+#   ["Team Name", "https://team.org", "https://team.org/team-logo.jpg"],
 # ]
-sponsors = [
+teams = [
+  ["Number Zero", "", "https://bafybeicftvbmvctgso22rtgvx43bql3g55p3x4a25bfnfkqqv3nwyfzewq.ipfs.dweb.link/number-zero-logo.png" ],
   ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
   ["PL Research", "https://research.protocol.ai", "https://research.protocol.ai/images/pl_research_logo.svg" ],
 ]
@@ -67,20 +68,14 @@ sponsors = [
 # """
 [faq]
 
-"What is IPFS Camp?" = """
-  IPFS Camp is an epic decentralized event organized by the community, for the community.
+"What is IPFS þing?" = """
+  IPFS þing is a collaborative workshop for the IPFS implementors community. <ADD MORE HERE>
 """
 
-"So, a decentralized event is a set of events?" = """
-  That's correct! Instead of organizing a single event, IPFS Camp follows a decentralied event format,
-  which enables lots of groups to organize their own events surrounding IPFS Camp.
-
-  We were inspired by [https://devconnect.org](DevConnect).
-"""
-
-"Do I need to buy tickets?" = """
-  Each event is ticketed separately. Some don't require tickets.
-  Be sure to check the event's website for ticket information!
+"Who is it for?" = """
+  Participants should be maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. <KINDLY CLARIFY THAT THIS IS INVITE-ONLY> If this describes you and you haven't received an invitation, please email <@ipfs.io EMAIL ADDRESS THAT MOSH HAS REQUESTED>.
+  
+  If you are a user, tooling developer, <INSERT MYRIAD OF POSSIBLE ROLES HERE>, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details coming soon!
 """
 
 "How do I contact the organizers?" = """
@@ -93,7 +88,7 @@ sponsors = [
 
 [footer.links]
 "IPFS" = "https://ipfs.io"
-"Event Github" = "https://github.com/ipfs-shipyard/ipfs-thing"
+"Event Github" = "https://github.com/ipfs-shipyard/ipfs-thing-2022"
 
 [footer.legal]
 "Privacy Policy" = "#"
