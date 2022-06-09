@@ -35,27 +35,61 @@ export function Card({ children, color, onClick }) {
 export function EventCard({ event }) {
   return (
     <EventModal event={event}>
-      <Card color={event.color}>
-        <h5 className="text-lg font-bold text-gray-900">
-          {event.name}
-        </h5>
-        <div>
-          {event.times}
-        </div>
-        <div>
-          👤 {event.attendees} - {event.difficulty}
-        </div>
-        <div className="text-gray-900 text-sm mt-3">
-          {event.org}
-        </div>
-
-        <div className="event-tags">
-          {event.tags.map((tag, i) => (
-            <Tag>{tag}</Tag>
-          ))}
-        </div>
-      </Card>
+      {event.timeslots
+        ? <TrackCard event={event} />
+        : <BlockCard event={event} />
+      }
     </EventModal>
+  )
+}
+
+function BlockCard({ event }) {
+  return (
+    <Card color={event.color}>
+      <h5 className="text-lg font-bold text-gray-900">
+        {event.name}
+      </h5>
+      <div>
+        {event.times}
+      </div>
+      <div>
+        👤 {event.attendees} - {event.difficulty}
+      </div>
+      <div className="text-gray-900 text-sm mt-3">
+        {event.org}
+      </div>
+
+      <div className="event-tags">
+        {event.tags.map((tag, i) => (
+          <Tag>{tag}</Tag>
+        ))}
+      </div>
+    </Card>
+  )
+}
+
+function TrackCard({ event }) {
+  return (
+    <Card color={event.color}>
+      <h5 className="text-lg font-bold text-gray-900">
+        {event.name}
+      </h5>
+      <div>
+        {event.times}
+      </div>
+      <div>
+        👤 {event.attendees} - {event.difficulty}
+      </div>
+      <div className="text-gray-900 text-sm mt-3">
+        {event.org}
+      </div>
+
+      <div className="event-tags">
+        {event.tags.map((tag, i) => (
+          <Tag>{tag}</Tag>
+        ))}
+      </div>
+    </Card>
   )
 }
 
@@ -108,6 +142,7 @@ export function EventModal({ children, event }) {
               <p className="text-base leading-relaxed prose">
                 <ReactMarkdown remarkPlugins={[gfm]}>{event.description}</ReactMarkdown>
               </p>
+              {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
             </Modal.Body>
             <Modal.Footer>
               {event.website &&
@@ -130,6 +165,36 @@ export function EventModal({ children, event }) {
         </div>
       </Modal>
     </>
+  )
+}
+
+function TimeslotTable({ timeslots }) {
+  return (
+    <div>
+      <h4 className="py-3 text-sm text-gray-900">Schedule</h4>
+      <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th  scope="col" className="px-6 py-3">time</th>
+            <th scope="col" className="px-6 py-3">speaker</th>
+            <th scope="col" className="px-6 py-3">info</th>
+          </tr>
+        </thead>
+        <tbody>
+          {timeslots.map((timeslot, i) => (
+            <tr key={i} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+              <th scope="row" className="px-6 py-4 font-medium text-gray-900 align-top dark:text-white whitespace-nowrap">{timeslot.startTime}</th>
+              <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
+              <td className="px-6 py-4">
+                <span className="font-bold">{timeslot.title}</span>
+                <br/>
+                <p>{timeslot.description}</p>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   )
 }
 

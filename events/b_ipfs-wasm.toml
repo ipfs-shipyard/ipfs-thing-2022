@@ -62,28 +62,97 @@ description = """
 
 Come and discuss how to imbue IPFS with WASM magical powers.
 
-
-## Schedule
-
 (?) - denotes tenative (not confirmed)
 
-
-| time  | speaker    | topic |
-|:-----:|------------|-------|
-| 09:00 |            | Welcome standup discussion |
-| 09:30 | @yourname  | Track Intro |
-| 10:00 | ?          | Open Slot |
-| 10:45 | @raulk ?   | FVM Deep Dive |
-| 11:30 | @stebalien ? | WASM + IPLD |
-| 12:15 |            | Lunch Break |
-| 13:00 | ?          | Open Slot |
-| 13:30 |            | Open Slot |
-| 14:00 | ?          | Open Slot |
-| 14:30 | ?          | Open Slot |
-| 15:00 |            | Break |
-| 15:30 |            | Open Slot |
-| 16:00 |            | Open Slot |
-| 16:30 |            | Open Slot |
-| 17:00 |            | Open Slot |
-
 """
+
+
+[[timeslots]]
+startTime="09:00"
+speakers=[]
+title="Welcome standup discussion"
+description=""
+
+[[timeslots]]
+startTime="09:30"
+speakers=[]
+title="Track Intro"
+description=""
+
+[[timeslots]]
+startTime="10:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="10:45"
+speakers=["@raulk?"]
+title="FVM Deep Dive"
+description=""
+
+[[timeslots]]
+startTime="11:30"
+speakers=["@stebalien?"]
+title="WASM + IPLD"
+description=""
+
+[[timeslots]]
+startTime="12:15"
+speakers=[]
+title="Lunch Break"
+description=""
+
+[[timeslots]]
+startTime="13:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="13:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="14:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="14:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="15:00"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="16:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="17:00"
+speakers=[]
+title="Open Slot"
+description=""

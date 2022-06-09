@@ -48,12 +48,29 @@ color="orange"
 # will show up when the user clicks the event card.
 description = """
 A few short talks introducing the IPFS þing week, how it will work, & what to expect.
-
-| time  | speaker    | topic |
-|:----:|:-----------:|:-----:|
-| 09:00 |            | Meet & Greet |
-| 09:20 | ?          | Welcome & Introductions |
-| 10:30 | ?          | IPFS þing Intro and Q&A |
-| 11:00 | @jbenet    | Kickoff Keynote |
-
 """
+
+[[timeslots]]
+startTime="09:00"
+speakers=[]
+title="Meet & Greet"
+description=""
+
+[[timeslots]]
+startTime="09:20"
+speakers=[]
+title="Welcome & Introductions"
+description=""
+
+[[timeslots]]
+startTime="10:30"
+speakers=[]
+title="IPFS þing Intro and Q&A"
+description=""
+
+[[timeslots]]
+startTime="11:00"
+speakers=["@jbenet"]
+title="Kickoff Keynote"
+description=""
+

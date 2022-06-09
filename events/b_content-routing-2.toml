@@ -1,19 +1,19 @@
-# the name of your track or event
-name = "My Track Name"
+# the name of your event
+name = "Content Routing 2: Privacy"
 
 # the name of the group organizing the event
-org = "Your Org"
+org = "PL Starfleet"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yourname"
+dri = "@jbenet" # @willscott
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+# website = ""
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-07-14"
 
 # how many days the event lasts (1 - N)
 days = 1
@@ -28,7 +28,8 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "100"
+attendees = "150"
+
 
 # these is unsued:
 # tickets = "Waitlist"
@@ -44,111 +45,75 @@ tags = ["Talks", "Workshops"]
 # a color, to group key events visually. use sparingly
 # color="purple"
 
-# a description of the track.
+# a description of the event.
 # will show up when the user clicks the event card.
 description = """
 
-This is a track
-
 """
 
-# schedule is an array of timeslots objects
-# schema:
-#  startTime - string for starting time
-#  startTime - string for starting time
-# Notes:
-# - recommended start: 09:00
-# - recommended lunch: 12:00 or 13:00
-# - recommended end:   17:00
-# - use 15m, 20m, 30m, 45m, or 60m session slots
-# - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name"]
-type=""
+speakers=[]
 title="Welcome standup discussion"
-description=""
 
 [[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-type=""
-title="Track Intro"
-description=""
+startTime="09:45"
+speakers=[]
+title="Content Routing Track Intro"
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-type=""
-title="Open Slot"
-description=""
+speakers=["@jbenet"]
+title="Content Routing Intro: Privacy"
+description="this is a description of the talk!"
 
 [[timeslots]]
 startTime="10:45"
 speakers=[]
-type=""
 title="Open Slot"
-description=""
 
 [[timeslots]]
 startTime="11:30"
 speakers=[]
-type=""
 title="Break"
-description=""
 
 [[timeslots]]
 startTime="11:45"
 speakers=[]
-type=""
 title="Open Slot"
-description=""
 
 [[timeslots]]
 startTime="12:30"
 speakers=[]
-type=""
-title="Open Slot"
-description=""
+title="ORAMs: Oblivious Random Access Memory & Content Routing"
 
 [[timeslots]]
 startTime="13:00"
 speakers=[]
-type=""
 title="Lunch Break"
-description=""
 
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-type=""
-title="Open Slot"
-description=""
+title="FHE: Fully Homomorphic Encryption & Content Routing"
 
 [[timeslots]]
 startTime="14:45"
 speakers=[]
-type=""
 title="Open Slot"
-description=""
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-type=""
 title="Open Slot"
-description=""
 
 [[timeslots]]
 startTime="16:15"
 speakers=[]
-type=""
 title="Break"
-description=""
 
 [[timeslots]]
 startTime="16:30"
 speakers=[]
-type=""
 title="Open Slot"
-description=""
+
