@@ -80,6 +80,10 @@ teams = [
   Each implementation will demo in the IPFS Implementations Showcase on Day 2. However, that's just the beginning. Take a look at the latest sessions schedule. See an important topic that's missing? Please propose it by [creating a PR to this repo](https://github.com/ipfs-shipyard/ipfs-thing-2022#add-your-event). You can also discuss an idea via [Github issue](https://github.com/ipfs-shipyard/ipfs-thing-2022/issues) before creating the PR.
 """
 
+"Is there a cost to participate?" = """
+  There is no charge to participate, and all meals during the event are provided. Participants (or their employers) are responsible for flights and accommodations. Several hotel blocks are being reserved and will be added here when confirmed; you are also free to book your own accommodations. 
+"""
+
 "Can I request travel or childcare assistance?" = """
   Please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
 """
