@@ -61,31 +61,126 @@ description = """
 
 Hear from many IPFS Implementations
 
-## Schedule
-
 (?) - denotes tenative (not confirmed)
-
-| time  | speaker    | topic |
-|:-----:|------------|-------|
-| 13:00 | @jbenet    | IPFS Implementations |
-| 13:15 | @dietrich ? | Lessons from putting IPFS in weird places |
-| 13:30 | @adin ?    | go-ipfs |
-| 13:45 | @lidel ?   | IPFS Companion & IPFS Desktop |
-| 14:00 | @gmasgras ? | IPFS Gateways |
-| 14:15 | @expede ?  | WNFS |
-| 14:30 | @b5 & @dig ? | Iroh |
-| 14:45 |            | Open Slot |
-| 15:00 |            | Break |
-| 15:15 | @jbenet    | Filecoin: Lotus, Venus, Forest, Fuhon |
-| 15:30 | @why or @cake ? | Estuary |
-| 15:45 | @mikeal ?  | IPFS Elastic Provider |
-| 16:00 | @manfred ? | Berty |
-| 16:15 |            | Open Slot |
-| 16:30 |            | Open Slot |
-| 16:45 |            | Break |
-| 17:00 |            | Open Slot |
-| 17:15 |            | Open Slot |
-| 17:30 |            | Open Slot |
-| 17:45 |            | Open Slot |
-
 """
+
+
+[[timeslots]]
+startTime="13:00"
+speakers=["@jbenet"]
+title="IPFS Implementations"
+description=""
+
+[[timeslots]]
+startTime="13:15"
+speakers=["@dietrich?"]
+title="Lessons from putting IPFS in weird places"
+description=""
+
+[[timeslots]]
+startTime="13:30"
+speakers=["@adin?"]
+title="go-ipfs"
+description=""
+
+[[timeslots]]
+startTime="13:45"
+speakers=["@lidel?"]
+title="IPFS Companion & IPFS Desktop"
+description=""
+
+[[timeslots]]
+startTime="14:00"
+speakers=["@gmasgras?"]
+title="IPFS Gateways"
+description=""
+
+[[timeslots]]
+startTime="14:15"
+speakers=["@expede?"]
+title="WNFS"
+description=""
+
+[[timeslots]]
+startTime="14:30"
+speakers=["@ramfox?"]
+title="Iroh"
+description=""
+
+[[timeslots]]
+startTime="14:45"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="15:00"
+speakers=[""]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="15:15"
+speakers=["@jbenet"]
+title="Filecoin: Lotus, Venus, Forest, Fuhon"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=["@why?","@cake?"]
+title="Estuary"
+description=""
+
+[[timeslots]]
+startTime="15:45"
+speakers=["@mikeal?"]
+title="IPFS Elastic Provider"
+description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=["@manfred?"]
+title="Berty"
+description=""
+
+[[timeslots]]
+startTime="16:15"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="16:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="16:45"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="17:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="17:15"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="17:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="17:45"
+speakers=[]
+title="Open Slot"
+description=""
