@@ -1,0 +1,144 @@
+# the name of your track or event
+name = "Data Transfer"
+
+# the name of the group organizing the event
+org = ""
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@b5"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://ipfs-althing.io"
+
+# the start date of the event
+date = "2022-07-15"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "09:00 - 17:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = ""
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = ""
+
+# the max number of attendees of the event
+attendees = "50"
+
+# these is unsued:
+# tickets = "Waitlist"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks", "Workshops"]
+
+# a color, to group key events visually. use sparingly
+# color="purple"
+
+# a description of the track.
+# will show up when the user clicks the event card.
+description = """
+
+This is a track
+
+"""
+
+# schedule is an array of timeslots objects
+# schema:
+#  startTime   - string for starting time
+#  speakers    - array of string speaker names. please to use consistent naming across timeslots
+#  title       - string for talk or timeslot title, should be short
+#  description - string describing the timeslot. 1-3 sentences.
+# 
+# Notes:
+# - recommended start: 09:00
+# - recommended lunch: 12:00 or 13:00
+# - recommended end:   17:00
+# - use 15m, 20m, 30m, 45m, or 60m session slots
+# - use 15m breaks, one in the morning, one or two in the afternoon
+[[timeslots]]
+startTime="09:00"
+speakers=["@speaker_name", "@other_speaker_name"]
+title="Welcome standup discussion"
+description=""
+
+[[timeslots]]
+startTime="09:30"
+speakers=["@yourname"]
+title="Track Intro"
+description=""
+
+[[timeslots]]
+startTime="10:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="10:45"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="11:30"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="11:45"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="12:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="13:00"
+speakers=[]
+title="Lunch Break"
+description=""
+
+[[timeslots]]
+startTime="14:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="14:45"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="16:15"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="16:30"
+speakers=[]
+title="Open Slot"
+description=""
