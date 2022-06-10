@@ -11,8 +11,7 @@ dateEnd = "2022-07-17"
 tagline="""
 _þing (n). thing, assembly, meeting, council. parliament._
 
-A collaborative series of workshops for IPFS Implementors.
-Hosted at the Harpa in Reykjavík, Iceland.
+Set in the inspiring and otherworldly landscape of Reykjavík, Iceland, IPFS þing is a week-long gathering for the IPFS implementors community. There will be talks, workshops, discussion circles, coworking and hacking time, and more — all focused on advancing IPFS implementations.
 """
 
 # a link to the devent website (what domain do you expect to use?)
@@ -35,8 +34,7 @@ orglink="https://ipfs.io/team/"
 # write a little or a lot, up to you.
 about="""
 IPFS þing (thing) is a week-long gathering of the IPFS implementor community with 
-many separate tracks. 
-There will be talks, workshops, hacking time, and more –
+many separate tracks. There will be talks, workshops, discussion circles, hacking time, and more –
 all dedicated to improving IPFS implementations.
 
 
@@ -69,17 +67,29 @@ teams = [
 [faq]
 
 "What is IPFS þing?" = """
-  IPFS þing is a collaborative workshop for the IPFS implementors community. <ADD MORE HERE>
+  Set in the inspiring and otherworldly landscape of Reykjavík, Iceland, IPFS þing is a collaborative workshop series for the IPFS implementors community. There will be talks, workshops, discussion circles, coworking and hacking time, and more — all focused on advancing IPFS implementations.
 """
 
 "Who is it for?" = """
-  This invite-only event brings together maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. If this describes you and you haven't received an invitation, please email <@ipfs.io EMAIL ADDRESS THAT MOSH HAS REQUESTED>.
-  
-  If you are a user, tooling developer, <INSERT MYRIAD OF POSSIBLE ROLES HERE>, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details on IPFS camp are coming soon, and will be announced on [twitter](https://twitter.com/ipfs).
+  This invite-only event brings together maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. If this describes you and you haven't received an invitation, please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
+  <br />
+  If you are an IPFS user, tooling developer, collaborator, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details on IPFS Camp are coming soon, and will be announced on [Twitter](https://twitter.com/ipfs).
+"""
+
+"I accept my invitation! How do I participate?" = """
+  Each implementation will demo in the IPFS Implementations Showcase on Day 2. However, that's just the beginning. Take a look at the latest sessions schedule. See an important topic that's missing? Please propose it by [creating a PR to this repo](https://github.com/ipfs-shipyard/ipfs-thing-2022#add-your-event). You can also discuss an idea via [Github issue](https://github.com/ipfs-shipyard/ipfs-thing-2022/issues) before creating the PR.
+"""
+
+"Is there a cost to participate?" = """
+  There is no charge to participate, and all meals during the event are provided. Participants (or their employers) are responsible for flights and accommodations. Several hotel blocks are being reserved and will be added here when confirmed; you are also free to book your own accommodations. 
+"""
+
+"Can I request travel or childcare assistance?" = """
+  Please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
 """
 
 "How do I contact the organizers?" = """
-  You can reach out to us at _____@_____.
+  You can reach out to us at [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
 """
 
 # this is a footer section, with any footer links you may want.
