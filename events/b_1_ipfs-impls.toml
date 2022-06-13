@@ -109,9 +109,9 @@ description=""
 
 [[timeslots]]
 startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@hsanjuan"]
+title="IPFS Cluster"
+description="IPFS Cluster is an P2P application that uses the go-ipfs menu with some spices on top"
 
 [[timeslots]]
 startTime="15:00"
