@@ -35,10 +35,12 @@ export function Card({ children, color, onClick }) {
 export function EventCard({ event }) {
   return (
     <EventModal event={event}>
-      {event.timeslots
-        ? <TrackCard event={event} />
-        : <BlockCard event={event} />
-      }
+      <div className={event.tags?.some((el) => el.toLowerCase() === "wip") && 'opacity-50'}>
+        {event.timeslots
+          ? <TrackCard event={event} />
+          : <BlockCard event={event} />
+        }
+      </div>
     </EventModal>
   )
 }
