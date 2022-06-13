@@ -100,59 +100,28 @@ description=""
 [[timeslots]]
 startTime="12:15"
 speakers=[]
-title="Lunch Break"
+title="Open Slot"
 description=""
 
 [[timeslots]]
 startTime="13:00"
 speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:30"
-speakers=[]
-title="Open Slot"
+title="Lunch Break"
 description=""
 
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:00"
-speakers=[]
-title="Break"
+title="Discussion 1: IPFS & WASM"
 description=""
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Open Slot"
-description=""
+title="Break"
 
 [[timeslots]]
-startTime="16:00"
+startTime="15:40"
 speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="17:00"
-speakers=[]
-title="Open Slot"
+title="Discussion 2: IPFS & WASM"
 description=""

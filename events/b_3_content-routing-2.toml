@@ -70,7 +70,7 @@ description="this is a description of the talk!"
 [[timeslots]]
 startTime="10:45"
 speakers=[]
-title="Open Slot"
+title="FHE: Fully Homomorphic Encryption & Content Routing"
 
 [[timeslots]]
 startTime="11:30"
@@ -95,25 +95,16 @@ title="Lunch Break"
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="FHE: Fully Homomorphic Encryption & Content Routing"
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
+title="Discussion 1: Private Content Routing"
+description="goal: Roadmapping private content routing research"
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Open Slot"
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
 title="Break"
 
 [[timeslots]]
-startTime="16:30"
+startTime="15:40"
 speakers=[]
-title="Open Slot"
-
+title="Discussion 2: Private Content Routing"
+description="goal: Roadmapping private content routing research"

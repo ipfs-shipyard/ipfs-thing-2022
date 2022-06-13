@@ -91,24 +91,16 @@ title="Lunch Break"
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
+title="Discussion 1: Performant Content Routing"
+description="goal: solving for subsecond CID resolution"
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Open Slot"
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
 title="Break"
 
 [[timeslots]]
-startTime="16:30"
+startTime="15:40"
 speakers=[]
-title="Open Slot"
+title="Discussion 2: Performant Content Routing"
+description="goal: solving for subsecond CID resolution"
