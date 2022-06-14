@@ -27,7 +27,7 @@ export default function Header({config}) {
           <div className="flex md:order-2">
 
             <Link href="schedule">
-              <Button>
+              <Button gradientDuoTone="greenToBlue">
                 Schedule
               </Button>
             </Link>

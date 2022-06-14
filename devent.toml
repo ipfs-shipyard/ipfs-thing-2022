@@ -9,20 +9,26 @@ dateEnd = "2022-07-17"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
-_þing (n). thing, assembly, meeting, council. parliament._
+þing (n). thing, assembly, meeting, council. parliament.
+"""
 
+description="""
 Set in the inspiring and otherworldly landscape of Reykjavík, Iceland, IPFS þing is a week-long gathering for the IPFS implementors community. There will be talks, workshops, discussion circles, coworking and hacking time, and more — all focused on advancing IPFS implementations.
 """
+
 
 # a link to the devent website (what domain do you expect to use?)
 link="https://2022.ipfs.camp"
 
+# a link to RSVP for the event
+rsvpLink="https://protocollabs.typeform.com/IPFSThing2022"
+
 # a link to a logo image for the event
-logo="ipfs-logo.png"
+logo="ipfs-thing-logo.png"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="harpa.jpg"
+bgimg="background.png"
 
 # the organizers of the devent (usually a group)
 org="the IPFS Team"
@@ -71,8 +77,8 @@ teams = [
 """
 
 "Who is it for?" = """
-  This invite-only event brings together maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. If this describes you and you haven't received an invitation, please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
-  <br />
+  This event brings together maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. If this describes you and you haven't received an invitation, please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
+
   If you are an IPFS user, tooling developer, collaborator, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details on IPFS Camp are coming soon, and will be announced on [Twitter](https://twitter.com/ipfs).
 """
 
