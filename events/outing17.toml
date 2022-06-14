@@ -1,5 +1,5 @@
 # the name of your event
-name = "Outing: Inside the Volcano"
+name = "Optional Social outing"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Outing"]
+tags = ["WIP", "Outing"]
 
 # a color, to group key events visually. use sparingly
 color="slate"
