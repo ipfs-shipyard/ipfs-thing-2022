@@ -1,88 +1,58 @@
-import { useEffect } from 'react'
-import anime from 'animejs'
 import dayjs from 'dayjs'
 import ReactMarkdown from 'react-markdown'
 import gfm from 'remark-gfm'
 
 export default function Hero({config}) {
-  useEffect(() => {
-    const logoAnimation = anime({
-        targets: '.logo-stagger img',
-        scale: [
-          {value: 1, duration: 2000},
-          {value: .1, easing: 'easeOutSine', duration: 500},
-          {value: 1, easing: 'easeInOutQuad', duration: 1200},
-          {value: 1, duration: 4000},
-        ],
-        delay: anime.stagger(200, {grid: [6, 4], from: 'center'}),
-        loop: true,
-    })
-  }, []);
-
-  const logoArr = Array(24).fill(config.devent.logo)
-
   return (
-
 <div className="overflow-hidden lg:flex
   bg-center bg-no-repeat bg-cover bg-color"
   style={{backgroundImage: `url(${config.devent.bgimg})`}} >
-<div className="relative overflow-hidden text-gray-300 lg:flex w-full
-  bg-black/75
-  ">
+<div className="relative overflow-hidden text-gray-300 lg:flex w-full">
 <div className="container lg:flex max-w-8xl mx-auto">
 
-  <div className="w-full p-12 text-center lg:w-1/2 sm:p-16 lg:p-5 lg:text-left lg:min-h-[80vh]
-    ">
-    <div className="max-w-xl mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3 justify-center
-      ">
+  <div className="w-full sm:p-16 lg:p-5 lg:min-h-[80vh]">
+    <div className="mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3 justify-center">
 
-      <div className="mt-2 text-6xl font-bold text-white sm:text-8xl">
-        {config.devent.name}
+      <div className="flex lg:w-1/2">
+        <div className='basis-full w-full lg:basis-1/3 lg:mr-3 my-3'>
+          <img src={config.devent.logo} />
+        </div>
+        <div className='basis-full lg:basis-2/3'>
+          <div className="mt-4 font-bold text-white py-4 text-6xl sm:text-5xl">
+            {config.devent.name}
+          </div>
+          <div className="text-xl text-white font-medium">
+            {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}
+          </div>
+        </div>
       </div>
 
-      <div className="text-4xl text-white font-medium">
-         {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}
+      <div className='basis-1/3 pl-3'>
+        <div className="text-md italic text-white lg:mt-2 my-5 prose leading-7">
+          {config.devent.tagline}
+        </div>
+        <div className="text-lg text-white lg:mt-2 my-5 prose leading-7">
+          <ReactMarkdown remarkPlugins={[gfm]}>{config.devent.description}</ReactMarkdown>
+        </div>
+
+        {config.devent.rsvpLink && 
+        <div className="space-x-5 mb-10">
+          <a
+            href={config.devent.rsvpLink}
+            className="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-orange-500 rounded-lg hover:bg-orange-400"
+          >
+            RSVP
+          </a>
+        </div>}
       </div>
 
-
-      <div className="hidden text-xl text-white lg:mt-2 lg:block my-5 prose">
-         <ReactMarkdown remarkPlugins={[gfm]}>{config.devent.tagline}</ReactMarkdown>
-      </div>
-
-      <div className="space-x-5">
-
-        <a
-          href="#"
-          onClick={() => window && window.showAddEventModal()}
-          className="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600"
-        >
-          Host an event
-        </a>
-        <a
-          href="/schedule"
-          className="inline-block px-5 py-3 mt-8 text-sm font-medium text-white bg-gray-500 rounded-lg hover:bg-blue-600"
-        >
-          Schedule
-        </a>
-      </div>
 
     </div>
   </div>
 
-  <div className="container self-center flex place-content-center">
-
-    <div className="grid grid-cols-6 gap-4 place-content-center logo-stagger">
-      {logoArr.map(s => (
-        <img src={s} className="w-[64px] m-0" />
-      ))}
-    </div>
-
-  </div>
-
 </div>
 </div>
 </div>
-
   )
 }
 
