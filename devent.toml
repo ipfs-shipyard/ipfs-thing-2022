@@ -3,6 +3,9 @@
 # the name of the devent
 name="IPFS þing"
 
+# where the event is happening
+location="Reykjavík, Iceland"
+
 # the dates the devent runs
 dateStart = "2022-07-11"
 dateEnd = "2022-07-17"
@@ -13,7 +16,7 @@ tagline="""
 """
 
 description="""
-Set in the inspiring and otherworldly landscape of Reykjavík, Iceland, IPFS þing is a week-long gathering for the IPFS implementors community. There will be talks, workshops, discussion circles, coworking and hacking time, and more — all focused on advancing IPFS implementations.
+IPFS þing is a week-long gathering for the IPFS implementors community. There will be talks, workshops, discussion circles, hacking time, and more — all focused on advancing IPFS implementations.
 """
 
 
