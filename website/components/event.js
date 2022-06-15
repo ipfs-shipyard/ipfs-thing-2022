@@ -273,7 +273,12 @@ function bindKey(bindKey, handler) {
 
 function dateStr(date, days) {
   const d1 = dayjs(date)
-  const d2 = dayjs(date).add(days, 'day')
+
+  if (days === 1) {
+    return d1.format("MMM DD")
+  }
+
+  const d2 = d1.add(days - 1, 'day')
   return d1.format("MMM DD") +' - '+ d2.format("MMM DD")
 }
 
