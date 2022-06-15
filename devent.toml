@@ -36,18 +36,6 @@ org="the IPFS Team"
 # the website of the organizers
 orglink="https://ipfs.io/team/"
 
-# some text about the event -- will show up in the "About" section
-# write a little or a lot, up to you.
-about="""
-IPFS þing (thing) is a week-long gathering of the IPFS implementor community with 
-many separate tracks. There will be talks, workshops, discussion circles, hacking time, and more –
-all dedicated to improving IPFS implementations.
-
-
-## Venue
-
-The event will happen at the [Harpa](https://goo.gl/maps/qQkLYrFprPMvAFaj7) in Reykjavík, Iceland.
-
 """
 
 # url for this event repo
@@ -83,7 +71,7 @@ teams = [
 """
 
 "I accept my invitation! How do I participate?" = """
-  Each implementation will demo in the IPFS Implementations Showcase on Day 2. However, that's just the beginning. Take a look at the latest sessions schedule. See an important topic that's missing? Please propose it by [creating a PR to this repo](https://github.com/ipfs-shipyard/ipfs-thing-2022#add-your-event). You can also discuss an idea via [Github issue](https://github.com/ipfs-shipyard/ipfs-thing-2022/issues) before creating the PR.
+  Each implementation will demo in the IPFS Implementations Showcase on Day 2. However, that's just the beginning. Add yourself to the [Participating Teams](https://github.com/ipfs-shipyard/ipfs-thing-2022/edit/main/devent.toml) section of this website. Then, take a look at the latest sessions schedule. See an important track or session that's missing? Please propose it by [creating a PR to this repo](https://github.com/ipfs-shipyard/ipfs-thing-2022#add-your-event). You can also discuss an idea via [Github issue](https://github.com/ipfs-shipyard/ipfs-thing-2022/issues) before creating the PR.
 """
 
 "Is there a cost to participate?" = """
@@ -91,7 +79,7 @@ teams = [
 """
 
 "Can I request travel or childcare assistance?" = """
-  Please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
+  Please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io) and we will do our best to accommodate.
 """
 
 "How do I contact the organizers?" = """
