@@ -6,7 +6,7 @@ org = ""
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@b5"
+dri = "@mishmosh"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -77,7 +77,7 @@ description="A brief introduction to the track"
 startTime="09:15"
 speakers=["@lidel"]
 title="Lightweight RFC Process"
-description="A walkthrough of the new RFC process and its motivations, updated specs repository, and how you can submit an RFC."
+description="A walkthrough of the new RFC process and its motivations, updated specs repository, and when and why you should submit an RFC."
 
 [[timeslots]]
 startTime="09:45"
@@ -93,12 +93,12 @@ description=""
 
 [[timeslots]]
 startTime="10:45"
-speakers=["@mishmosh"]
-title="Reorienting the website"
-description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly surgical co-working session, with a short discussion to kick off and then each participant creating PRs."
-
-[[timeslots]]
-startTime="11:30"
 speakers=["TBD, maybe @b5 and @mishmosh"]
 title="Fireside chat: Funding and Sustainability"
 description=""
+
+[[timeslots]]
+startTime="11:15"
+speakers=["@mishmosh"]
+title="Reorienting the website"
+description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly surgical co-working session, with a short discussion to kick off and then each participant creating PRs."
