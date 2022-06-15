@@ -6,7 +6,7 @@ org = "PL Starfleet"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@jbenet" # @willscott
+dri = "@willscott"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -58,7 +58,7 @@ title="Welcome standup discussion"
 
 [[timeslots]]
 startTime="09:45"
-speakers=[]
+speakers=["@willscott"]
 title="Content Routing Track Intro"
 
 [[timeslots]]
