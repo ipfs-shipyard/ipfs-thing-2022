@@ -34,8 +34,8 @@ export default function Header({config}) {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="#about">
-              About
+            <Navbar.Link href="#schedule">
+              Schedule
             </Navbar.Link>
             <Navbar.Link href="#faq">
               FAQ
