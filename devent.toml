@@ -36,8 +36,6 @@ org="the IPFS Team"
 # the website of the organizers
 orglink="https://ipfs.io/team/"
 
-"""
-
 # url for this event repo
 repo="https://github.com/ipfs-shipyard/ipfs-thing-2022"
 
