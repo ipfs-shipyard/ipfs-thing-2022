@@ -71,6 +71,12 @@ teams = [
   If you are an IPFS user, tooling developer, collaborator, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details on IPFS Camp are coming soon, and will be announced on [Twitter](https://twitter.com/ipfs).
 """
 
+"Everything is Optional?" = """
+**Yes, Everything on the schedule is optional!** When you arrive, when you leave, and what you do with your time in Iceland is up to you. 
+
+A bunch of us are actively working on putting together a fantastic schedule. We want your suggestions, feedback, and additions as Pull Requests & Issues [here](https://github.com/ipfs-shipyard/ipfs-thing-2022). Please jump in to help make this thing a thing that helps you.
+"""
+
 "I accept my invitation! How do I participate?" = """
   Each implementation will demo in the IPFS Implementations Showcase on Day 2. However, that's just the beginning. Add yourself to the [Participating Teams](https://github.com/ipfs-shipyard/ipfs-thing-2022/edit/main/devent.toml) section of this website. Then, take a look at the latest sessions schedule. See an important track or session that's missing? Please propose it by [creating a PR to this repo](https://github.com/ipfs-shipyard/ipfs-thing-2022#add-your-event). You can also discuss an idea via [Github issue](https://github.com/ipfs-shipyard/ipfs-thing-2022/issues) before creating the PR.
 """
@@ -85,6 +91,12 @@ teams = [
 
 "How do I contact the organizers?" = """
   You can reach out to us at [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
+"""
+
+# schedule section config
+[schedule]
+description="""
+All scheduled events are [optional](/#faq).
 """
 
 # this is a footer section, with any footer links you may want.

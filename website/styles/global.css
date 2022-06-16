@@ -1,3 +1,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.markdown a {
+  color: rgb(29, 78, 216);
+  cursor: pointer;
+}

@@ -1,6 +1,5 @@
 import dayjs from 'dayjs'
-import ReactMarkdown from 'react-markdown'
-import gfm from 'remark-gfm'
+import Markdown from './markdown'
 
 export default function Hero({config}) {
   return (
@@ -33,7 +32,7 @@ export default function Hero({config}) {
         </div>
 
         <div className="text-lg text-white prose leading-7">
-          <ReactMarkdown remarkPlugins={[gfm]}>{config.devent.description}</ReactMarkdown>
+          <Markdown >{config.devent.description}</Markdown>
         </div>
 
         {config.devent.rsvpLink && 
