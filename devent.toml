@@ -84,6 +84,18 @@ A bunch of us are actively working on putting together a fantastic schedule. We 
   There is no charge to participate, and all meals during the event are provided. Participants (or their employers) are responsible for flights and accommodations. Several hotel blocks are being reserved and will be added here when confirmed; you are also free to book your own accommodations. 
 """
 
+"Can I lead a track?" = """
+Yes absolutely! Here's what's involved:
+
+* Identify an IPFS-related topic that you know a thing or two about, and think others should care more about
+* File a PR adding your track [here](http://github.com/ipfs-shipyard/ipfs-thing-2022/pulls/new)
+* Recruit folks you collaborate regularly with to help shape the content of your track
+
+You will have total control over the structure of your track. Morning of talks & afternoon of discussion? Go for it! Required reading before attendance? Sounds great.
+
+Event organizers will work with you to help situate your track in the broader schedule, give feedback, and help to make your event great. We'll get you set up with AV gear, a room, and other logistical support as needed.
+"""
+
 "Can I request travel or childcare assistance?" = """
   Please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io) and we will do our best to accommodate.
 """

@@ -6,3 +6,13 @@
   color: rgb(29, 78, 216);
   cursor: pointer;
 }
+
+.markdown ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 6px;
+}
+
+.markdown ul li {
+  margin-top: 6px;
+}
