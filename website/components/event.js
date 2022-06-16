@@ -1,10 +1,9 @@
 import Link from "next/link";
 import { useState, useEffect } from 'react'
 import { Modal, Button } from 'flowbite-react'
-import ReactMarkdown from 'react-markdown'
-import gfm from 'remark-gfm'
-
 import dayjs from 'dayjs'
+
+import Markdown from './markdown'
 
 export function Card({ children, color, onClick }) {
 
@@ -144,7 +143,7 @@ export function EventModal({ children, event }) {
                 ))}
               </div>
               <p className="text-base leading-relaxed prose">
-                <ReactMarkdown remarkPlugins={[gfm]}>{event.description}</ReactMarkdown>
+                <Markdown>{event.description}</Markdown>
               </p>
               {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
             </Modal.Body>

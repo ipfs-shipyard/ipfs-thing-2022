@@ -1,7 +1,7 @@
-import { Section } from './layout.js'
 import { Accordion } from 'flowbite-react'
-import ReactMarkdown from 'react-markdown'
-import gfm from 'remark-gfm'
+
+import { Section } from './layout.js'
+import Markdown from './markdown'
 
 export default function About({ config }) {
   const faq = (config.faq) || {}
@@ -26,7 +26,7 @@ export default function About({ config }) {
 
     <Section title="About">
         <div className="container max-w-8xl mx-auto">
-            <ReactMarkdown remarkPlugins={[gfm]}>{ config.devent.about }</ReactMarkdown>
+            <Markdown>{ config.devent.about }</Markdown>
         </div>
     </Section>
 
@@ -38,11 +38,11 @@ export default function About({ config }) {
         {Object.keys(faq).map((q) => (
           <Accordion.Panel open={true}>
             <Accordion.Title arrowIcon={undefined}>
-              <ReactMarkdown remarkPlugins={[gfm]} children={q} />
+              <Markdown children={q} />
             </Accordion.Title>
             <Accordion.Content>
               <div className="mb-2 text-gray-500 dark:text-gray-400">
-                <ReactMarkdown remarkPlugins={[gfm]} children={faq[q]} />
+                <Markdown children={faq[q]} />
               </div>
             </Accordion.Content>
           </Accordion.Panel>
