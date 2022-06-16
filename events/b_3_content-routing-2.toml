@@ -6,7 +6,7 @@ org = "PL Starfleet"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@jbenet" # @willscott
+dri = "@willscott"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -58,7 +58,7 @@ title="Welcome standup discussion"
 
 [[timeslots]]
 startTime="09:45"
-speakers=[]
+speakers=["@willscott"]
 title="Content Routing Track Intro"
 
 [[timeslots]]
@@ -70,7 +70,7 @@ description="this is a description of the talk!"
 [[timeslots]]
 startTime="10:45"
 speakers=[]
-title="Open Slot"
+title="Mixnets & Content Routing"
 
 [[timeslots]]
 startTime="11:30"
@@ -80,12 +80,12 @@ title="Break"
 [[timeslots]]
 startTime="11:45"
 speakers=[]
-title="Open Slot"
+title="Double Hashing & Content Routing"
 
 [[timeslots]]
 startTime="12:30"
 speakers=[]
-title="ORAMs: Oblivious Random Access Memory & Content Routing"
+title="Privacy Pass & Content Routing"
 
 [[timeslots]]
 startTime="13:00"
@@ -100,12 +100,12 @@ title="FHE: Fully Homomorphic Encryption & Content Routing"
 [[timeslots]]
 startTime="14:45"
 speakers=[]
-title="Open Slot"
+title="Private Information Retrieval & Content Routing"
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Open Slot"
+title="ORAMs: Oblivious Random Access Memory & Content Routing"
 
 [[timeslots]]
 startTime="16:15"
@@ -115,5 +115,5 @@ title="Break"
 [[timeslots]]
 startTime="16:30"
 speakers=[]
-title="Open Slot"
+title="Incentivization and content routing service differentiation"
 
