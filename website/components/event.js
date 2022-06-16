@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState, useEffect } from 'react'
 import { Modal, Button } from 'flowbite-react'
 import dayjs from 'dayjs'
+import classNames from 'classnames'
 
 import Markdown from './markdown'
 
@@ -16,12 +17,15 @@ export function Card({ children, color, onClick }) {
   }
 
   return (
-    <div className={`eventcard p-0.5 shadow-md h-full whitespace-normal
-      ${borderColor} hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500
-      `} onClick={onClick}>
-      <div className={`block p-3 sm:px-3 sm:py-2 h-full
-        ${bgColor} hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10
-        `}>
+    <div className={classNames(
+        borderColor, 
+        'eventcard', 
+        'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
+      )} onClick={onClick}>
+      <div className={classNames(
+          bgColor, 
+          'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
+        )}>
         <div className="text-xs text-gray-600">
           { children }
         </div>
@@ -36,7 +40,7 @@ export function EventCard({ event }) {
 
   return (
     <EventModal event={event}>
-      <div className={isWorkInProgress && 'opacity-50'}>
+      <div className={classNames('w-full', 'h-full', {isWorkInProgress :'opacity-50'})}>
         {event.timeslots
           ? <TrackCard event={event} />
           : <BlockCard event={event} />
@@ -178,7 +182,7 @@ function TimeslotTable({ timeslots }) {
       <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
-            <th  scope="col" className="px-6 py-3">time</th>
+            <th scope="col" className="px-6 py-3">time</th>
             <th scope="col" className="px-6 py-3">speaker</th>
             <th scope="col" className="px-6 py-3">info</th>
           </tr>
