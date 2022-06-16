@@ -1,9 +1,11 @@
 // index.js
 import Head from 'next/head'
-import Footer from '../components/footer.js'
+import ScrollContainer from 'react-indiana-drag-scroll'
 
+import Header from '../components/header'
+import Footer from '../components/footer.js'
 import {Section, BaseScript} from '../components/layout.js'
-import {ScheduleTable} from "../components/scheduletable.js"
+import ScheduleSection from "../components/scheduleSection.js"
 import {AddEventModal} from "../components/event.js"
 import {loadEvents, loadConfig} from "../lib/data.js"
 
@@ -11,23 +13,15 @@ export default function Schedule({ events, config }) {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
+      <Header config={config} />
+
       <Head>
         <title>{config.devent.name} | Schedule</title>
         <BaseScript />
       </Head>
 
-      <Section title={`${config.devent.name} - Schedule`}>
-        <div className="flex-none items-center min-h-full w-full">
-          <main className="content">
-            <div className="m-20">
-              <ScheduleTable events={events} config={config} />
-            </div>
-          </main>
-        </div>
-      </Section>
+      <ScheduleSection config={config} events={events} />
 
-
-      <AddEventModal config={config} />
       <Footer config={config} />
     </div>
   )

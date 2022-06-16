@@ -4,31 +4,29 @@ import Footer from './footer.js'
 
 export function Layout({ children, config }) {
   return (
-    <>
-      <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
-        <Head>
-          <title>{config.devent.name}</title>
-          <BaseScript />
-        </Head>
+    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
+      <Head>
+        <title>{config.devent.name}</title>
+        <BaseScript />
+      </Head>
 
-        <Header config={config} />
+      <Header config={config} />
 
-        <div className="flex-none items-center min-h-full w-full">
-          <main className="content">
-              {children}
-          </main>
-        </div>
-
-        <Footer config={config} />
+      <div className="flex-none items-center min-h-full w-full">
+        <main className="content">
+            {children}
+        </main>
       </div>
-    </>
+
+      <Footer config={config} />
+    </div>
   )
 }
 
 export function Section({ title, className, children }) {
   className = className || ""
   return (
-    <div className={`w-full py-20 min-h-[10vh] ${className}`} id={ slugify(title) }>
+    <div className={`w-full px-20 py-10 min-h-[10vh] ${className}`} id={ slugify(title) }>
       <div className="container max-w-8xl mx-auto pb-10">
         <h1 className="text-4xl font-bold">
           {title}

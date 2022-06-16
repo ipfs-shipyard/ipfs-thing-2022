@@ -4,7 +4,6 @@ import Link from 'next/link'
 export default function Header({config}) {
   //<DarkThemeToggle />
   return (
-
     <div className="header justify-self-start sticky top-0 z-40 w-full backdrop-blur
       flex-none lg:z-50 lg:border-b
       lg:border-slate-900/10 dark:border-slate-50/[0.06] bg-white/80
@@ -14,7 +13,7 @@ export default function Header({config}) {
           fluid={true}
           rounded={true}
         >
-          <Navbar.Brand>
+          <Navbar.Brand href='/'>
             <img
               src={config.devent.logo}
               className="mr-3 h-6 sm:h-9"
@@ -26,7 +25,7 @@ export default function Header({config}) {
           </Navbar.Brand>
           <div className="flex md:order-2">
 
-            <Link href="schedule">
+            <Link href="/schedule">
               <Button gradientDuoTone="greenToBlue">
                 Schedule
               </Button>
@@ -34,10 +33,10 @@ export default function Header({config}) {
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>
-            <Navbar.Link href="#schedule">
+            <Navbar.Link href="/schedule">
               Schedule
             </Navbar.Link>
-            <Navbar.Link href="#faq">
+            <Navbar.Link href="/#faq">
               FAQ
             </Navbar.Link>
           </Navbar.Collapse>
