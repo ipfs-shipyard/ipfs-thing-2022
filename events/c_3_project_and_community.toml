@@ -6,7 +6,7 @@ org = ""
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@b5"
+dri = "@mishmosh"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -19,7 +19,7 @@ date = "2022-07-15"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "09:00 - 12:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["WIP", "Demos", "Hack Sessions"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -48,7 +48,9 @@ tags = ["WIP", "Talks", "Workshops"]
 # will show up when the user clicks the event card.
 description = """
 
-This is a track
+This track aims to create space for advancing the IPFS project and community. New session proposals are welcome, especially those that focus on a specific, actionable subtopic rather than attempting to grapple with project and community stewardship.
+
+Currently, we have reserved a 1/2 day for this track. If enough sessions are proposed, this track will be extended into Friday afternoon.
 
 """
 
@@ -64,81 +66,39 @@ This is a track
 # - recommended lunch: 12:00 or 13:00
 # - recommended end:   17:00
 # - use 15m, 20m, 30m, 45m, or 60m session slots
-# - use 15m breaks, one in the morning, one or two in the afternoon
+
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
+speakers=["@mishmosh"]
 title="Welcome standup discussion"
+description="A brief introduction to the track"
+
+[[timeslots]]
+startTime="09:15"
+speakers=["@lidel"]
+title="Lightweight RFC Process"
+description="A walkthrough of the new RFC process and its motivations, updated specs repository, and when and why you should submit an RFC."
+
+[[timeslots]]
+startTime="09:45"
+speakers=[]
+title="Open Slot"
 description=""
 
 [[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
+startTime="10:15"
 speakers=[]
 title="Open Slot"
 description=""
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
-title="Open Slot"
+speakers=["TBD, maybe @b5 and @mishmosh"]
+title="Fireside chat: Funding and Sustainability"
 description=""
 
 [[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
+startTime="11:15"
+speakers=["@mishmosh"]
+title="Reorienting the website"
+description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly surgical co-working session, with a short discussion to kick off and then each participant creating PRs."
