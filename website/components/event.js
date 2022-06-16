@@ -33,9 +33,11 @@ export function Card({ children, color, onClick }) {
 
 // hover:ml-1 hover:-mr-1 hover:mt-1 hover:-mb-1
 export function EventCard({ event }) {
+  const isWorkInProgress = event.tags?.some((el) => el.toLowerCase() === "wip")
+
   return (
     <EventModal event={event}>
-      <div className={event.tags?.some((el) => el.toLowerCase() === "wip") && 'opacity-50'}>
+      <div className={isWorkInProgress && 'opacity-50'}>
         {event.timeslots
           ? <TrackCard event={event} />
           : <BlockCard event={event} />

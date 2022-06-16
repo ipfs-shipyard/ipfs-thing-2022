@@ -15,7 +15,7 @@ export function ScheduleTable({ events, config }) {
 
   return (
     <>
-      <div className={`schedule-days mx-auto no-flex grid grid-flow-col-dense grid-cols-${numDays} gap-4 w-[${numDays * 250}px]`}>
+      <div className={`schedule-days mx-20 pr-20 no-flex grid grid-flow-col-dense grid-cols-${numDays} gap-4 w-[${numDays * 250}px]`}>
         {days.map((d, i) => (
           <div className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0`}>
             <p className="flex-1 mx-2 text-left">{d.format('ddd')}</p>
@@ -24,7 +24,7 @@ export function ScheduleTable({ events, config }) {
         ))}
         {arr.map((e, i) => (
           eventWithinRange(e) &&
-            <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full`}>
+            <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
               <EventCard event={e} key={i} />
             </div>
         ))}
