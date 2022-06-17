@@ -16,7 +16,7 @@ website = "https://ipfs-althing.io"
 date = "2022-07-13"
 
 # how many days the event lasts (1 - N)
-days = 3
+days = 4
 
 # the event times (shows up in the event card)
 times = "09:00 - 15:00"
