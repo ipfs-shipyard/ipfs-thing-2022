@@ -1,16 +1,16 @@
 # the name of your track or event
-name = "Lite(tm) clients"
+name = "Data agony and IPFS"
 
 # the name of the group organizing the event
 org = ""
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@b5"
+dri = "@aschmahmann"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = ""
 
 # the start date of the event
 date = "2022-07-14"
@@ -48,7 +48,12 @@ tags = ["WIP", "Talks", "Workshops"]
 # will show up when the user clicks the event card.
 description = """
 
-This is a track
+This track will cover pain points stemming from the way data is structured within IPFS & IPLD
+
+- MerkleDAG views, multi-block data abstractions, ingesting Filestore at rest
+- Making UnixFS not special (e.g. rendering other types of files/folders on gateways)
+- The relationships between Checksums, Blocks, etc.
+- Compatibility with existing (and new) hash linked data structures
 
 """
 

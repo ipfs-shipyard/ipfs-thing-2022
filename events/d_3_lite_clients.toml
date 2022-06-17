@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Data agony and IPFS"
+name = "Lite(tm) clients"
 
 # the name of the group organizing the event
 org = ""
@@ -19,7 +19,7 @@ date = "2022-07-15"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "13:00 - 17:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -47,9 +47,9 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
+This track will explore the need for "Lite clients", high-churn IPFS nodes oriented around very short request/response patterns over persistent connections.
 
-This is a track
-
+Carving a path forward for an IPFS lite client story would open up massive categories of use. This track will examin possibile solutions, balancing massive opportunity for adoption with network leeching concerns.
 """
 
 # schedule is an array of timeslots objects
@@ -73,14 +73,14 @@ description=""
 
 [[timeslots]]
 startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
+speakers=["@b5"]
+title="The case for lite clients"
 description=""
 
 [[timeslots]]
 startTime="10:00"
 speakers=[]
-title="Open Slot"
+title="Delegated routing"
 description=""
 
 [[timeslots]]
