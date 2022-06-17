@@ -79,9 +79,22 @@ description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@marcopolo"]
+title="zig-libp2p, a minimal libp2p implementation"
+description="""
+Zig is a general-purpose programming language and toolchain for maintaining
+robust, optimal and reusable software. (from ziglang.org)
+
+Introducing zig-libp2p. A minimal library for using libp2p.
+Usable from Zig, C, or any other language with C FFI.
+Designed to have a small footprint and be performant.
+
+In this talk we'll cover:
+1. Why Zig
+2. Performance benchmarks
+3. Example walkthough
+4. Code walkthrough
+"""
 
 [[timeslots]]
 startTime="10:45"
