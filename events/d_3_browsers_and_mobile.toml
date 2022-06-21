@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Lite(tm) clients"
+name = "Browsers and Mobile"
 
 # the name of the group organizing the event
 org = ""
@@ -28,18 +28,18 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "50"
+attendees = "20"
 
 # these is unsued:
 # tickets = "Waitlist"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Advanced"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Workshop"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -47,9 +47,11 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-This track will explore the need for "Lite clients", high-churn IPFS nodes oriented around very short request/response patterns over persistent connections.
+**The goal of this track is to draft a document for reading and writing IPFS content from a Browser and/or Mobile application.**
 
-Carving a path forward for an IPFS lite client story would open up massive categories of use. This track will examin possibile solutions, balancing massive opportunity for adoption with network leeching concerns.
+Web Browers and Mobile Applications are both resource-constrained platforms with very short uptimes. They require us to reinterpret how IPFS should perform at the edge, and at the same time, represent a massive category of use.
+
+This track is structured as an _intense_ half-day workshop. It will start with a brief introduction to frame our work, we'll hear lightning talks on use cases, then move to group discussion, using a design document for group iteration.
 """
 
 # schedule is an array of timeslots objects
@@ -66,79 +68,61 @@ Carving a path forward for an IPFS lite client story would open up massive categ
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@b5"]
-title="The case for lite clients"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Delegated routing"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Lunch Break"
+speakers=["@b5"]
+title="The case for IPFS light clients"
 description=""
+
+[[timeslots]]
+startTime="13:20"
+speakers=["@b5"]
+title="Lightning talks introduction"
+description=""
+
+[[timeslots]]
+startTime="13:25"
+speakers=["@RangerMauve?"]
+title="Agregore `fetch()`, a multi-protocol abstraction"
+description="this talk is unconfirmed"
+
+[[timeslots]]
+startTime="13:40"
+speakers=["@matheus23?"]
+title="WASM/WASI as a common core for IPFS"
+description="this talk is unconfirmed"
 
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
+title="Open Slot: Lightning Talk"
 description=""
 
 [[timeslots]]
-startTime="14:45"
+startTime="14:10"
 speakers=[]
-title="Open Slot"
+title="Open Slot: Lightning talk"
 description=""
 
 [[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
+startTime="14:20"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="16:30"
+startTime="14:30"
 speakers=[]
-title="Open Slot"
+title="Workshop: IPFS light client Reading"
+description="Work as a group to refine a draft document for a light clients reading IPFS data. Draft spec will be provided in advance."
+
+[[timeslots]]
+startTime="15:40"
+speakers=[]
+title="Break"
 description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=[]
+title="Workshop: IPFS light client Writing"
+description="Work as a group to refine a draft document for a light clients writing IPFS data. Draft spec will be provided in advance."
