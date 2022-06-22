@@ -70,7 +70,8 @@ description="this is a description of the talk!"
 [[timeslots]]
 startTime="10:45"
 speakers=[]
-title="Mixnets & Content Routing"
+title="Mechanism Lightning talks"
+description="Intros to mixnets, FHE, PIR, and ORAM"
 
 [[timeslots]]
 startTime="11:30"
@@ -79,8 +80,8 @@ title="Break"
 
 [[timeslots]]
 startTime="11:45"
-speakers=[]
-title="Double Hashing & Content Routing"
+speakers=["@yiannis"]
+title="Use cases for privacy in LibP2P"
 
 [[timeslots]]
 startTime="12:30"
@@ -94,18 +95,18 @@ title="Lunch Break"
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="FHE: Fully Homomorphic Encryption & Content Routing"
+speakers=["@Guillaume Michel"]
+title="Double Hashing & Content Routing"
 
 [[timeslots]]
 startTime="14:45"
-speakers=[]
+speakers=[""]
 title="Private Information Retrieval & Content Routing"
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="ORAMs: Oblivious Random Access Memory & Content Routing"
+title="FHE, ZKPs & Content Routing"
 
 [[timeslots]]
 startTime="16:15"
@@ -114,6 +115,6 @@ title="Break"
 
 [[timeslots]]
 startTime="16:30"
-speakers=[]
+speakers=["Crypto Net Lab"]
 title="Incentivization and content routing service differentiation"
 
