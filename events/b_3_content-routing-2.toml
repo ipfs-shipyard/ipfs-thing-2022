@@ -84,7 +84,12 @@ speakers=["@yiannis"]
 title="Use cases for privacy in LibP2P"
 
 [[timeslots]]
-startTime="12:30"
+startTime="12:20"
+speakers=["@elizabeth"]
+title="Mixnets & Content Routing"
+
+[[timeslots]]
+startTime="12:40"
 speakers=[]
 title="Privacy Pass & Content Routing"
 

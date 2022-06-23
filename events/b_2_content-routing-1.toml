@@ -54,18 +54,19 @@ title="Welcome standup discussion"
 
 [[timeslots]]
 startTime="9:45"
-speakers=[]
-title="Content Routing Track Intro"
-
-[[timeslots]]
-startTime="10:00"
 speakers=["@jbenet"]
 title="Content Routing Intro: Performance"
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
+startTime="10:30"
+speakers=["various"]
+title="State of content routing lightning talks"
+description="@TBD on IPFS DHT, @gammazero on Network Indexer, @TBD on Reframe"
+
+[[timeslots]]
+startTime="11:00"
+speakers=["@aschmahmann"]
+title="Open Problem Identification and Alignment"
 
 [[timeslots]]
 startTime="11:30"
@@ -96,7 +97,7 @@ title="Open Slot"
 [[timeslots]]
 startTime="14:45"
 speakers=["@willscott"]
-title="State of network indexers + roadmap"
+title="Network indexer decentraliztion roadmap"
 
 [[timeslots]]
 startTime="15:30"
