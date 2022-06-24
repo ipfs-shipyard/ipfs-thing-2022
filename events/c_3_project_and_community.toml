@@ -82,8 +82,8 @@ description="A walkthrough of the new RFC process and its motivations, updated s
 [[timeslots]]
 startTime="09:45"
 speakers=["@galargh"]
-title="GitHub Management"
-description="A high-level overview of how GitHub permissions are managed as code in the IPFS org - https://github.com/ipfs/github-mgmt - and how to leverage it for issuing access requests."
+title="GitHub Configuration (of IPFS organization) as Code"
+description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
 
 [[timeslots]]
 startTime="10:15"
