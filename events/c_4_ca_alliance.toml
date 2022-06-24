@@ -1,0 +1,78 @@
+# the name of your track or event
+name = "Content Addressable Alliance"
+
+# the name of the group organizing the event
+org = "Fission"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@bmann"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://ipfs-thing-2022.on.fleek.co/"
+
+# the start date of the event
+date = "2022-07-15"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "14:00 - 15:00"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = ""
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = ""
+
+# the max number of attendees of the event
+attendees = "50"
+
+
+# these is unsued:
+# tickets = "Waitlist"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Community", "Workshops"]
+
+# a color, to group key events visually. use sparingly
+# color="purple"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+IPFS has 'won'. Content addressing is a sustaining innovation that can make it's way into many more places. Discuss creating a cross organization 
+Content Addressable Alliance that advocates and promotes the usage of content addressing.
+"""
+
+# schedule is an array of timeslots objects
+# schema:
+#  startTime   - string for starting time
+#  speakers    - array of string speaker names. please to use consistent naming across timeslots
+#  title       - string for talk or timeslot title, should be short
+#  description - string describing the timeslot. 1-3 sentences.
+# 
+# Notes:
+# - recommended start: 09:00
+# - recommended lunch: 12:00 or 13:00
+# - recommended end:   17:00
+# - use 15m, 20m, 30m, 45m, or 60m session slots
+
+[[timeslots]]
+startTime="14:00"
+speakers=["@bmann"]
+title="Group intros"
+description="Brief intros of everyone, discussion of Content Addressable Alliance"
+
+[[timeslots]]
+startTime="14:15"
+speakers=["everyone"]
+title="Group Discussion"
+description="Group discussion and next steps. Shall we form the Content Addressing Alliance?"
