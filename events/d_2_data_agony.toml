@@ -78,14 +78,14 @@ description=""
 
 [[timeslots]]
 startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
+speakers=["@expede", "@justincjohnson"]
+title="CAR Pool and more"
+description="CAR Mirror, CAR Pool, and Private-XOR are attempts to radically reduce the number of round trips, minimize (but not eliminate) redundant blocks, and push and pull data over mature channels, in unicast, multicast, and anycast scenarios. This is well suited to undialable nodes such as browsers, directly connected swarms (e.g. after DHT lookup), and broadcasting blind indices."
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["@yourname"]
+title="Track Intro"
 description=""
 
 [[timeslots]]
