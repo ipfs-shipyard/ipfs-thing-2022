@@ -145,9 +145,9 @@ description=""
 
 [[timeslots]]
 startTime="16:15"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@cory"]
+title="IPFS Operator"
+description="IPFS cluster kubernetes operator"
 
 [[timeslots]]
 startTime="16:30"
