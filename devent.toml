@@ -51,6 +51,7 @@ teams = [
   ["Number Zero", "", "https://bafybeicftvbmvctgso22rtgvx43bql3g55p3x4a25bfnfkqqv3nwyfzewq.ipfs.dweb.link/number-zero-logo.png" ],
   ["Protocol Labs", "https://protocol.ai", "https://media.graphassets.com/e8bIG2apSUauy2dqK35W" ],
   ["PL Research", "https://research.protocol.ai", "https://research.protocol.ai/images/pl_research_logo.svg" ],
+  ["Fission", "https://fission.codes", "https://kit.fission.app/images/logo-dark-colored.svg" ],
 ]
 
 # this is a Frequently Asked Questions section.
