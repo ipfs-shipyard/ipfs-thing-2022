@@ -99,7 +99,7 @@ description=""
 startTime="14:15"
 speakers=["@expede","@matheus23"]
 title="WNFS"
-description="The WebNative File System adds versioning, recursive encryption, and eventual consistency on top of IPFS"
+description="The WebNative File System adds versioning, cryptree-based encryption, and eventual consistency on top of IPFS"
 
 [[timeslots]]
 startTime="14:30"
