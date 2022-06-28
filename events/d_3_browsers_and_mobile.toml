@@ -87,9 +87,9 @@ description="This talk will look at Peer to Peer URLs and how they can be used i
 
 [[timeslots]]
 startTime="13:40"
-speakers=["@matheus23?"]
-title="WASM/WASI as a common core for IPFS"
-description="this talk is unconfirmed"
+speakers=["@matheus23"]
+title="Using IPFS/IPLD from WASM"
+description="WASM forces us to build pure interfaces that keep the door open for different networking strategies."
 
 [[timeslots]]
 startTime="14:00"
