@@ -83,7 +83,7 @@ description=""
 startTime="13:25"
 speakers=["@RangerMauve?"]
 title="Agregore `fetch()`, a multi-protocol abstraction"
-description="this talk is unconfirmed"
+description="This talk will look at Peer to Peer URLs and how they can be used in tandem with HTTP-like APIs within webapps using custom protocol handlers."
 
 [[timeslots]]
 startTime="13:40"
