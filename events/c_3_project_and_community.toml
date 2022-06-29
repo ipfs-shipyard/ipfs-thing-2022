@@ -60,7 +60,7 @@ Currently, we have reserved a 1/2 day for this track. If enough sessions are pro
 #  speakers    - array of string speaker names. please to use consistent naming across timeslots
 #  title       - string for talk or timeslot title, should be short
 #  description - string describing the timeslot. 1-3 sentences.
-# 
+#
 # Notes:
 # - recommended start: 09:00
 # - recommended lunch: 12:00 or 13:00
@@ -81,9 +81,9 @@ description="A walkthrough of the new RFC process and its motivations, updated s
 
 [[timeslots]]
 startTime="09:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@galargh"]
+title="GitHub Configuration (of IPFS organization) as Code"
+description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
 
 [[timeslots]]
 startTime="10:15"
