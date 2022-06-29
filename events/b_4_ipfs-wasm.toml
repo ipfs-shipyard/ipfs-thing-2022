@@ -105,9 +105,9 @@ description=""
 
 [[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@expede"]
+title="IPVM"
+description="Wasm modules, their arguments, intermediate states, their outputs, and managed effects can be described as IPLD graphs. IPVM is a strategy to support generalized deterministic computation in a serverless style on top of IPFS with optional sidechannel matchmaking on Filecoin, and extend the same benefits of shared data blocks to computation."
 
 [[timeslots]]
 startTime="13:30"
