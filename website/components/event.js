@@ -40,7 +40,7 @@ export function EventCard({ event }) {
 
   return (
     <EventModal event={event}>
-      <div className={classNames('w-full', 'h-full', {isWorkInProgress :'opacity-50'})}>
+      <div className={classNames('w-full', 'h-full', {'opacity-70': isWorkInProgress})}>
         {event.timeslots
           ? <TrackCard event={event} />
           : <BlockCard event={event} />
