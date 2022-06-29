@@ -123,9 +123,9 @@ description=""
 
 [[timeslots]]
 startTime="14:30"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@expede"]
+title="Autocodec"
+description="Autocodec links IPLD graphs to Wasm modules that can decode them. This has applications for dynamically loading codecs, optimizing popular codecs, and sharing decoded blocks directly"
 
 [[timeslots]]
 startTime="15:00"
