@@ -1,12 +1,12 @@
 # the name of your track or event
-name = "Gateways"
+name = "IPFS as Infrastructure"
 
 # the name of the group organizing the event
 org = ""
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@mrogers"
+dri = "@mikeal"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -47,7 +47,7 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-Let's talk HTTP gateways!
+Let's talk about IPFS as infrastructure!
 
 """
 
@@ -78,9 +78,9 @@ description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=["@lidel"]
-title="Gateway Spec"
-description="Dive into the [forthcoming gateway spec](https://github.com/ipfs/specs/pull/283)"
+speakers=[]
+title="Open Slot"
+description=""
 
 [[timeslots]]
 startTime="10:45"
