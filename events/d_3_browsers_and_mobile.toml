@@ -93,7 +93,7 @@ description="WASM forces us to build pure interfaces that keep the door open for
 
 [[timeslots]]
 startTime="14:00"
-speakers=[@fabricedesre]
+speakers=["@fabricedesre"]
 title="IPFS and Content Discovery"
 description="Incumbent Mobile OSes centralize content discovery in their app stores. Let's explore how we could change that with IPFS!"
 
