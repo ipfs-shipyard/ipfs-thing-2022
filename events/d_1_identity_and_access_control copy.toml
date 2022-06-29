@@ -1,12 +1,12 @@
 # the name of your track or event
-name = "Identity & Access Control"
+name = "Building Apps on IPFS"
 
 # the name of the group organizing the event
 org = ""
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@b5"
+dri = "@bmann"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -19,7 +19,7 @@ date = "2022-07-13"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "09:00 - 15:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -48,7 +48,7 @@ tags = ["WIP", "Talks", "Workshops"]
 # will show up when the user clicks the event card.
 description = """
 
-This is a track
+From Developer Experience to User Experience, how do we build full apps on IPFS? What are the goals of IPFS beyond infrastructure?
 
 """
 
@@ -67,45 +67,27 @@ This is a track
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
+speakers=["@bmann"]
+title="Track Intro: Building Apps on IPFS"
+description="Can we make IPFS the protocol a default deployment target like Vercel or Netlify? What does apps on IPFS even mean? Does data portability itself on IPFS something that can be added to any apps? Open discussion, bring your thoughts!"
 
 [[timeslots]]
 startTime="10:00"
+speakers=["@expede"]
+title="Identity, Capabalities, & Private Data"
+description="An overview of Fission's design of DIDs, UCANs & WNFS for app building."
+
+[[timeslots]]
+startTime="11:00"
 speakers=[]
 title="Open Slot"
 description=""
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
+startTime="12:00"
+speakers=["@bmann"]
+title="IPFS and Blockchains"
+description="IPFS has won as a decentralized addressing scheme, but isn't yet heavily used in dapps, just as files and raw storage. Many blockchains point at IPFS addresses. Persistence is something handled separately. How do we encourage more usage of both IPFS, and for solving persistence with Filecoin and other approaches?"
 
 [[timeslots]]
 startTime="13:00"
@@ -115,30 +97,14 @@ description=""
 
 [[timeslots]]
 startTime="14:00"
+speakers=["@b5"]
+title="Application space in IPFS"
+description="this talk will explore tensions in the design of IPLD, multicodecs, and UnixFS, and an opportunity to open up a new class of application development on IPFS by re-orienting toward arbitrary metadata & a WASM runtime"
+
+[[timeslots]]
+startTime="15:00"
 speakers=[]
 title="Open Slot"
 description=""
 
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
 
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
