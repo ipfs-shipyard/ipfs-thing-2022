@@ -19,7 +19,7 @@ date = "2022-07-15"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 12:00"
+times = "09:00 - 12:30
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -87,12 +87,31 @@ description="Discuss evolving web-wide standards & specs that might benefit from
 
 [[timeslots]]
 startTime="10:30"
+speakers=["@bmann"]
+title="Content Addressing Alliance"
+description="IPFS has 'won'. Content addressing is a sustaining innovation that can make its way into many more places. Discuss creating a cross organization 
+Content Addressable Alliance that advocates and promotes the usage of content addressing."
+
+[[timeslots]]
+startTime="11:15"
+speakers=[""]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="11:30
 speakers=["@galargh"]
 title="GitHub Configuration (of IPFS organization) as Code"
 description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
 
 [[timeslots]]
-startTime="11:30"
+startTime="12:00"
+speakers=["@autonome, @mishmosh"]
+title="Funding IPFS Implementations"
+description="Brief session on history of funding IPFS implementations, and updates going forward."
+
+[[timeslots]]
+startTime="12:15"
 speakers=["@mishmosh"]
 title="Reorienting the website"
-description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly surgical co-working session, with a short discussion to kick off and then each participant creating PRs."
+description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly short and surgical discussion to kick off, with plans to follow through during afternoon hack time."
