@@ -103,9 +103,9 @@ description="The WebNative File System adds versioning, cryptree-based encryptio
 
 [[timeslots]]
 startTime="14:30"
-speakers=["@ramfox?"]
+speakers=["@b5"]
 title="Iroh"
-description=""
+description="Introducing Iroh: Performant IPFS for the whole world, right now"
 
 [[timeslots]]
 startTime="14:45"
