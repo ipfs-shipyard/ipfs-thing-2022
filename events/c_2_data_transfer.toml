@@ -85,9 +85,9 @@ description=""
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@matheus23"]
+title="Minimal bandwidth and latency when syncing DAGs"
+description="Bitswap is a bandwidth-optimal algorithm for syncing DAGs, but deeper DAGs cause lots of round-trips. We can borrow ideas from the set reconciliation literature to reduce latency."
 
 [[timeslots]]
 startTime="11:30"
