@@ -151,9 +151,9 @@ description="IPFS cluster kubernetes operator"
 
 [[timeslots]]
 startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@danieln"]
+title="Auspinner"
+description="Auspinner is a CLI tool for pinning CARs to Pinning API Spec compliant services using Bitswap."
 
 [[timeslots]]
 startTime="16:45"
