@@ -79,9 +79,9 @@ description="An overview of Fission's design of DIDs, UCANs & WNFS for app build
 
 [[timeslots]]
 startTime="11:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@ianopolous"]
+title="PKI, Access control and Secure Applications"
+description="A deep dive into the Peergos architecture for identity, access control, privacy and our 3rd-party-application sandbox."
 
 [[timeslots]]
 startTime="12:00"
