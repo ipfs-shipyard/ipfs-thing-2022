@@ -97,12 +97,12 @@ title="Open Slot"
 [[timeslots]]
 startTime="14:45"
 speakers=["@willscott"]
-title="Network indexer decentraliztion roadmap"
+title="Network indexer roadmap"
 
 [[timeslots]]
 startTime="15:30"
-speakers=[]
-title="Open Slot"
+speakers=["@masih"]
+title="How to be an index provider"
 
 [[timeslots]]
 startTime="16:15"
