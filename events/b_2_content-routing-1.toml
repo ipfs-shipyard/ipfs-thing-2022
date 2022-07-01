@@ -36,7 +36,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -80,14 +80,14 @@ speakers=[]
 title="Open Slot"
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-
-[[timeslots]]
-startTime="13:00"
+startTime="12:15"
 speakers=[]
 title="Lunch Break"
+
+[[timeslots]]
+startTime="13:30"
+speakers=[]
+title="Open Slot"
 
 [[timeslots]]
 startTime="14:00"
