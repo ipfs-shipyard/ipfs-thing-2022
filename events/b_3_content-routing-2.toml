@@ -69,9 +69,9 @@ description="this is a description of the talk!"
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
+speakers=["@tschorsch"]
 title="Mechanism Lightning talks"
-description="Intros to mixnets, FHE, PIR, and ORAM"
+description="private set intersection for bitswap - @tschorsch, introductions to other mechanism - TBD"
 
 [[timeslots]]
 startTime="11:30"
@@ -90,8 +90,9 @@ title="Mixnets & Content Routing"
 
 [[timeslots]]
 startTime="12:40"
-speakers=[]
-title="Privacy Pass & Content Routing"
+speakers=["@willscott"]
+title="Funding Private Retrieval"
+description = "Building towards a secure and performant system"
 
 [[timeslots]]
 startTime="13:00"
