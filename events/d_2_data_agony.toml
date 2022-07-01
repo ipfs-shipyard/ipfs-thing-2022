@@ -108,7 +108,7 @@ description=""
 
 [[timeslots]]
 startTime="12:30"
-speakers=[@RangerMauve]
+speakers=["@RangerMauve"]
 title="IPLD on gateways, and with URLs"
 description="This talk will go over how IPLD could be exposed as a first class citizen in gateways and how we can represent links to data with URLs."
 
