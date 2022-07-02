@@ -72,21 +72,21 @@ This track will cover pain points stemming from the way data is structured withi
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
+speakers=["@aschmahmann"]
 title="Welcome standup discussion"
-description=""
+description="What's your vision for working with data in IPFS, and what about how it works today causes you the most agony?"
 
 [[timeslots]]
 startTime="09:30"
-speakers=["@yourname"]
+speakers=["@aschmahmann"]
 title="Track Intro"
-description=""
+description="Why are we here and what do we want to get out of today?"
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["TBD"]
+title="Dealing with block limits"
+description="The 2MiB block limit is a major source of interoperability pain, why does it exist and how can we deal with it?"
 
 [[timeslots]]
 startTime="10:45"
