@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -56,66 +56,67 @@ This track will explore the ways we're currently measuring IPFS, and how we can 
 [[timeslots]]
 startTime="09:00"
 speakers=["@yiannisbot"]
-title="Welcome standup discussion"
+title="The Importance of Network Measurements and Monitoring"
 
 [[timeslots]]
-startTime="09:45"
-speakers=[]
-title="Content Routing Track Intro"
+startTime="09:30"
+speakers=["@Guillaume Michel"]
+title="DHT Routing Table entries: are they up-to-date?"
+description="Every DHT Server peer keeps a list of entries in its routing table in order to be able to communicate and redirect other peers to the peer that is most likely to have the required information. These entries need to be updated in order to keep up with network churn and other events. In this talk we'll describe the methodology we used to identify whether the DHT Routing Table is keeping healthy as well as results about the accuracy of entries."
 
 [[timeslots]]
-startTime="10:00"
-speakers=[""]
-title=""
-description=""
+startTime="10:15"
+speakers=["@Mikel Cortez"]
+title="Provider Records: do they stay alive long enough?"
+description="Provider records help content stay alive in the IPFS network. But they come with several settings that have to be tuned to the right value in order to take into account network churn, but also avoid overloading the network or the end peers. In this talk we'll show what we did to monitor the effectiveness of these settings as well as whether they're effective or need fine-tuning."
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
+startTime="11:00"
+speakers=["@Dennis Trautwein"]
+title="libp2p NAT Hole Punching Success Rate"
+description="As of IPFS v0.13, nodes are equiped with libp2p's NAT hole punching technique. In this session we'll present how effective the technique actually is so far, as well as the methodology we use to measure its success rate."
 
 [[timeslots]]
 startTime="11:45"
 speakers=[]
-title=""
+title="Coffee Break"
+
+[[timeslots]]
+startTime="12:00"
+speakers=["@thibmeu"]
+title="Monitoring Cloudflare IPFS gateway"
+description="Strategies and learnings from monitoring a public IPFS gateway, and what challenges remain."
 
 [[timeslots]]
 startTime="12:30"
-speakers=[]
-title=""
+speakers=["@Adin Schmahmann"]
+title="Parts of the IPFS Stack that could do with more monitoring."
+description="IPFS and libp2p have lots of protocols, components and dozens of settings. Some of them are set after rigorous investigation but others are set experimentally. In this talk we'll pinpoint those items that are in need of monitoring and evaluation."
 
 [[timeslots]]
 startTime="13:00"
-speakers=[]
-title=""
+speakers=[""]
+title="Lunch Break"
 
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title=""
+title="Breakout 1: Topic TBA"
+description="During the morning slots we'll pick items (components, protocols, settings) that need further investigation and more rigorous performance assessment. During the afternoon slots, we'll workshop to derive measurement methodologies for those items. Topics will be proposed here ahead of time, but are subject to change during the event. Proposals are more than welcome."
 
 [[timeslots]]
-startTime="14:45"
+startTime="15:00"
 speakers=[]
-title=""
+title="Breakout 2: Topic TBA"
+description="During the morning slots we'll pick items (components, protocols, settings) that need further investigation and more rigorous performance assessment. During the afternoon slots, we'll workshop to derive measurement methodologies for those items. Topics will be proposed here ahead of time, but are subject to change during the event. Proposals are more than welcome."
 
 [[timeslots]]
-startTime="15:30"
+startTime="16:00"
 speakers=[]
-title=""
+title="Breakout 3: Topic TBA"
+description="During the morning slots we'll pick items (components, protocols, settings) that need further investigation and more rigorous performance assessment. During the afternoon slots, we'll workshop to derive measurement methodologies for those items. Topics will be proposed here ahead of time, but are subject to change during the event. Proposals are more than welcome."
 
 [[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title=""
-
+startTime="17:00"
+speakers=["@yiannisbot"]
+title="Closing and Future Plans"
