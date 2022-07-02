@@ -19,7 +19,7 @@ date = "2022-07-14"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "09:00 - 15:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -74,8 +74,14 @@ Each of these areas
 [[timeslots]]
 startTime="09:00"
 speakers=["@hannahhoward"]
-title="Track Intro & Graphsync in 2022"
-description=""
+title="Welcome to the world of data transfer"
+description="""
+This is track introduction and facilitated discussion to:
+1. Find out why we're here
+2. Help folks get shared understanding on the overall problem space
+3. Identify what we want to accomplish during the day
+"""
+# ^^ This is actually about 15 minutes of content, but it's 30 minutes to allow for starting late and staying on schedule
 
 [[timeslots]]
 startTime="09:30"
@@ -85,9 +91,12 @@ description="stebalien is one of the keepers of 'human spec' on how bitswap work
 
 [[timeslots]]
 startTime="10:00"
-speakers=["@expede?", "@phillip?"]
-title="CAR Pool: Multiparty dag sync with CAR files"
-description=""
+speakers=["@hannah"]
+title="Why everyone hates GraphSync, but maybe shouldn't"
+description="""
+Hannah will give an overview of Graphsync—how it works, what it can do in 2022. 
+We'll also cover some challenges and why it is hard to make GraphSync work well.
+"""
 
 [[timeslots]]
 startTime="10:30"
@@ -97,19 +106,69 @@ description=""
 
 [[timeslots]]
 startTime="10:45"
+speakers=["@expede?", "@phillip?"]
+title="CAR Pool: Multiparty dag sync with CAR files"
+description=""
+
+[[timeslots]]
+startTime="11:15"
 speakers=["@b5"]
 title="What's in a manifest?"
 description="This talk will define a common pattern found in graphsync, bittorrent, dsync, and CAR files: clients fetching an index of the content to optimize data transfer. We'll examine the benefits & drawbacks of this approach, and connect this back to the architecture of IPFS"
 
 [[timeslots]]
-startTime="11:00"
+startTime="11:30"
 speakers=[]
 title="Group Discussion: Data Transfer"
-description=""
+description="Let's talk about what we've learned and next steps"
 
 [[timeslots]]
-startTime="12:30"
+startTime="12:00"
 speakers=[]
 title="Break for Lunch"
 description=""
 
+[[timeslots]]
+startTime="13:15"
+speakers=[]
+titles="Afternoon Planning"
+description="""
+Review what we discussed in the morning for newcomers, and pitch discussions.
+Pitch a 10-15 minute discussion or claim two slots for 30 minutes.
+"""
+
+[[timeslots]]
+startTime="13:30"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="13:45"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="14:00"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="14:15"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="14:30"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="14:45"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
