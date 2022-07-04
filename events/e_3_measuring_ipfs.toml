@@ -48,9 +48,13 @@ tags = ["Talks", "Workshops"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-You get what you measure. And if you're not measuring something, you're not going to get a good signal. We need to get to a point where we can measure the performance of all implementations & optimizing all of them.
+_You can’t improve what you don’t measure and you should measure what (you think) you’ve just improved._
 
-This track will explore the ways we're currently measuring IPFS, and how we can transition toward a culture of improvement.
+We need to get to a point where we can measure the performance of all protocol and system components of the IPFS stack, identify bottlenecks and propose optimizations.
+
+In this track we will present the measurement studies we've kickstarted and will then go on to explore the components that will benefit from more detailed monitoring. We'll also workshop on the details of the methodologies needed in order to actually have this monitoring in place. Ultimately, the session's target is to identify how we can transition towards a culture of protocol measurement, monitoring & optimization.
+
+Anyone is welcome to pop in and bring new items to our attention.
 """
 
 [[timeslots]]
