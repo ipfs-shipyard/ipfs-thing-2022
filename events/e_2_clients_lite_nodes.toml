@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Browsers and Mobile"
+name = "Clients and Light Nodes"
 
 # the name of the group organizing the event
 org = ""
@@ -13,7 +13,7 @@ dri = "@b5"
 website = "https://ipfs-althing.io"
 
 # the start date of the event
-date = "2022-07-15"
+date = "2022-07-14"
 
 # how many days the event lasts (1 - N)
 days = 1
@@ -47,9 +47,11 @@ tags = ["Workshop"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-**The goal of this track is to draft a document for reading and writing IPFS content from a Browser and/or Mobile application.**
+**The goal of this track is to draft a specification for implementing IPFS in a way that separates reading, writing and serving data to and from other applications or contexts, and which can be readily supported in constrained environments such as browsers or mobile devices, and multiple programming languages.**
 
-Web Browers and Mobile Applications are both resource-constrained platforms with very short uptimes. They require us to reinterpret how IPFS should perform at the edge, and at the same time, represent a massive category of use.
+Web Browsers and mobile applications are both resource-constrained platforms with very short uptimes. They require us to reinterpret how IPFS should perform at the edge, and at the same time, represent a massive category of use.
+
+Even desktop web browsers have performance and security models which require either redifinition of what is considered an IPFS "node" today, or at least a clear modularity of behavior to be configurable by vendors.
 
 This track is structured as an _intense_ half-day workshop. It will start with a brief introduction to frame our work, we'll hear lightning talks on use cases, then move to group discussion, using a design document for group iteration.
 """
@@ -81,21 +83,21 @@ description=""
 
 [[timeslots]]
 startTime="13:25"
-speakers=["@RangerMauve?"]
-title="Agregore `fetch()`, a multi-protocol abstraction"
-description="This talk will look at Peer to Peer URLs and how they can be used in tandem with HTTP-like APIs within webapps using custom protocol handlers."
+speakers=[@autonome]
+title="The Case for an IPFS Client Mode"
+description=""
 
 [[timeslots]]
 startTime="13:40"
-speakers=["@matheus23"]
-title="Using IPFS/IPLD from WASM"
-description="WASM forces us to build pure interfaces that keep the door open for different networking strategies."
+speakers=[]
+title="Open Slot: Lightning talk"
+description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=["@fabricedesre"]
-title="IPFS and Content Discovery"
-description="Incumbent Mobile OSes centralize content discovery in their app stores. Let's explore how we could change that with IPFS!"
+speakers=[]
+title="Open Slot: Lightning talk"
+description=""
 
 [[timeslots]]
 startTime="14:10"
@@ -112,8 +114,8 @@ description=""
 [[timeslots]]
 startTime="14:30"
 speakers=[]
-title="Workshop: IPFS light client Reading"
-description="Work as a group to refine a draft document for a light clients reading IPFS data. Draft spec will be provided in advance."
+title="Workshop: IPFS light client/node Reading"
+description="Work as a group to refine a draft document for a light client or node reading IPFS data. Draft spec will be provided in advance."
 
 [[timeslots]]
 startTime="15:40"
@@ -124,5 +126,5 @@ description=""
 [[timeslots]]
 startTime="16:00"
 speakers=[]
-title="Workshop: IPFS light client Writing"
-description="Work as a group to refine a draft document for a light clients writing IPFS data. Draft spec will be provided in advance."
+title="Workshop: IPFS light client/node Writing"
+description="Work as a group to refine a draft document for a light client or node writing IPFS data. Draft spec will be provided in advance."
