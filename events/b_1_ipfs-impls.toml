@@ -80,19 +80,19 @@ description=""
 [[timeslots]]
 startTime="13:30"
 speakers=["@adin?"]
-title="go-ipfs"
+title="Kubo (go-ipfs)"
 description=""
 
 [[timeslots]]
 startTime="13:45"
 speakers=["@lidel"]
 title="IPFS Gateways"
-description="Gateways in the past, present, and future"
+description="Gateways in the past, present, and the future"
 
 [[timeslots]]
 startTime="14:00"
 speakers=["@lidel"]
-title="Companion/Desktop, Brave"
+title="IPFS Companion, IPFS Desktop, and Brave"
 description="Bringing IPFS to the end user"
 
 [[timeslots]]
@@ -111,7 +111,7 @@ description="Introducing Iroh: Performant IPFS for the whole world, right now"
 startTime="14:45"
 speakers=["@hsanjuan"]
 title="IPFS Cluster"
-description="IPFS Cluster is an P2P application that uses the go-ipfs menu with some spices on top"
+description="IPFS Cluster is an P2P application that uses the kubo (go-ipfs) menu with some spices on top"
 
 [[timeslots]]
 startTime="15:00"
