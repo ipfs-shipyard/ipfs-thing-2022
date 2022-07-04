@@ -105,9 +105,9 @@ description=""
 
 [[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@matheus23"]
+title="Using IPFS/IPLD from WASM"
+description="WASM forces us to build pure interfaces that keep the door open for different networking strategies."
 
 [[timeslots]]
 startTime="13:30"
