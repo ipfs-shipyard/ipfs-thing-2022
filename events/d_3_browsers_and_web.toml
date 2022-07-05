@@ -132,6 +132,15 @@ handling content loaded from a CID, publishing to IPFS directly from web content
 or what an event model for IPFS content might be."""
 
 [[timeslots]]
+startTime="15:40"
+speakers=["@marten-seemann"]
+title="Challenges in Browser Connectivity"
+description="While full nodes can use transports like TCP and QUIC, this is not
+an option for web browsers. Instead, we have to fall back to protocols like WebSocket,
+WebTransport and WebRTC. And even for those, the browser API severly limits what we
+can do."
+
+[[timeslots]]
 startTime="16:20"
 speakers=[]
 title="Workshop: Threat modeling IPFS in web browsers"
