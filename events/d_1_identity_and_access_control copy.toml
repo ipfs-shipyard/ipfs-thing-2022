@@ -103,8 +103,8 @@ description="this talk will explore tensions in the design of IPLD, multicodecs,
 
 [[timeslots]]
 startTime="15:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@evgenyponomarev"]
+title="Decentralized Cloud Functions with Fluence & IPFS"
+description="Fluence overview: Aqua p2p language, Marine Wasm runtime, IPFS"
 
 
