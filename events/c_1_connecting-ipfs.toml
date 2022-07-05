@@ -46,9 +46,9 @@ tags = ["Talks", "Workshops"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = """
-
-"""
+description = """Connecting IPFS protocols with other decentralized protocols to 
+meet user needs, often by building and operating infrastructure that brings them together.
+Talks in the morning, then an hour long group discussion on 'Writable Gateway' followed by Unconf."""
 
 # schedule is an array of timeslots objects
 # schema:
@@ -70,34 +70,54 @@ title="Track introduction"
 description=""
 
 [[timeslots]]
-startTime="09:30"
+startTime="09:20"
 speakers=["@alanshaw"]
 title="w3name service & Rise of Elastic IPFS"
 description="Walk through how the w3name service works currently"
 
 [[timeslots]]
-startTime="10:00"
+startTime="9:40"
 speakers=["@ramfox"]
 title="Iroh Cloud overview"
 description=""
 
 [[timeslots]]
-startTime="10:30"
+startTime="10:00"
 speakers=["@hugomrdias"]
 title="Connecting IPFS users and permissions to DIDs with UCAN"
 description=""
 
 [[timeslots]]
-startTime="10:50"
+startTime="10:20"
+speakers=["@vasco-santos"]
+title="Caching IPFS & Bitswap Workers"
+description=""
+
+[[timeslots]]
+startTime="10:40"
 speakers=[""]
 title="Break"
 description=""
 
 [[timeslots]]
 startTime="11:00"
-speakers=["@vasco-santos"]
-title="Caching IPFS & Bitswap Workers"
+speakers=[""]
+title="Open Slot"
 description=""
+
+[[timeslots]]
+startTime="11:20"
+speakers=["@thibmeu"]
+title="IPFS safemode tool"
+description="Policy based content providing for IPFS peers"
+
+
+[[timeslots]]
+startTime="11:40"
+speakers=[""]
+title="Open Slot"
+description=""
+
 
 [[timeslots]]
 startTime="12:00"
