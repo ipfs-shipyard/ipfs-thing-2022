@@ -105,12 +105,11 @@ speakers=[""]
 title="Open Slot"
 description=""
 
-
 [[timeslots]]
 startTime="11:20"
-speakers=[""]
-title="Open Slot"
-description=""
+speakers=["@thibmeu"]
+title="IPFS safemode tool"
+description="Policy based content providing for IPFS peers"
 
 
 [[timeslots]]
