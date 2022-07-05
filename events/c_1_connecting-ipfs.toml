@@ -50,8 +50,6 @@ description = """Connecting IPFS protocols with other decentralized protocols to
 meet user needs, often by building and operating infrastructure that brings them together.
 Talks in the morning, then an hour long group discussion on 'Writable Gateway' followed by Unconf."""
 
-"""
-
 # schedule is an array of timeslots objects
 # schema:
 #  startTime   - string for starting time
