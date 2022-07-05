@@ -77,7 +77,7 @@ title="Welcome standup discussion"
 description="What's your vision for working with data in IPFS, and what about how it works today causes you the most agony?"
 
 [[timeslots]]
-startTime="09:30"
+startTime="09:40"
 speakers=["@aschmahmann"]
 title="Track Intro"
 description="Why are we here and what do we want to get out of today?"
@@ -103,8 +103,8 @@ description=""
 [[timeslots]]
 startTime="11:45"
 speakers=[]
-title="Open Slot"
-description=""
+title="Group Discussion: Abstractions for hash-linked data"
+description="Within IPLD we have a variety of abstractions like codecs, schemas and ADLs. What do we have and what do we need?"
 
 [[timeslots]]
 startTime="12:30"
@@ -121,8 +121,8 @@ description=""
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
-description=""
+title="Group Discussion: UnixFS and what comes next?"
+description="UnixFS has been an IPFS staple for a long time, but it doesn't solve all the use cases people have for describing filesystems. What changes do we want to make and how would we make them?"
 
 [[timeslots]]
 startTime="14:45"
