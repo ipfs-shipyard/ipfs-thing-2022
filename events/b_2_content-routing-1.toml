@@ -76,8 +76,8 @@ title=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=[]
-title="Open Slot"
+speakers=["@folex"]
+title="Domain-specific IPFS content indexer with Aqua"
 
 [[timeslots]]
 startTime="12:15"
