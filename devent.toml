@@ -53,6 +53,7 @@ teams = [
   ["PL Research", "https://research.protocol.ai", "https://research.protocol.ai/images/pl_research_logo.svg" ],
   ["Fission", "https://fission.codes", "https://kit.fission.app/images/logo-dark-colored.svg" ],
   ["Ceramic", "https://ceramic.network", "https://user-images.githubusercontent.com/3909429/177210536-e0834b0f-e313-456f-8bf5-1e5f27b0898a.png" ],
+  ["Fluence", "https://fluence.network", "https://gateway.pinata.cloud/ipfs/QmY1iFhZ6Lde3Tpcwd7ygEDPSJfPuSyGV97iiH2VEj16jB" ],
 ]
 
 # this is a Frequently Asked Questions section.
