@@ -36,7 +36,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -80,14 +80,14 @@ speakers=[]
 title="Open Slot"
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-
-[[timeslots]]
-startTime="13:00"
+startTime="12:15"
 speakers=[]
 title="Lunch Break"
+
+[[timeslots]]
+startTime="13:30"
+speakers=[]
+title="Open Slot"
 
 [[timeslots]]
 startTime="14:00"
@@ -97,12 +97,12 @@ title="Open Slot"
 [[timeslots]]
 startTime="14:45"
 speakers=["@willscott"]
-title="Network indexer decentraliztion roadmap"
+title="Network indexer roadmap"
 
 [[timeslots]]
 startTime="15:30"
-speakers=[]
-title="Open Slot"
+speakers=["@masih"]
+title="How to be an index provider"
 
 [[timeslots]]
 startTime="16:15"

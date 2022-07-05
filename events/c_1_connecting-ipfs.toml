@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "IPFS as Infrastructure"
+name = "Connecting IPFS"
 
 # the name of the group organizing the event
 org = ""
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -47,7 +47,6 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-Let's talk about IPFS as infrastructure!
 
 """
 
@@ -60,84 +59,60 @@ Let's talk about IPFS as infrastructure!
 # 
 # Notes:
 # - recommended start: 09:00
-# - recommended lunch: 12:00 or 13:00
+# - recommended lunch: 12:00
 # - recommended end:   17:00
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
+speakers=["@mikeal"]
+title="Track introduction"
 description=""
 
 [[timeslots]]
 startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
+speakers=["@alanshaw"]
+title="w3name service & Rise of Elastic IPFS"
+description="Walk through how the w3name service works currently"
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["@ramfox"]
+title="Iroh Cloud overview"
 description=""
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
+startTime="10:30"
+speakers=["@hugomrdias"]
+title="Connecting IPFS users and permissions to DIDs with UCAN"
 description=""
 
 [[timeslots]]
-startTime="11:30"
-speakers=[]
+startTime="10:50"
+speakers=[""]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
+startTime="11:00"
+speakers=["@vasco-santos"]
+title="Caching IPFS & Bitswap Workers"
 description=""
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
+startTime="12:00"
 speakers=[]
 title="Lunch Break"
 description=""
 
 [[timeslots]]
+startTime="13:00"
+speakers=[]
+title="Writeable Gateways Discussion"
+description=""
+
+[[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
+title="Unconf"
 description=""

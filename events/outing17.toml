@@ -1,5 +1,5 @@
 # the name of your event
-name = "Social outing"
+name = "Social Outings"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -22,7 +22,7 @@ days = 1
 times = "10:00 - 19:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Inside the Volcano"
+venueName = "(announcing soon)"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
@@ -47,7 +47,7 @@ color="slate"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-Field trip to Þríhnúkagígur volcano:
+Field trips - announced soon!
 
-https://insidethevolcano.com/
+Be prepared for the weather! Bring jackets.
 """
