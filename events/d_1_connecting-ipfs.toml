@@ -127,9 +127,9 @@ description=""
 
 [[timeslots]]
 startTime="13:00"
-speakers=[]
+speakers=["@RangerMauve"]
 title="Writeable Gateways Discussion"
-description=""
+description="This talk will look at the existing state of writable gateways and some potential paths for making them useful for browsers and applications in general"
 
 [[timeslots]]
 startTime="14:00"
