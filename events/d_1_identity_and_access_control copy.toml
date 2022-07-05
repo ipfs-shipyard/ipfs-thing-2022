@@ -103,6 +103,12 @@ description="this talk will explore tensions in the design of IPLD, multicodecs,
 
 [[timeslots]]
 startTime="15:00"
+speakers=["@mohsin"]
+title="CACAO and DID Session Keys"
+description="This talk describes how the Ceramic network uses IPLD-based CACAO (C-hain A-gnostic CA-pability O-bjects) signed using DID Session Keys to provide fine-grained, time-bound access control for users of Web3 applications."
+
+[[timeslots]]
+startTime="15:30"
 speakers=[]
 title="Open Slot"
 description=""
