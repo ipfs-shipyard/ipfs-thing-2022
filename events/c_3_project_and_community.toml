@@ -114,3 +114,9 @@ startTime="12:15"
 speakers=["@mishmosh"]
 title="Reorienting the website"
 description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly short and surgical discussion to kick off, with plans to follow through during afternoon hack time."
+
+[[timeslots]]
+startTime="13:30"
+speakers=["@biglep"]
+title="A month in PL EngRes IPFS Development and how you can be involved"
+description="Learn what happens in a given month in IPFS development for projects like Kubo, js-ipfs, and supporting the wider community.  You should walk away with better insight into venues you can engage the maintainers and ideas/input will be welcome as well."
