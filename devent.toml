@@ -31,7 +31,7 @@ logo="ipfs-thing-logo.png"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="background.png"
+bgimg="harpa.jpg"
 
 # the organizers of the devent (usually a group)
 org="the IPFS Team"
