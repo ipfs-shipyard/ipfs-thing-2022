@@ -165,9 +165,9 @@ description=""
 
 [[timeslots]]
 startTime="17:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@guseggert"]
+title="libipfs"
+description="libipfs is an upcoming library of IPFS components for building IPFS implementations"
 
 [[timeslots]]
 startTime="17:15"
