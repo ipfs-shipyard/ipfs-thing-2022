@@ -10,7 +10,7 @@ dri = "@bmann"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = "https://ipfs-thing.events/"
 
 # the start date of the event
 date = "2022-07-13"
@@ -19,7 +19,7 @@ date = "2022-07-13"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 15:00"
+times = "09:00 - 16:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -72,16 +72,10 @@ title="Track Intro: Building Apps on IPFS"
 description="Can we make IPFS the protocol a default deployment target like Vercel or Netlify? What does apps on IPFS even mean? Does data portability itself on IPFS something that can be added to any apps? Open discussion, bring your thoughts!"
 
 [[timeslots]]
-startTime="10:00"
-speakers=["@expede"]
+startTime="9:30"
+speakers=["@expede, @ianopolous, @smrz2001"]
 title="Identity, Capabalities, & Private Data"
-description="An overview of Fission's design of DIDs, UCANs & WNFS for app building."
-
-[[timeslots]]
-startTime="11:00"
-speakers=[]
-title="Open Slot"
-description=""
+description="9:30am - 11am. @expede - Fission Webnative SDK: DIDs, UCANs & WNFS, @ianopolous PeerGos architecture, @smrz2001 Ceramic, CACAO, DID Session Keys. 3 short 15min overviews followed by 45min of discussion on working together."
 
 [[timeslots]]
 startTime="12:00"
@@ -103,8 +97,14 @@ description="this talk will explore tensions in the design of IPLD, multicodecs,
 
 [[timeslots]]
 startTime="15:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@evgenyponomarev"]
+title="IPFS + Functions (TBD)"
+description="TBD"
+
+[[timeslots]]
+startTime="16:00"
+speakers=["@bmann]
+title="Wrap Up Session"
+description="Come together and review all issues and points of discussion harvested during the day. Assign follow ups, working group creation, and other connections as needed (aim for 30min)"
 
 
