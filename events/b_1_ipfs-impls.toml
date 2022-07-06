@@ -171,8 +171,8 @@ description=""
 
 [[timeslots]]
 startTime="17:15"
-speakers=[]
-title="Open Slot"
+speakers=["@achingbrain"]
+title="js-ipfs"
 description=""
 
 [[timeslots]]
