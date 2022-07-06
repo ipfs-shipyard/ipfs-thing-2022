@@ -135,10 +135,10 @@ or what an event model for IPFS content might be."""
 startTime="15:40"
 speakers=["@marten-seemann"]
 title="Challenges in Browser Connectivity"
-description="While full nodes can use transports like TCP and QUIC, this is not
+description="""While full nodes can use transports like TCP and QUIC, this is not
 an option for web browsers. Instead, we have to fall back to protocols like WebSocket,
 WebTransport and WebRTC. And even for those, the browser API severly limits what we
-can do."
+can do."""
 
 [[timeslots]]
 startTime="16:20"
