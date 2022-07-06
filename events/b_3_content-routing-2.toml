@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -48,7 +48,8 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-
+Offering strong privacy properties in content routing is a critical concern for decentralized networking.
+This track will cover current efforts to improve content routing privacy, and potential opportunities to do even
 """
 
 [[timeslots]]
@@ -69,9 +70,9 @@ description="this is a description of the talk!"
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
+speakers=["@tschorsch"]
 title="Mechanism Lightning talks"
-description="Intros to mixnets, FHE, PIR, and ORAM"
+description="private set intersection for bitswap - @tschorsch, introductions to other mechanism - TBD"
 
 [[timeslots]]
 startTime="11:30"
@@ -84,22 +85,24 @@ speakers=["@yiannis"]
 title="Use cases for privacy in LibP2P"
 
 [[timeslots]]
-startTime="12:20"
+startTime="12:05"
+speakers=[]
+title="Lunch Break"
+
+
+[[timeslots]]
+startTime="13:30"
 speakers=["@elizabeth"]
 title="Mixnets & Content Routing"
 
 [[timeslots]]
-startTime="12:40"
-speakers=[]
-title="Privacy Pass & Content Routing"
+startTime="13:50"
+speakers=["@willscott"]
+title="Funding Private Retrieval"
+description = "Building towards a secure and performant system"
 
 [[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-
-[[timeslots]]
-startTime="14:00"
+startTime="14:10"
 speakers=["@Guillaume Michel"]
 title="Double Hashing & Content Routing"
 

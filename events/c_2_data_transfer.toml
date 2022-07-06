@@ -19,7 +19,7 @@ date = "2022-07-14"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "09:00 - 15:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -47,8 +47,14 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
+The purpose of this track is to gather teams working on content-addressed data transfer protocols, focusing on four key areas:
 
-This is a track
+1. Multi-party data transfer
+2. Efficient graph synchronization
+3. connection integrity
+4. connection saturation
+
+Each of these areas 
 
 """
 
@@ -67,78 +73,96 @@ This is a track
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
+speakers=["@hannahhoward"]
+title="Welcome to the world of data transfer"
+description="""
+This is track introduction and facilitated discussion to:
+1. Find out why we're here
+2. Help folks get shared understanding on the overall problem space
+3. Identify what we want to accomplish during the day
+"""
+# ^^ This is actually about 15 minutes of content, but it's 30 minutes to allow for starting late and staying on schedule
 
 [[timeslots]]
 startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
+speakers=["@stebalien?"]
+title="bitswap AMA"
+description="stebalien is one of the keepers of 'human spec' on how bitswap works in practice. In this talk he'll give a brain dump of bitswap, and do a Q & A on the details"
 
 [[timeslots]]
 startTime="10:00"
+speakers=["@hannah"]
+title="Why everyone hates GraphSync, but maybe shouldn't"
+description="""
+Hannah will give an overview of Graphsync—how it works, what it can do in 2022. 
+We'll also cover some challenges and why it is hard to make GraphSync work well.
+"""
+
+[[timeslots]]
+startTime="10:30"
 speakers=[]
-title="Open Slot"
+title="Break"
 description=""
 
 [[timeslots]]
 startTime="10:45"
+speakers=["@expede?", "@phillip?"]
+title="CAR Pool: Multiparty dag sync with CAR files"
+description=""
+
+[[timeslots]]
+startTime="11:15"
+speakers=["@b5"]
+title="What's in a manifest?"
+description="This talk will define a common pattern found in graphsync, bittorrent, dsync, and CAR files: clients fetching an index of the content to optimize data transfer. We'll examine the benefits & drawbacks of this approach, and connect this back to the architecture of IPFS"
+
+[[timeslots]]
+startTime="11:30"
+speakers=[]
+title="Group Discussion: Data Transfer"
+description="Let's talk about what we've learned and next steps"
+
+[[timeslots]]
+startTime="12:00"
+speakers=[]
+title="Break for Lunch"
+description=""
+
+[[timeslots]]
+startTime="13:15"
+speakers=[]
+titles="Afternoon Planning"
+description="""
+Review what we discussed in the morning for newcomers, and pitch discussions.
+Pitch a 10-15 minute discussion or claim two slots for 30 minutes.
+"""
+
+[[timeslots]]
+startTime="13:30"
 speakers=["@matheus23"]
 title="Minimal bandwidth and latency when syncing DAGs"
 description="Bitswap is a bandwidth-optimal algorithm for syncing DAGs, but deeper DAGs cause lots of round-trips. We can borrow ideas from the set reconciliation literature to reduce latency."
 
 [[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
-description=""
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="14:15"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
+
+[[timeslots]]
+startTime="14:30"
+speakers=[]
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"
 
 [[timeslots]]
 startTime="14:45"
 speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
+titles="Open Slot"
+description="Afternoon slots are open for pitches from anyone"

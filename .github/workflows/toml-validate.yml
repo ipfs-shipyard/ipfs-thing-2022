@@ -1,0 +1,16 @@
+on: [ push, pull_request ]
+name: TOML
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    name: Validate
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
+        with:
+          go-version: "1.18.x"
+      - name: Install TOML validator
+        run: go install github.com/martinlindhe/validtoml@b2ddc9381073dacb7ca287d87686e9e1f50af27e
+      - name: Validate all TOML files
+        run: find . -name '*.toml' -exec validtoml {} \;
