@@ -73,7 +73,7 @@ description="Can we make IPFS the protocol a default deployment target like Verc
 
 [[timeslots]]
 startTime="9:30"
-speakers=["@expede, @ianopolous, @smrz2001"]
+speakers=["@expede", "@ianopolous", "@smrz2001"]
 title="Identity, Capabalities, & Private Data"
 description="9:30am - 11am. @expede - Fission Webnative SDK: DIDs, UCANs & WNFS, @ianopolous PeerGos architecture, @smrz2001 Ceramic, CACAO, DID Session Keys. 3 short 15min overviews followed by 45min of discussion on working together."
 
@@ -103,7 +103,7 @@ description="TBD"
 
 [[timeslots]]
 startTime="16:00"
-speakers=["@bmann]
+speakers=["@bmann"]
 title="Wrap Up Session"
 description="Come together and review all issues and points of discussion harvested during the day. Assign follow ups, working group creation, and other connections as needed (aim for 30min)"
 
