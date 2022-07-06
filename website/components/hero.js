@@ -7,7 +7,7 @@ export default function Hero({config}) {
   bg-center bg-no-repeat bg-cover bg-color"
   style={{backgroundImage: `url(${config.devent.bgimg})`}} >
 <div className="relative overflow-hidden text-gray-300 lg:flex w-full
-   bg-black/80
+   bg-black/40
    ">
 <div className="relative overflow-hidden text-gray-300 lg:flex w-full">
 <div className="container lg:flex max-w-8xl mx-auto">
