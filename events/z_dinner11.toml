@@ -6,7 +6,7 @@ org = "Protocol Labs"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@jbenet"
+dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
