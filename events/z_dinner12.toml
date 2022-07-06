@@ -22,7 +22,7 @@ days = 1
 times = "19:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "La Primavera @ Harpa"
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
