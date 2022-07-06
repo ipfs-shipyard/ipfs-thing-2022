@@ -59,9 +59,9 @@ title="Content Routing Intro: Performance"
 
 [[timeslots]]
 startTime="10:30"
-speakers=["various"]
+speakers=["@guseggert", "@gammazero", "@ajnavarro"]
 title="State of content routing lightning talks"
-description="@TBD on IPFS DHT, @gammazero on Network Indexer, @TBD on Reframe"
+description="@guseggert on IPFS DHT, @gammazero on Network Indexer, @ajnavarro on Reframe"
 
 [[timeslots]]
 startTime="11:00"
