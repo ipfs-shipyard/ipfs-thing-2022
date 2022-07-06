@@ -133,9 +133,11 @@ description=""
 
 [[timeslots]]
 startTime="15:45"
-speakers=["@mikeal?"]
-title="IPFS Elastic Provider"
-description=""
+speakers=["@mikeal"]
+title="Web Scale IPFS"
+description="""An brief overview of the read and write pipelines in 
+nft.storage and web3.storage implementing IPFS protocols across several 
+services and infra providers"""
 
 [[timeslots]]
 startTime="16:00"
