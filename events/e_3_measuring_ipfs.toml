@@ -98,7 +98,7 @@ description="Strategies and learnings from monitoring a public IPFS gateway, and
 
 [[timeslots]]
 startTime="14:00"
-speakers=["@Adin Schmahmann"]
+speakers=["@aschmahmann"]
 title="Parts of the IPFS Stack that could do with more monitoring."
 description="IPFS and libp2p have lots of protocols, components and dozens of settings. Some of them are set after rigorous investigation but others are set experimentally. In this talk we'll pinpoint those items that are in need of monitoring and evaluation."
 
