@@ -177,9 +177,9 @@ description=""
 
 [[timeslots]]
 startTime="17:30"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@alari"]
+title="Aqua language"
+description="Aqua is a π-calculus based language for scripting decentralized protocols on top of libp2p, IPFS and beyond."
 
 [[timeslots]]
 startTime="17:45"
