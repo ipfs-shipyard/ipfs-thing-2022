@@ -112,6 +112,12 @@ description=""
 
 [[timeslots]]
 startTime="14:40"
+speakers=["@ikreymer"]
+title="Saving the web to IPFS while you browse with Webrecorder tools"
+description="Will provide a quick overview of Webrecorder tools and how they support saving web sites using the browser, from a single page to many TBs of data, and accessing high fidelity web archives from IPFS. Will cover ongoing work, research and challenges."
+
+[[timeslots]]
+startTime="14:50"
 speakers=[]
 title="Open Slot: Lightning talk"
 description=""
