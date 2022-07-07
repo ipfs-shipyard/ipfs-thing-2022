@@ -48,10 +48,10 @@ tags = ["Talks", "Workshops"]
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-**Explore building scalable virtual worlds.**
-- IPFS and content addressing are great for virtual worlds.
-- 
-- Massive scale 
+**New directions for scalable virtual worlds.**
+
+A half-day workshop exploring how to build scalable virtual worlds, and exploring new directions.
+
 """
 
 [[timeslots]]
@@ -67,8 +67,8 @@ title="Building the Monaverse - Composable Rooms with IPFS"
 [[timeslots]]
 startTime="13:15"
 speakers=[""]
-title="Open Slot"
-description="Open Slot"
+title="Open Workshop Slot"
+description="Open Workshop Slot"
 
 [[timeslots]]
 startTime="13:45"
@@ -78,6 +78,6 @@ description="TBD"
 
 [[timeslots]]
 startTime="14:30"
-speakers=["Hilmar Pétursson", "@jbenet"]
+speakers=["CCP"]
 title="Visions for the Open Metaverse"
-description="Fireside Chat -- Hilmar Petursson & Juan Benet"
+description="Fireside Chat (TBD)"
