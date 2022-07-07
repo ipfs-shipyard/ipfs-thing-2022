@@ -28,7 +28,7 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "150"
+attendees = "50"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
