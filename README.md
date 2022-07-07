@@ -41,6 +41,18 @@ Tracks are a group of sessions with a common theme.
 
 Room allocations at the Harpa are still TBD. Leave it blank for now, we'll try to assign rooms closer to the event.
 
+### CSV dump of talks
+
+To get a dump of talks/speakers for custom analysis, you can:
+1. Install the python version of yq: https://github.com/kislyuk/yq
+  - ``brew install python-yq``
+2. Run a command like ``tomlq -r '.name as $track_name | .date as $track_date | .timeslots[] | [$track_name, $track_date, .startTime, .title, (.speakers | join(" "))] | @csv' *.toml``
+
+The above was gleaned from:
+1. https://stackoverflow.com/a/71290386/16318
+2. https://stackoverflow.com/a/32967407/16318
+3. https://stackoverflow.com/a/38693695/16318
+
 ## Developers
 
 ### What is `devent-website`?
