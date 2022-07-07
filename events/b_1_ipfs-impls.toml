@@ -183,6 +183,6 @@ description="Aqua is a π-calculus based language for scripting decentralized pr
 
 [[timeslots]]
 startTime="17:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@ianopolous"]
+title="Peergos private filesystem"
+description="Peergos builds on IPFS to add quantum-resistant, metadata protected, encryption with Cryptree+, block level access control with authed-bitswap, and a super minimal ipld daemon with ipfs-nucleus, whilst maintaining autoscaling and efficient modification properties of IPFS."
