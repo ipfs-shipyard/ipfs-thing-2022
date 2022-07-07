@@ -1,5 +1,5 @@
 # the name of your event
-name = "Welcome Dinner"
+name = "Dinner"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -13,7 +13,7 @@ dri = "@yunigraham"
 # website = ""
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-07-14"
 
 # how many days the event lasts (1 - N)
 days = 1
@@ -28,7 +28,7 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "150"
+attendees = "100"
 
 
 # these is unsued:

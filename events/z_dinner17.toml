@@ -6,14 +6,14 @@ org = "Protocol Labs"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@jbenet"
+dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
 # website = ""
 
 # the start date of the event
-date = "2022-07-16"
+date = "2022-07-17"
 
 # how many days the event lasts (1 - N)
 days = 1
@@ -28,7 +28,7 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "300"
+attendees = "150"
 
 
 # these is unsued:

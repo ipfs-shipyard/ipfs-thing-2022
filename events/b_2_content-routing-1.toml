@@ -59,9 +59,9 @@ title="Content Routing Intro: Performance"
 
 [[timeslots]]
 startTime="10:30"
-speakers=["various"]
+speakers=["@guseggert", "@gammazero", "@ajnavarro"]
 title="State of content routing lightning talks"
-description="@TBD on IPFS DHT, @gammazero on Network Indexer, @TBD on Reframe"
+description="@guseggert on IPFS DHT, @gammazero on Network Indexer, @ajnavarro on Reframe"
 
 [[timeslots]]
 startTime="11:00"
@@ -76,8 +76,8 @@ title=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=[]
-title="Open Slot"
+speakers=["@folex"]
+title="Domain-specific IPFS content indexer with Aqua"
 
 [[timeslots]]
 startTime="12:15"
@@ -91,8 +91,8 @@ title="Open Slot"
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
+speakers=["@vukolic", "@adlrocha"]
+title="Hierarchical Consensus for Content Routing"
 
 [[timeslots]]
 startTime="14:45"

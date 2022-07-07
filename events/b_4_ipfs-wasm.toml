@@ -81,7 +81,7 @@ description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=["@adin"]
+speakers=["@aschmahmann"]
 title="wasm-ipld demo and discussion"
 description="We have wasm-ipld code that can run in kubo and work with gateways. Let's chat about it and what comes next"
 
