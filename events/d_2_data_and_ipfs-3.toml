@@ -1,12 +1,12 @@
 # the name of your track or event
-name = "Data agony and IPFS"
+name = "Data and IPFS: Unconf"
 
 # the name of the group organizing the event
 org = ""
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@aschmahmann"
+dri = "@hannahhoward+@aschmahmann"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -19,7 +19,7 @@ date = "2022-07-14"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 17:00"
+times = "13:00 - 17:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -48,13 +48,10 @@ tags = ["WIP", "Talks", "Workshops"]
 # will show up when the user clicks the event card.
 description = """
 
-This track will cover pain points stemming from the way data is structured within IPFS & IPLD
+Part 3 of the "Data and IPFS" track is an unconference for any topics related to
+either data models or data transfer on IPFS.
 
-- MerkleDAG views, multi-block data abstractions, ingesting Filestore at rest
-- Making UnixFS not special (e.g. rendering other types of files/folders on gateways)
-- The relationships between Checksums, Blocks, etc.
-- Compatibility with existing (and new) hash linked data structures
-
+We may also schedule follow-ups to topics covered in either Part 1 or Part 2
 """
 
 # schedule is an array of timeslots objects
@@ -70,80 +67,93 @@ This track will cover pain points stemming from the way data is structured withi
 # - recommended end:   17:00
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
-[[timeslots]]
-startTime="09:00"
-speakers=["@aschmahmann"]
-title="Welcome standup discussion"
-description="What's your vision for working with data in IPFS, and what about how it works today causes you the most agony?"
-
-[[timeslots]]
-startTime="09:40"
-speakers=["@aschmahmann"]
-title="Track Intro"
-description="Why are we here and what do we want to get out of today?"
-
-[[timeslots]]
-startTime="10:00"
-speakers=["TBD"]
-title="Dealing with block limits"
-description="The 2MiB block limit is a major source of interoperability pain, why does it exist and how can we deal with it?"
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Group Discussion: Abstractions for hash-linked data"
-description="Within IPLD we have a variety of abstractions like codecs, schemas and ADLs. What do we have and what do we need?"
-
-[[timeslots]]
-startTime="12:30"
-speakers=["@RangerMauve"]
-title="IPLD on gateways, and with URLs"
-description="This talk will go over how IPLD could be exposed as a first class citizen in gateways and how we can represent links to data with URLs."
 
 [[timeslots]]
 startTime="13:00"
+speakers=["@hannahhoward", "aschmahmann"]
+titles="Intro and Afternoon Planning"
+description="""
+Review what we has already been discussed in parts 1 and 2, and pitch topics.
+Pitch a 10-15 minute discussion or claim two slots for 30 minutes.
+"""
+
+[[timeslots]]
+startTime="13:30"
 speakers=[]
-title="Lunch Break"
-description=""
+titles="Open Slot"
+description="TBD"
+
+[[timeslots]]
+startTime="13:45"
+speakers=[]
+titles="Open Slot"
+description="TBD"
 
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Group Discussion: UnixFS and what comes next?"
-description="UnixFS has been an IPFS staple for a long time, but it doesn't solve all the use cases people have for describing filesystems. What changes do we want to make and how would we make them?"
+titles="Open Slot"
+description="TBD"
+
+[[timeslots]]
+startTime="14:15"
+speakers=[]
+titles="Open Slot"
+description="TBD"
+
+[[timeslots]]
+startTime="14:30"
+speakers=[]
+titles="Open Slot"
+description="TBD"
 
 [[timeslots]]
 startTime="14:45"
 speakers=[]
-title="Open Slot"
+titles="Open Slot"
+description="TBD"
+
+[[timeslots]]
+startTime="15:00"
+speakers=[]
+titles="Break"
 description=""
+
+[[timeslots]]
+startTime="15:15"
+speakers=[]
+titles="Open Slot"
+description="TBD"
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Open Slot"
-description=""
+titles="Open Slot"
+description="TBD"
+
+[[timeslots]]
+startTime="15:45"
+speakers=[]
+titles="Open Slot"
+description="TBD"
+
+[[timeslots]]
+startTime="16:00"
+speakers=[]
+titles="Open Slot"
+description="TBD"
 
 [[timeslots]]
 startTime="16:15"
 speakers=[]
-title="Break"
-description=""
+titles="Open Slot"
+description="TBD"
 
 [[timeslots]]
 startTime="16:30"
 speakers=[]
-title="Open Slot"
-description=""
+titles="Report backs and closing"
+description="""
+Group discussions summarize learnings for everyone. Review overall learnings from
+parts 1, 2, and 3 and discuss next steps
+"""
