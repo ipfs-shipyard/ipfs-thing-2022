@@ -97,9 +97,9 @@ description="this talk will explore tensions in the design of IPLD, multicodecs,
 
 [[timeslots]]
 startTime="15:00"
-speakers=["@evgenyponomarev"]
-title="IPFS + Functions (TBD)"
-description="TBD"
+speakers=["@evgenyponomarev, @aronchick"]
+title="Compute + IPFS"
+description="The Compute Over Data Working Group is just getting started. We'll have intros from WG members on their compute solutions and how they intersect with IPFS, and how they see powering appss."
 
 [[timeslots]]
 startTime="16:00"
