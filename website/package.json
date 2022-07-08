@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
+    "prebuild": "node scripts/events.json.cjs > public/events.json",
     "build": "next build",
     "start": "next start",
     "export": "next export",
