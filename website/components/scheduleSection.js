@@ -18,7 +18,7 @@ export default function ScheduleSection({ events, config }) {
           {config.schedule?.description && <Markdown>{config.schedule.description}</Markdown>}
         </div>
     </div>
-    <div className="w-full">
+    <div className="sm:w-full container mx-auto max-w-8xl">
       <ScrollContainer className="scroll-container">
         <div className="flex-none min-h-full w-full">
           <div className="content">
