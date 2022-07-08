@@ -47,14 +47,15 @@ color="slate"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-We are arranging some exciting activties. Sign up is first come, first serve. These will run simultaneously.
+We are arranging some exciting activties. Sign up is first come, first serve. These will run simultaneously. 
+*Please note, in order to secure the non-private tours, we need an accuate number of RSVPs to complete the booking. If this is something you're interested in attending, please sign up. 
 
-Links to the sign-up will be available soon, but you can look forward to:
 
-- Golden Circle Tour
-- Volcano and Reykjanes Hike
-- Reykjavik City Walk
-- Whale Watching & Videy Island Visit
+Sign up through the links below: 
 
-Be prepared for the weather! Bring jackets.
+- *Golden Circle Tour: https://lu.ma/ipfsthing-gc-11
+- *Volcanic Wonders of Reykjanes Geopark: https://lu.ma/ipfsthing-hotlava-11
+- Whale Watching & Videy Island Visit: https://lu.ma/ipfsthing-whales-11
+
+Be prepared for the weather! Bring jackets and wear comfortable, water resistant shoes. 
 """
