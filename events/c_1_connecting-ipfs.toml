@@ -72,8 +72,8 @@ description=""
 [[timeslots]]
 startTime="09:20"
 speakers=["@alanshaw"]
-title="w3name service & Rise of Elastic IPFS"
-description="Walk through how the w3name service works currently"
+title="w3name: IPNS republishing as a service"
+description="Walk through and demo of how the w3name service works currently"
 
 [[timeslots]]
 startTime="9:40"
@@ -101,9 +101,9 @@ description=""
 
 [[timeslots]]
 startTime="11:00"
-speakers=[""]
-title="Open Slot"
-description=""
+speakers=["@francardoso93"]
+title="The Elastic IPFS implementation in AWS"
+description="A run through of Elastic IPFS as it has been implemented in AWS: an in-depth discussion of the various sub-systems of Elastic IPFS, explaining the function(s) of each, the choices made and why, and the trade offs."
 
 [[timeslots]]
 startTime="11:20"
@@ -114,9 +114,9 @@ description="Policy based content providing for IPFS peers"
 
 [[timeslots]]
 startTime="11:40"
-speakers=[""]
-title="Open Slot"
-description=""
+speakers=["@alanshaw"]
+title="The Rise of Elastic IPFS"
+description="The journey from initial working implementation to production system. A short story of metrics and data in graphs."
 
 
 [[timeslots]]
