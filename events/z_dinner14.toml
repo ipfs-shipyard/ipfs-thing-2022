@@ -1,5 +1,5 @@
 # the name of your event
-name = "Dinner"
+name = ""Sunset" Dinner and Social"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -10,7 +10,7 @@ dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = ""
+# website = "https://lu.ma/ipfsthing-sunsetdinner-14"
 
 # the start date of the event
 date = "2022-07-14"
@@ -19,13 +19,13 @@ date = "2022-07-14"
 days = 1
 
 # the event times (shows up in the event card)
-times = "19:00 - 22:00"
+times = "19:00 - 24:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "Ballroom B & Sunset"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Reykjavik Edition Hotel"
 
 # the max number of attendees of the event
 attendees = "100"
@@ -48,7 +48,5 @@ color="indigo"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-This is a welcome dinner for all conference attendees.
-
-Come hungry! 😋
+We are lucky to grab Sunset at the Reykjavik Edition. This event space hasn't even opened for business. Food will be served upstairs in the ballroom with music and drinks to follow downstairs in their club, Sunset.
 """
