@@ -10,7 +10,7 @@ dri = "@jbenet" # @willscott
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://discuss.ipfs.io/t/2022-07-13-content-routing-1-performance/14622"
+website = "https://discuss.ipfs.io/t/2022-07-13-content-routing-1-performance/14633"
 
 # the start date of the event
 date = "2022-07-13"
