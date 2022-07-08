@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Data Transfer"
+name = "Data And IPFS: Transfer"
 
 # the name of the group organizing the event
 org = ""
@@ -19,7 +19,7 @@ date = "2022-07-14"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 15:00"
+times = "09:00 - 12:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -39,7 +39,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -47,14 +47,12 @@ tags = ["WIP", "Talks", "Workshops"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-The purpose of this track is to gather teams working on content-addressed data transfer protocols, focusing on four key areas:
+Part 2 of the "Data And IPFS" track will focus on content-addressed data transfer protocols, focusing on four key areas:
 
 1. Multi-party data transfer
 2. Efficient graph synchronization
 3. connection integrity
 4. connection saturation
-
-Each of these areas 
 
 """
 
@@ -121,54 +119,3 @@ startTime="11:30"
 speakers=[]
 title="Group Discussion: Data Transfer"
 description="Let's talk about what we've learned and next steps"
-
-[[timeslots]]
-startTime="12:00"
-speakers=[]
-title="Break for Lunch"
-description=""
-
-[[timeslots]]
-startTime="13:15"
-speakers=[]
-titles="Afternoon Planning"
-description="""
-Review what we discussed in the morning for newcomers, and pitch discussions.
-Pitch a 10-15 minute discussion or claim two slots for 30 minutes.
-"""
-
-[[timeslots]]
-startTime="13:30"
-speakers=[]
-titles="Open Slot"
-description="Afternoon slots are open for pitches from anyone"
-
-[[timeslots]]
-startTime="13:45"
-speakers=[]
-titles="Open Slot"
-description="Afternoon slots are open for pitches from anyone"
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-titles="Open Slot"
-description="Afternoon slots are open for pitches from anyone"
-
-[[timeslots]]
-startTime="14:15"
-speakers=[]
-titles="Open Slot"
-description="Afternoon slots are open for pitches from anyone"
-
-[[timeslots]]
-startTime="14:30"
-speakers=[]
-titles="Open Slot"
-description="Afternoon slots are open for pitches from anyone"
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-titles="Open Slot"
-description="Afternoon slots are open for pitches from anyone"
