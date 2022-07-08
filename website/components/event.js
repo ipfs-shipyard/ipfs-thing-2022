@@ -40,7 +40,7 @@ export function EventCard({ event }) {
 
   return (
     <EventModal event={event}>
-      <div className={classNames('w-full', 'h-full', {'opacity-70': isWorkInProgress})}>
+      <div className={classNames('w-full', 'h-full', 'overflow-hidden', {'opacity-70': isWorkInProgress})}>
         {event.timeslots
           ? <TrackCard event={event} />
           : <BlockCard event={event} />
@@ -87,7 +87,7 @@ function TrackCard({ event }) {
       <div>
         👤 {event.attendees} - {event.difficulty}
       </div>
-      <div className="text-gray-900 text-sm mt-3">
+      <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
         {event.dri}
       </div>
 
