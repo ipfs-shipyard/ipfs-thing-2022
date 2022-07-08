@@ -50,10 +50,13 @@ description = """
 
 Part 1 of the "Data and IPFS" track will cover pain points stemming from the way data is structured within IPFS & IPLD
 
-- MerkleDAG views, multi-block data abstractions, ingesting Filestore at rest
 - Making UnixFS not special (e.g. rendering other types of files/folders on gateways)
 - The relationships between Checksums, Blocks, etc.
 - Compatibility with existing (and new) hash linked data structures
+- Abstractions we have and want for working with hash linked data structures
+
+People should come prepared with a prompt for "What's your vision for working with data in IPFS, and what about how it works today causes you the most pain?".
+Write it up in https://pl-strflt.notion.site/Your-vision-for-IPFS-and-Data-15087c9885db48df8af4f11fc62d15e1. See the welcome discussion for slot for more info.
 
 """
 
@@ -73,41 +76,58 @@ Part 1 of the "Data and IPFS" track will cover pain points stemming from the way
 [[timeslots]]
 startTime="13:00"
 speakers=["@aschmahmann"]
-title="Welcome standup discussion"
-description="What's your vision for working with data in IPFS, and what about how it works today causes you the most agony?"
+title="Welcome standup discussion and track intro"
+description="""
+A track introduction and discussion to figure out:
+1. Why each of us are here and the backgrounds/use cases motivating us
+2. Introduce an overview of our shared problem space
+3. Identify what we want to accomplish during the day
+
+People should come prepared with a prompt for "What's your vision for working with data in IPFS, and what about how it works today causes you the most pain?".
+Write it up in https://pl-strflt.notion.site/Your-vision-for-IPFS-and-Data-15087c9885db48df8af4f11fc62d15e1.
+"""
 
 [[timeslots]]
-startTime="13:40"
+startTime="13:30"
 speakers=["@aschmahmann"]
-title="Track Intro"
-description="Why are we here and what do we want to get out of today?"
-
-[[timeslots]]
-startTime="14:00"
-speakers=["TBD"]
 title="Dealing with block limits"
 description="The 2MiB block limit is a major source of interoperability pain, why does it exist and how can we deal with it?"
 
 [[timeslots]]
-startTime="14:45"
+startTime="14:00"
+speakers=["@RangerMauve"]
+title="IPLD on gateways, and with URLs"
+description="This talk will go over how IPLD could be exposed as a first class citizen in gateways and how we can represent links to data with URLs."
+
+[[timeslots]]
+startTime="14:30"
 speakers=[]
 title="Group Discussion: Abstractions for hash-linked data"
 description="Within IPLD we have a variety of abstractions like codecs, schemas and ADLs. What do we have and what do we need?"
 
 [[timeslots]]
-startTime="15:30"
+startTime="15:15"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="15:45"
+startTime="15:30"
+speakers=["@aschmahmann"]
+title="What's with the IPLD Data Model, and what happens when you try and represent it - WAC"
+description="""
+The WebAssembly Codec was designed to serialize and transport IPLD Data Model data for the purposes of building IPLD tooling in WASM.
+This talk will describe today's IPLD Data Model as well as how WAC is used to represent it.
+"""
+
+[[timeslots]]
+startTime="16:00"
 speakers=[]
 title="Group Discussion: UnixFS and what comes next?"
 description="UnixFS has been an IPFS staple for a long time, but it doesn't solve all the use cases people have for describing filesystems. What changes do we want to make and how would we make them?"
 
 [[timeslots]]
-startTime="16:30"
-speakers=["@RangerMauve"]
-title="IPLD on gateways, and with URLs"
-description="This talk will go over how IPLD could be exposed as a first class citizen in gateways and how we can represent links to data with URLs."
+startTime="16:45"
+speakers=[]
+title="Recap and brainstorming"
+description="We have an afternoon of open data modeling and transfer slots tomorrow, what areas are ripe for new or continuing discussion?"
