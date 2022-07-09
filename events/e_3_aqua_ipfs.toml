@@ -10,7 +10,7 @@ dri = "@evgenyponomarev"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://ipfs-althing.io"
+website = "https://discuss.ipfs.io/t/2022-07-14-aqua-and-ipfs/14645"
 
 # the start date of the event
 date = "2022-07-14"

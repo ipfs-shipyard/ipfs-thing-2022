@@ -10,7 +10,7 @@ dri = "@jbenet"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = ""
+website = "https://discuss.ipfs.io/t/2022-07-16-scalable-virtual-worlds/14638"
 
 # the start date of the event
 date = "2022-07-16"
