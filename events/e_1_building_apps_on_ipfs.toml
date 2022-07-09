@@ -50,6 +50,8 @@ description = """
 
 From Developer Experience to User Experience, how do we build full apps on IPFS? What are the goals of IPFS beyond infrastructure?
 
+Select events to join and follow in the IPFS Discourse https://discuss.ipfs.io/t/2022-07-13-building-apps-on-ipfs-track/14605
+
 """
 
 # schedule is an array of timeslots objects
@@ -69,7 +71,7 @@ From Developer Experience to User Experience, how do we build full apps on IPFS?
 startTime="09:00"
 speakers=["@bmann"]
 title="Track Intro: Building Apps on IPFS"
-description="Can we make IPFS the protocol a default deployment target like Vercel or Netlify? What does apps on IPFS even mean? Does data portability itself on IPFS something that can be added to any apps? Open discussion, bring your thoughts!"
+description="Can we make IPFS the protocol a default deployment target like Vercel or Netlify? What does apps on IPFS even mean? Does data portability itself on IPFS something that can be added to any apps? Open discussion, bring your thoughts! Track intro event is on the main notes page https://discuss.ipfs.io/t/building-apps-on-ipfs-track/14605"
 
 [[timeslots]]
 startTime="9:30"
@@ -79,9 +81,9 @@ description="9:30am - 11am. @expede - Fission Webnative SDK: DIDs, UCANs & WNFS,
 
 [[timeslots]]
 startTime="12:00"
-speakers=["@bmann"]
-title="IPFS and Blockchains"
-description="IPFS has won as a decentralized addressing scheme, but isn't yet heavily used in dapps, just as files and raw storage. Many blockchains point at IPFS addresses. Persistence is something handled separately. How do we encourage more usage of both IPFS, and for solving persistence with Filecoin and other approaches?"
+speakers=["@cdata"]
+title="Subconscious & Noosphere: WWW over IPFS"
+description="Subconscious is a tool for thought with the goal of fostering a credibly unowned, globally-distributed knowledge graph. Noosphere is the IPFS-adjacent protocol that drives Subconscious. In this session we will discuss the opportunities and challenges that led us to using IPFS, and detail some of the designs we are implementing to serve requirements in naming, authz and network availability. Event on IPFS Discourse https://discuss.ipfs.io/t/subconscious-noosphere-www-over-ipfs/14652"
 
 [[timeslots]]
 startTime="13:00"
