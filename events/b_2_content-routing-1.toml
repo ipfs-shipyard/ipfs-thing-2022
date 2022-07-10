@@ -65,14 +65,14 @@ description="@guseggert on IPFS DHT, @gammazero on Network Indexer, @ajnavarro o
 
 [[timeslots]]
 startTime="11:00"
-speakers=["@aschmahmann"]
-title="Open Problem Identification and Alignment"
-
-[[timeslots]]
-startTime="11:30"
 speakers=[]
 type="break"
 title=""
+
+[[timeslots]]
+startTime="11:15"
+speakers=["@aschmahmann"]
+title="Open Problem Identification and Alignment"
 
 [[timeslots]]
 startTime="11:45"
@@ -101,13 +101,13 @@ title="Network indexer roadmap"
 
 [[timeslots]]
 startTime="15:30"
-speakers=["@masih"]
-title="How to be an index provider"
-
-[[timeslots]]
-startTime="16:15"
 speakers=[]
 title="Break"
+
+[[timeslots]]
+startTime="15:45"
+speakers=["@masih"]
+title="How to be an index provider"
 
 [[timeslots]]
 startTime="16:30"
