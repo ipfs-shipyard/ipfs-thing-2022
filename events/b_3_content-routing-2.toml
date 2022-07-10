@@ -70,14 +70,20 @@ description="this is a description of the talk!"
 
 [[timeslots]]
 startTime="10:45"
-speakers=["@tschorsch"]
-title="Mechanism Lightning talks"
-description="private set intersection for bitswap - @tschorsch, introductions to other mechanism - TBD"
+speakers=[]
+type="break"
+title=""
 
 [[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
+startTime="11:00"
+speakers=["@willscott"]
+title="Funding Private Retrieval"
+description = "Building towards a secure and performant system"
+
+[[timeslots]]
+startTime="11:20"
+speakers=["@tschorsch"]
+title="Private Set Intersection for Bitswap"
 
 [[timeslots]]
 startTime="11:45"
@@ -97,14 +103,13 @@ title="Mixnets & Content Routing"
 
 [[timeslots]]
 startTime="13:50"
-speakers=["@willscott"]
-title="Funding Private Retrieval"
-description = "Building towards a secure and performant system"
+speakers=["@Guillaume Michel"]
+title="Double Hashing & Content Routing"
 
 [[timeslots]]
 startTime="14:10"
-speakers=["@Guillaume Michel"]
-title="Double Hashing & Content Routing"
+speakers=[]
+title="Open Slot"
 
 [[timeslots]]
 startTime="14:45"
@@ -119,7 +124,8 @@ title="FHE, ZKPs & Content Routing"
 [[timeslots]]
 startTime="16:15"
 speakers=[]
-title="Break"
+type="break"
+title=""
 
 [[timeslots]]
 startTime="16:30"
