@@ -28,7 +28,7 @@ venueName = ""
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "300"
+attendees = "150"
 
 # these is unsued:
 # tickets = "Waitlist"
