@@ -58,8 +58,15 @@ tags = ["Talks", "Workshops"]
 # - use 15m breaks, one in the morning, one or two in the afternoon
 #
 description = """
+This track provides an overview of IPFS implementations. Each presentation is about a different IPFS Implementation, and meant to be a pitch for the implementation to prospective users, contributors, etc. Think of these presentations as listed in a webpage about IPFS implementations.
 
-Hear from many IPFS Implementations
+Each talk should cover:
+- What the implementation is for (problems / solutions)
+- How it works / architecture
+- Team (who's building it)
+- Traction so far
+- Roadmap
+- Painpoints: what the impl is not good at.
 
 (?) - denotes tenative (not confirmed)
 """
@@ -122,13 +129,13 @@ description=""
 [[timeslots]]
 startTime="15:15"
 speakers=["@jbenet"]
-title="Filecoin: Lotus, Venus, Forest, Fuhon"
+title="Filecoin -- an exabyte scale IPFS system"
 description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=["@why?","@cake?"]
-title="Estuary"
+speakers=["@arajasek"]
+title="Lotus - an IPFS blockchain node"
 description=""
 
 [[timeslots]]
@@ -141,8 +148,8 @@ services and infra providers"""
 
 [[timeslots]]
 startTime="16:00"
-speakers=["@manfred?"]
-title="Berty"
+speakers=[""]
+title="Hold"
 description=""
 
 [[timeslots]]
@@ -177,9 +184,12 @@ description=""
 
 [[timeslots]]
 startTime="17:30"
-speakers=["@alari"]
-title="Aqua language"
-description="Aqua is a π-calculus based language for scripting decentralized protocols on top of libp2p, IPFS and beyond."
+speakers=[""]
+title="Hold"
+description=""
+# speakers=["@alari"]
+# title="Aqua language"
+# description="Aqua is a π-calculus based language for scripting decentralized protocols on top of libp2p, IPFS and beyond."
 
 [[timeslots]]
 startTime="17:45"
