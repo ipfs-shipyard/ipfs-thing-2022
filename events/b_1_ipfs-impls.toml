@@ -58,7 +58,7 @@ tags = ["Talks", "Workshops"]
 # - use 15m breaks, one in the morning, one or two in the afternoon
 #
 description = """
-This track provides an overview of IPFS implementations. Each presentation is about a different IPFS Implementation, and meant to be a pitch for the implementation to prospective users, contributors, etc. 
+This track provides an overview of IPFS implementations. Each presentation is about a different IPFS Implementation, and meant to be a pitch for the implementation to prospective users, contributors, etc. Think of these presentations as listed in a webpage about IPFS implementations.
 
 Each talk should cover:
 - What the implementation is for (problems / solutions)
