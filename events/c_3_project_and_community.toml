@@ -76,8 +76,8 @@ description="A brief introduction to the track"
 [[timeslots]]
 startTime="09:15"
 speakers=["@lidel"]
-title="Lightweight RFC Process"
-description="A walkthrough of the new RFC process and its motivations, updated specs repository, and when and why you should submit an RFC."
+title="InterPlanetary Improvement Process (IPIP)"
+description="A walkthrough of the new IPIP (RFC-like) process and its motivations, updated specs repository, and when and why you should submit an IPIP. Q&A at the end."
 
 [[timeslots]]
 startTime="09:45"
