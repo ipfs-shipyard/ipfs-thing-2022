@@ -8,7 +8,7 @@ import dayOffset from './dayOffset'
  * @returns
  */
 function readableHash(eventName) {
-  return eventName.replace(/[^a-zA-Z0-9þ]/g, ' ').replace(/\s+/g, '-')
+  return eventName.replace(/þ/g, 'th').replace(/[^a-zA-Z0-9þ]/g, ' ').replace(/\s+/g, '-')
 }
 
 export default function annotateEvents(events, config) {
