@@ -14,3 +14,16 @@ jobs:
         run: go install github.com/martinlindhe/validtoml@b2ddc9381073dacb7ca287d87686e9e1f50af27e
       - name: Validate all TOML files
         run: find . -name '*.toml' -exec validtoml {} \;
+  test-build:
+    runs-on: ubuntu-latest
+    name: Build
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "18.x"
+      - name: Install dependencies
+        run: |
+          cd website
+          npm install
+          npm run build

@@ -1,18 +1,20 @@
 const fs = require('fs')
 const toml = require('toml');
 
-function parseToml(s) {
+function parseToml(s, filePath) {
   try {
     return toml.parse(s)
   } catch (e) {
+    console.error(`Error parsing ${filePath}`)
     console.error("Parsing error on line " + e.line + ", column " + e.column +": " + e.message)
+    console.error('Original toml: ' + s)
     throw e
   }
 }
 
 function parseTomlFile(fp) {
   const f = fs.readFileSync(fp)
-  return parseToml(f)
+  return parseToml(f, fp)
 }
 
 (async () => {
