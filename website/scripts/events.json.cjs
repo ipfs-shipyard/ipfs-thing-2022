@@ -7,7 +7,6 @@ function parseToml(s, filePath) {
   } catch (e) {
     console.error(`Error parsing ${filePath}`)
     console.error("Parsing error on line " + e.line + ", column " + e.column +": " + e.message)
-    console.error('Original toml: ' + s)
     throw e
   }
 }
