@@ -140,14 +140,32 @@ export function EventModal({ children, event }) {
   }
   const [openModal, setOpenModal] = useState(defaultOpenState);
   const open = () => {
-    setLocationHash(event.hash)
+    if (getLocationHash() !== event.hash) {
+      setLocationHash(event.hash)
+    }
     setOpenModal(true)
   }
   const close = () => {
-    setLocationHash('#')
+    if (getLocationHash() === event.hash) {
+      setLocationHash('#')
+    }
     setOpenModal(false)
   }
   const isOpen = () => openModal === true
+
+  const [hashChangeEventRegistered, setHashChangeEventRegistered] = useState(false);
+  if (typeof window !== 'undefined' && !hashChangeEventRegistered) {
+    window.addEventListener('hashchange', (hashChangeEvent) => {
+      const oldUrlHash = (new URL(hashChangeEvent.oldURL)).hash
+      const newUrlHash = (new URL(hashChangeEvent.newURL)).hash
+      if (newUrlHash === event.hash) {
+        open()
+      } else if (oldUrlHash === event.hash) {
+        close()
+      }
+    })
+    setHashChangeEventRegistered(true)
+  }
 
   bindKey('Escape', close)
 

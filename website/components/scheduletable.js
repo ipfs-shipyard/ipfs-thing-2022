@@ -3,6 +3,7 @@ import dayjs from 'dayjs'
 import { EventCard, BlankCard } from './event.js'
 import genDates from '../lib/genDates.js'
 import dayOffset from '../lib/dayOffset.js'
+import Link from 'next/link.js'
 
 function EventCardWrapper({e, i}) {
   if (!e.isWithinRange) {
@@ -10,7 +11,9 @@ function EventCardWrapper({e, i}) {
   }
   return (
     <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
-        <EventCard event={e} key={i} />
+        <Link href={`/${e.hash}`} scroll={false}>
+          <EventCard event={e} key={i} />
+        </Link>
     </div>
   )
 }
