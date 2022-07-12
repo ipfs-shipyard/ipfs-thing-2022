@@ -135,9 +135,9 @@ description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@adlrocha"]
+title="Idea/Brainstorm: Implement once, run everywhere"
+description="How can a WASM-powered IPFS/libp2p node help with interoperability and deployment of new protocols"
 
 [[timeslots]]
 startTime="16:00"
