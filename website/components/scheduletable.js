@@ -1,17 +1,26 @@
 import dayjs from 'dayjs'
 
 import { EventCard, BlankCard } from './event.js'
+import genDates from '../lib/genDates.js'
+import dayOffset from '../lib/dayOffset.js'
+
+function EventCardWrapper({e, i}) {
+  if (!e.isWithinRange) {
+    return null
+  }
+  return (
+    <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
+        <EventCard event={e} key={i} />
+    </div>
+  )
+}
 
 export function ScheduleTable({ events, config }) {
   const startDate = dayjs(config.devent.dateStart)
   const endDate = dayjs(config.devent.dateEnd)
 
   const numDays = Number(dayOffset(startDate, endDate) + 1)
-  const arr = Object.values(events)
   const days = genDates(startDate, numDays)
-
-  arr.map((e, i) => e.startDay = dayOffset(startDate, e.date))
-  const eventWithinRange = (e) => (e.startDay >= 0 && e.startDay < numDays)
 
   return (
     <>
@@ -22,12 +31,7 @@ export function ScheduleTable({ events, config }) {
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {arr.map((e, i) => (
-          eventWithinRange(e) &&
-            <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
-              <EventCard event={e} key={i} />
-            </div>
-        ))}
+        {events.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
         <div className={`col-start-1 col-span-${numDays} shrink-0 h-full`}>
           <BlankCard />
         </div>
@@ -57,19 +61,6 @@ export function ScheduleTable({ events, config }) {
       </div>
     </>
   )
-}
-
-function dayOffset(start, date) {
-  return dayjs(date).diff(dayjs(start), 'days')
-}
-
-function genDates(start, numDays) {
-  const days = []
-  const d = dayjs(start)
-  for (var i = 0; i < numDays; i++) {
-    days.push(d.add(i, 'day'))
-  }
-  return days
 }
 
 export default ScheduleTable

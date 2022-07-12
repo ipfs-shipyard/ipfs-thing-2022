@@ -115,10 +115,38 @@ export function BlankCard() {
   )
 }
 
+/**
+ * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
+ */
+function getLocationHash () {
+  if (typeof window !== 'undefined') {
+    return window.location.hash
+  }
+}
+
+/**
+ * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
+ */
+function setLocationHash (hash) {
+  if (typeof window !== 'undefined') {
+    window.location.hash = hash
+  }
+}
+
 export function EventModal({ children, event }) {
-  const [openModal, setOpenModal] = useState(false);
-  const open = () => setOpenModal(true)
-  const close = () => setOpenModal(false)
+  let defaultOpenState = false
+  if (getLocationHash() === event.hash) {
+    defaultOpenState = true
+  }
+  const [openModal, setOpenModal] = useState(defaultOpenState);
+  const open = () => {
+    setLocationHash(event.hash)
+    setOpenModal(true)
+  }
+  const close = () => {
+    setLocationHash('#')
+    setOpenModal(false)
+  }
   const isOpen = () => openModal === true
 
   bindKey('Escape', close)
