@@ -1,5 +1,5 @@
 # the name of your event
-name = "Scalable Virtual Worlds"
+name = "Scalable Virtual Worlds (tentative)"
 
 # the name of the group organizing the event
 org = "PL Starfleet"
