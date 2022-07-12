@@ -83,9 +83,9 @@ description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=["@hugomrdias"]
-title="Connecting IPFS users and permissions to DIDs with UCAN"
-description=""
+speakers=["@thibmeu"]
+title="IPFS safemode tool"
+description="Policy based content providing for IPFS peers"
 
 [[timeslots]]
 startTime="10:20"
@@ -107,16 +107,16 @@ description="A run through of Elastic IPFS as it has been implemented in AWS: an
 
 [[timeslots]]
 startTime="11:20"
-speakers=["@thibmeu"]
-title="IPFS safemode tool"
-description="Policy based content providing for IPFS peers"
+speakers=["@alanshaw"]
+title="The Rise of Elastic IPFS"
+description="The journey from initial working implementation to production system. A short story of metrics and data in graphs."
 
 
 [[timeslots]]
 startTime="11:40"
-speakers=["@alanshaw"]
-title="The Rise of Elastic IPFS"
-description="The journey from initial working implementation to production system. A short story of metrics and data in graphs."
+speakers=["@hugomrdias"]
+title="Connecting IPFS users and permissions to DIDs with UCAN"
+description=""
 
 
 [[timeslots]]
