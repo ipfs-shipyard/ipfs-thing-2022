@@ -115,11 +115,57 @@ export function BlankCard() {
   )
 }
 
+/**
+ * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
+ */
+function getLocationHash () {
+  if (typeof window !== 'undefined') {
+    return window.location.hash
+  }
+}
+
+/**
+ * @see https://github.com/ipfs-shipyard/ipfs-thing-2022/issues/125
+ */
+function setLocationHash (hash) {
+  if (typeof window !== 'undefined') {
+    window.location.hash = hash
+  }
+}
+
 export function EventModal({ children, event }) {
-  const [openModal, setOpenModal] = useState(false);
-  const open = () => setOpenModal(true)
-  const close = () => setOpenModal(false)
+  let defaultOpenState = false
+  if (getLocationHash() === event.hash) {
+    defaultOpenState = true
+  }
+  const [openModal, setOpenModal] = useState(defaultOpenState);
+  const open = () => {
+    if (getLocationHash() !== event.hash) {
+      setLocationHash(event.hash)
+    }
+    setOpenModal(true)
+  }
+  const close = () => {
+    if (getLocationHash() === event.hash) {
+      setLocationHash('#')
+    }
+    setOpenModal(false)
+  }
   const isOpen = () => openModal === true
+
+  const [hashChangeEventRegistered, setHashChangeEventRegistered] = useState(false);
+  if (typeof window !== 'undefined' && !hashChangeEventRegistered) {
+    window.addEventListener('hashchange', (hashChangeEvent) => {
+      const oldUrlHash = (new URL(hashChangeEvent.oldURL)).hash
+      const newUrlHash = (new URL(hashChangeEvent.newURL)).hash
+      if (newUrlHash === event.hash) {
+        open()
+      } else if (oldUrlHash === event.hash) {
+        close()
+      }
+    })
+    setHashChangeEventRegistered(true)
+  }
 
   bindKey('Escape', close)
 

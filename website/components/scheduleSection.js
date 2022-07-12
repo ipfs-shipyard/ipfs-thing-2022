@@ -3,6 +3,7 @@ import ScrollContainer from 'react-indiana-drag-scroll'
 import { ScheduleTable } from "./scheduletable.js"
 import { AddEventModal } from "./event.js"
 import Markdown from './markdown.js'
+import annotateEvents from '../lib/annotateEvents.js'
 
 export default function ScheduleSection({ events, config }) {
   return (
@@ -26,7 +27,7 @@ export default function ScheduleSection({ events, config }) {
           <ScrollContainer className="scroll-container">
             <div className="flex-none min-h-full w-full">
               <div className="content">
-                <ScheduleTable events={events} config={config} />
+                <ScheduleTable events={annotateEvents(events, config)} config={config} />
               </div>
             </div>
           </ScrollContainer>
