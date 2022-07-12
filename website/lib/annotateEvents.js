@@ -2,6 +2,15 @@ import dayjs from 'dayjs'
 
 import dayOffset from './dayOffset'
 
+/**
+ * Make a url and human friendly string to use for event hashes.
+ * @param {string} eventName
+ * @returns
+ */
+function readableHash(eventName) {
+  return eventName.replace(/[^a-zA-Z0-9þ]/g, ' ').replace(/\s+/g, '-')
+}
+
 export default function annotateEvents(events, config) {
   const startDate = dayjs(config.devent.dateStart)
   const endDate = dayjs(config.devent.dateEnd)
@@ -14,15 +23,14 @@ export default function annotateEvents(events, config) {
         ...events[fileName],
         fileName,
     }
-    // event.fileName = fileName
     event.startDay = dayOffset(startDate, event.date)
     event.isWithinRange = eventWithinRange(event)
-    event.hash = `#${encodeURIComponent(event.name)}`
+    event.hash = `#${readableHash(event.name)}`
 
     // To ensure our event modal hashes are unique we keep a Set of all the hashes
     if (uniqEventHashes.has(event.hash)) {
         // Filename's are always unique
-        event.hash = `#${encodeURIComponent(event.fileName)}`
+        event.hash = `#${readableHash(event.fileName)}`
     }
 
     uniqEventHashes.add(event.hash)
