@@ -148,8 +148,8 @@ services and infra providers"""
 
 [[timeslots]]
 startTime="16:00"
-speakers=[""]
-title="Hold"
+speakers=["@jlogelin"]
+title="Estuary"
 description=""
 
 [[timeslots]]
@@ -184,12 +184,9 @@ description=""
 
 [[timeslots]]
 startTime="17:30"
-speakers=[""]
-title="Hold"
-description=""
-# speakers=["@alari"]
-# title="Aqua language"
-# description="Aqua is a π-calculus based language for scripting decentralized protocols on top of libp2p, IPFS and beyond."
+speakers=["@alari"]
+title="Aqua language"
+description="Aqua is a π-calculus based language for scripting decentralized protocols on top of libp2p, IPFS and beyond."
 
 [[timeslots]]
 startTime="17:45"
