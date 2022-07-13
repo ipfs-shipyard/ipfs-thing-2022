@@ -53,7 +53,7 @@ speakers=[]
 title="Welcome standup discussion"
 
 [[timeslots]]
-startTime="9:45"
+startTime="9:50"
 speakers=["@jbenet"]
 title="Content Routing Intro: Performance"
 
@@ -67,7 +67,7 @@ description="@guseggert on IPFS DHT, @gammazero on Network Indexer, @ajnavarro o
 startTime="11:00"
 speakers=[]
 type="break"
-title=""
+title="break"
 
 [[timeslots]]
 startTime="11:15"
@@ -86,8 +86,8 @@ title="Lunch Break"
 
 [[timeslots]]
 startTime="13:30"
-speakers=[]
-title="Open Slot"
+speakers=["@jbenet"]
+title="Content Routing - Scalability Constraints"
 
 [[timeslots]]
 startTime="14:00"
