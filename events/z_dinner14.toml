@@ -22,10 +22,10 @@ days = 1
 times = "19:00 - 24:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Ballroom B & Sunset"
+venueName = "The Reykjavik EDITION: Ballroom B & Sunset"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Reykjavik Edition Hotel"
+venueAddress = "Austurbakki 2, 101 Reykjavík, Iceland"
 
 # the max number of attendees of the event
 attendees = "100"
