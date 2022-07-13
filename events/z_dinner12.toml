@@ -10,7 +10,7 @@ dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = "https://lu.ma/ipfsthing-roofdinner-12"
+website = "https://lu.ma/ipfsthing-roofdinner-12"
 
 # the start date of the event
 date = "2022-07-12"
@@ -49,6 +49,6 @@ color="indigo"
 # will show up when the user clicks the event card.
 description = """
 Come dine with us at The Roof of the Reykjavik Edition Hotel.
-There is a terrace, so bring a jacket in case the weather is nice enough to sit outside. 
-We look forward to seeing you there! 
+There is a terrace, so bring a jacket in case the weather is nice enough to sit outside.
+We look forward to seeing you there!
 """

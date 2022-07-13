@@ -10,7 +10,7 @@ dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = "https://lu.ma/ipfsthing-borgdinner-16"
+website = "https://lu.ma/ipfsthing-borgdinner-16"
 
 # the start date of the event
 date = "2022-07-16"
