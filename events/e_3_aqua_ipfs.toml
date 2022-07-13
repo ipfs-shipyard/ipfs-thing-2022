@@ -84,6 +84,7 @@ title="AquaVM: calculus based VM for distributed algorithms"
 
 [[timeslots]]
 startTime="16:15"
-speakers=["@mikevoronov"]
-title="AquaVM: convergence model with CRDT for decentralized networks"
+speakers=["@alari"]
+title="Idea/Brainstorm: Aqua and IPFS"
+description="How Aqua can simplify and enhance IPFS/libp2p protocol development"
 
