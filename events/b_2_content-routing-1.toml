@@ -64,23 +64,17 @@ title="State of content routing lightning talks"
 description="@guseggert on IPFS DHT, @gammazero on Network Indexer, @ajnavarro on Reframe"
 
 [[timeslots]]
-startTime="11:00"
-speakers=[]
-type="break"
-title="break"
-
-[[timeslots]]
-startTime="11:15"
+startTime="11:45"
 speakers=["@aschmahmann"]
 title="Open Problem Identification and Alignment"
 
 [[timeslots]]
-startTime="11:45"
+startTime="11:55"
 speakers=["@folex"]
 title="Domain-specific IPFS content indexer with Aqua"
 
 [[timeslots]]
-startTime="12:15"
+startTime="12:20"
 speakers=[]
 title="Lunch Break"
 
