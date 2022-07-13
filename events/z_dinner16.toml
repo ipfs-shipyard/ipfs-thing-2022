@@ -1,5 +1,5 @@
 # the name of your event
-name = "Dinner"
+name = "Closing Dinner @ Borg Restaurant"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -10,7 +10,7 @@ dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = ""
+website = "https://lu.ma/ipfsthing-borgdinner-16"
 
 # the start date of the event
 date = "2022-07-16"
@@ -22,10 +22,10 @@ days = 1
 times = "19:00 - 22:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "Borg Restaurant"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Pósthússtræti 11, 101 Reykjavík, Iceland"
 
 # the max number of attendees of the event
 attendees = "100"
@@ -48,7 +48,7 @@ color="indigo"
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-This is a welcome dinner for all conference attendees.
+​We are closing this thing out in style - art deco to be exact! This is the last organized dinner of IPFS Thing 2022. Thank you so much for coming all the way to Reykjavik for the advancement of all things IPFS ...see what I did there?
 
-Come hungry! 😋
+We are looking forward to seeing you there!
 """

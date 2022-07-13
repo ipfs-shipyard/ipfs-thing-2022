@@ -10,7 +10,7 @@ dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = "https://lu.ma/ipfsthing-sunsetdinner-14"
+website = "https://lu.ma/ipfsthing-sunsetdinner-14"
 
 # the start date of the event
 date = "2022-07-14"
@@ -22,10 +22,10 @@ days = 1
 times = "19:00 - 24:00"
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Ballroom B & Sunset"
+venueName = "The Reykjavik EDITION: Ballroom B & Sunset"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Reykjavik Edition Hotel"
+venueAddress = "Austurbakki 2, 101 Reykjavík, Iceland"
 
 # the max number of attendees of the event
 attendees = "100"
