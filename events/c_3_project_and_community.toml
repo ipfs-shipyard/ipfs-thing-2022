@@ -19,7 +19,7 @@ date = "2022-07-15"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 12:45"
+times = "09:00 - 12:30"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -92,31 +92,31 @@ title="Content Addressing Alliance"
 description="IPFS has 'won'. Content addressing is a sustaining innovation that can make its way into many more places. Discuss creating a cross-organization Content Addressable Alliance that advocates and promotes the usage of content addressing."
 
 [[timeslots]]
-startTime="11:00"
+startTime="10:45"
 speakers=[""]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="11:15"
+startTime="11:00"
 speakers=["@autonome, @mishmosh, @jbenet"]
 title="Funding IPFS Implementations"
 description="Brief session on history of funding IPFS implementations, and exciting updates going forward."
 
 [[timeslots]]
-startTime="11:45"
+startTime="11:30"
 speakers=["@biglep"]
 title="A month in PL EngRes IPFS Development and how you can be involved"
 description="Learn what happens in a given month in IPFS development for projects like Kubo, js-ipfs, and supporting the wider community.  You should walk away with better insight into venues you can engage the maintainers and ideas/input will be welcome as well."
 
 [[timeslots]]
-startTime="12:00"
+startTime="11:45"
 speakers=["@galargh"]
 title="GitHub Configuration (of IPFS organization) as Code"
 description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
 
 [[timeslots]]
-startTime="12:15"
+startTime="12:00"
 speakers=["@b5"]
 title="Mutual Therapy Session for operators, maintainers, founders, or ceos"
 description="A self-explanatory roundtable."
