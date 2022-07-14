@@ -65,31 +65,18 @@ title="Content Routing Track Intro"
 [[timeslots]]
 startTime="10:00"
 speakers=["@jbenet"]
-title="Content Routing Intro: Privacy"
-description="this is a description of the talk!"
+title="Secure & Private Content Routing"
 
 [[timeslots]]
-startTime="10:45"
+startTime="11:10"
 speakers=["@tschorsch"]
 title="Private Set Intersection for Bitswap"
 
 [[timeslots]]
-startTime="11:00"
-speakers=[]
-type="break"
-title=""
-
-[[timeslots]]
-startTime="11:20"
+startTime="11:50"
 speakers=["@willscott"]
 title="Funding Private Retrieval"
 description = "Building towards a secure and performant system"
-
-
-[[timeslots]]
-startTime="11:45"
-speakers=["@yiannis"]
-title="Use cases for privacy in LibP2P"
 
 [[timeslots]]
 startTime="12:05"
@@ -109,8 +96,9 @@ title="Double Hashing & Content Routing"
 
 [[timeslots]]
 startTime="14:10"
-speakers=[]
-title="Open Slot"
+speakers=["@yiannis"]
+title="Use cases for privacy in LibP2P"
+
 
 [[timeslots]]
 startTime="14:45"
