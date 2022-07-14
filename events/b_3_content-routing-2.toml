@@ -95,18 +95,30 @@ speakers=["@Guillaume Michel"]
 title="Double Hashing & Content Routing"
 
 [[timeslots]]
-startTime="14:10"
+startTime="14:40"
 speakers=["@yiannis"]
 title="Use cases for privacy in LibP2P"
 
 
 [[timeslots]]
-startTime="14:45"
+startTime="15:15"
 speakers=["@ninitrava"]
 title="Private Information Retrieval & Content Routing"
 
 [[timeslots]]
-startTime="15:30"
+startTime="15:45"
 speakers=["Crypto Net Lab"]
 title="Incentivization and content routing service differentiation"
+
+
+[[timeslots]]
+startTime="16:15"
+speakers=[""]
+title="Break"
+
+[[timeslots]]
+startTime="16:30"
+speakers=["@jbenet"]
+title="Open Problem & Project Generation Workshop"
+
 
