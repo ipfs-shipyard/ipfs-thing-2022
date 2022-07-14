@@ -48,7 +48,7 @@ color="cyan"
 # will show up when the user clicks the event card.
 description = """
 
-This track aims to create space for advancing the IPFS project and community. New session proposals are welcome, especially those that focus on a specific, actionable subtopic rather than attempting to grapple with project and community stewardship.
+This track aims to create space for advancing the IPFS project and community. New session proposals are welcome, especially those that focus on a specific, actionable subtopic rather than attempting to grapple with the entire universe of project and community stewardship at oncev.
 
 Currently, we have reserved a 1/2 day for this track. If enough sessions are proposed, this track will be extended into Friday afternoon.
 
@@ -86,37 +86,31 @@ title="Shaping IETF and W3C Standards"
 description="Discuss evolving web-wide standards & specs that might benefit from participation from our community. Examples include upcoming deadline at IETF for multi* stuff started long ago, and W3C activity around extensions APIs and webviews and wallet APIs."
 
 [[timeslots]]
-startTime="10:30"
+startTime="10:15"
 speakers=["@bmann"]
 title="Content Addressing Alliance"
 description="IPFS has 'won'. Content addressing is a sustaining innovation that can make its way into many more places. Discuss creating a cross-organization Content Addressable Alliance that advocates and promotes the usage of content addressing."
 
 [[timeslots]]
-startTime="11:15"
+startTime="11:00"
 speakers=[""]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="11:30"
-speakers=["@galargh"]
-title="GitHub Configuration (of IPFS organization) as Code"
-description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
-
-[[timeslots]]
-startTime="12:00"
-speakers=["@autonome, @mishmosh"]
+startTime="11:15"
+speakers=["@autonome, @mishmosh, @jbenet"]
 title="Funding IPFS Implementations"
-description="Brief session on history of funding IPFS implementations, and updates going forward."
+description="Brief session on history of funding IPFS implementations, and exciting updates going forward."
 
 [[timeslots]]
-startTime="12:15"
-speakers=["@mishmosh"]
-title="Reorienting the website"
-description="IPFS's public presence predominantly communicates that there are 2 IPFS implementations, js-ipfs and go-ipfs. It also communicates that the project is essentially PL-owned. During this session, we will re-orient some key landing pages toward today's Cambrian explosion of new implementations. This is intended to a fairly short and surgical discussion to kick off, with plans to follow through during afternoon hack time."
-
-[[timeslots]]
-startTime="13:30"
+startTime="11:45"
 speakers=["@biglep"]
 title="A month in PL EngRes IPFS Development and how you can be involved"
 description="Learn what happens in a given month in IPFS development for projects like Kubo, js-ipfs, and supporting the wider community.  You should walk away with better insight into venues you can engage the maintainers and ideas/input will be welcome as well."
+
+[[timeslots]]
+startTime="12:00"
+speakers=["@galargh"]
+title="GitHub Configuration (of IPFS organization) as Code"
+description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
