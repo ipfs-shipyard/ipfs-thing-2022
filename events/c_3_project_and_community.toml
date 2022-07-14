@@ -19,7 +19,7 @@ date = "2022-07-15"
 days = 1
 
 # the event times (shows up in the event card)
-times = "09:00 - 12:30"
+times = "09:00 - 12:45"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -114,3 +114,10 @@ startTime="12:00"
 speakers=["@galargh"]
 title="GitHub Configuration (of IPFS organization) as Code"
 description="This session will be a walk through how PL manages IPFS GitHub organization configuration as code using a tool called GitHub Management. It'll provide practical information on how to request changes to the configuration (for example, if you contribute frequently to a repository within IPFS and you'd want to become a collaborator) and how to set up a similar solution in any other GitHub organization."
+
+[[timeslots]]
+startTime="12:15"
+speakers=["@b5"]
+title="Mutual Therapy Session for operators, maintainers, founders, or ceos"
+description="A self-explanatory roundtable."
+
