@@ -108,3 +108,8 @@ startTime="16:30"
 speakers=["@ShogunPanda","@alanshaw"]
 title="How Elastic IPFS content is discoverable in the DHT"
 description="An even deeper dive specifically into how Elastic IPFS interfaces with the Indexer Nodes. This focuses on the specific advertisment mechanism Elastic IPFS uses to get data into the Indexer Nodes (i.e. HTTP+written advertisments in S3 bucket). There are a few, so it is interesting to see a specific method in action. We'll also lightly cover how the indexer nodes are part of the delegated routing protocol, how the Hydra nodes are currently the consumers of this interface and why that matters."
+
+[[timeslots]]
+startTime="16:45"
+speakers=["@jbenet"]
+title="Paths to Decentralize Network Indexers"
