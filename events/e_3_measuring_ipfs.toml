@@ -58,18 +58,18 @@ Anyone is welcome to pop in and bring new items to our attention.
 """
 
 [[timeslots]]
-startTime="09:00"
+startTime="09:30"
 speakers=["@yiannisbot"]
 title="The Importance of Network Measurements and Monitoring"
 
 [[timeslots]]
-startTime="09:30"
+startTime="09:45"
 speakers=["@Guillaume Michel"]
 title="DHT Routing Table entries: are they up-to-date?"
 description="Every DHT Server peer keeps a list of entries in its routing table in order to be able to communicate and redirect other peers to the peer that is most likely to have the required information. These entries need to be updated in order to keep up with network churn and other events. In this talk we'll describe the methodology we used to identify whether the DHT Routing Table is keeping healthy as well as results about the accuracy of entries."
 
 [[timeslots]]
-startTime="10:15"
+startTime="10:25"
 speakers=["@Mikel Cortez"]
 title="Provider Records: do they stay alive long enough?"
 description="Provider records help content stay alive in the IPFS network. But they come with several settings that have to be tuned to the right value in order to take into account network churn, but also avoid overloading the network or the end peers. In this talk we'll show what we did to monitor the effectiveness of these settings as well as whether they're effective or need fine-tuning."
@@ -98,21 +98,21 @@ description="Strategies and learnings from monitoring a public IPFS gateway, and
 
 [[timeslots]]
 startTime="14:00"
-speakers=["@aschmahmann"]
-title="Parts of the IPFS Stack that could do with more monitoring."
+speakers=["@guseggert"]
+title="Unconf 1: Parts of the IPFS Stack that could do with more monitoring."
 description="IPFS and libp2p have lots of protocols, components and dozens of settings. Some of them are set after rigorous investigation but others are set experimentally. In this talk we'll pinpoint those items that are in need of monitoring and evaluation."
 
 
 [[timeslots]]
 startTime="14:30"
 speakers=[]
-title="Breakout/Unconf 1: Topic TBA"
+title="Breakout/Unconf 2: Topic TBA"
 description="During the morning slots we'll pick items (components, protocols, settings) that need further investigation and more rigorous performance assessment. During the afternoon slots, we'll workshop to derive measurement methodologies for those items. Topics will be proposed here ahead of time, but are subject to change during the event. Proposals are more than welcome."
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Breakout/Unconf 2: Topic TBA"
+title="Breakout/Unconf 3: Topic TBA"
 description="During the morning slots we'll pick items (components, protocols, settings) that need further investigation and more rigorous performance assessment. During the afternoon slots, we'll workshop to derive measurement methodologies for those items. Topics will be proposed here ahead of time, but are subject to change during the event. Proposals are more than welcome."
 
 [[timeslots]]
