@@ -141,9 +141,9 @@ description="How can a WASM-powered IPFS/libp2p node help with interoperability 
 
 [[timeslots]]
 startTime="16:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@mikevoronov"]
+title="Marine: dynamic Wasm modules linking"
+description="This talk will dive into details of the Wasm Component model and how we approach it in Fluence Labs for services"
 
 [[timeslots]]
 startTime="16:30"
