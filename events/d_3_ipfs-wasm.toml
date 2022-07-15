@@ -40,7 +40,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["WIP", "Talks", "Workshops"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
