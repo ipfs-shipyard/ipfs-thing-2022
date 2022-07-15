@@ -104,22 +104,16 @@ title="Lunch Break"
 description=""
 
 [[timeslots]]
-startTime="13:00"
+startTime="13:30"
 speakers=["@matheus23"]
 title="Using IPFS/IPLD from WASM"
 description="WASM forces us to build pure interfaces that keep the door open for different networking strategies."
 
 [[timeslots]]
-startTime="13:30"
+startTime="13:45"
 speakers=["@expede"]
 title="IPVM"
 description="Wasm modules, their arguments, intermediate states, their outputs, and managed effects can be described as IPLD graphs. IPVM is a strategy to support generalized deterministic computation in a serverless style on top of IPFS with optional sidechannel matchmaking on Filecoin, and extend the same benefits of shared data blocks to computation."
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
 
 [[timeslots]]
 startTime="14:30"
