@@ -48,7 +48,7 @@ color="cyan"
 # will show up when the user clicks the event card.
 description = """
 
-This track aims to create space for advancing the IPFS project and community. New session proposals are welcome, especially those that focus on a specific, actionable subtopic rather than attempting to grapple with the entire universe of project and community stewardship at oncev.
+This track aims to create space for advancing the IPFS project and community. New session proposals are welcome, especially those that focus on a specific, actionable subtopic rather than attempting to grapple with the entire universe of project and community stewardship at once.
 
 """
 
@@ -85,7 +85,7 @@ description="Discuss evolving web-wide standards & specs that might benefit from
 
 [[timeslots]]
 startTime="10:15"
-speakers=["@bmann"]
+speakers=["@bmann, @expede"]
 title="Content Addressing Alliance"
 description="IPFS has 'won'. Content addressing is a sustaining innovation that can make its way into many more places. Discuss creating a cross-organization Content Addressable Alliance that advocates and promotes the usage of content addressing."
 
