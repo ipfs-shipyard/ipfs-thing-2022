@@ -74,8 +74,8 @@ title="Welcome standup discussion"
 description=""
 
 [[timeslots]]
-startTime="09:30"
-speakers=[]
+startTime="09:40"
+speakers=["@jbenet"]
 title="Track Intro"
 description=""
 
@@ -87,13 +87,13 @@ description="We have wasm-ipld code that can run in kubo and work with gateways.
 
 [[timeslots]]
 startTime="10:45"
-speakers=["@raulk?"]
+speakers=["@stebalien"]
 title="FVM Deep Dive"
 description=""
 
 [[timeslots]]
 startTime="11:30"
-speakers=["@stebalien?"]
+speakers=["@stebalien"]
 title="WASM + IPLD"
 description=""
 
@@ -141,14 +141,14 @@ description="How can a WASM-powered IPFS/libp2p node help with interoperability 
 
 [[timeslots]]
 startTime="16:00"
-speakers=[]
-title="Open Slot"
+speakers=["@jbenet"]
+title="VMs & IPFS - use cases"
 description=""
 
 [[timeslots]]
 startTime="16:30"
-speakers=[]
-title="Open Slot"
+speakers=["@jbenet"]
+title="Planning Discussion"
 description=""
 
 [[timeslots]]
