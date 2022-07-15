@@ -78,83 +78,49 @@ Bring your ideas, use-cases, needs and we'll redefine the track as needed before
 # - use 15m breaks, one in the morning, one or two in the afternoon
 
 [[timeslots]]
-startTime="13:00"
+startTime="13:30"
 speakers=["@autonome"]
 title="Intro to IPFS in Browsers & the Web"
 description="""What's happened so far, who are the players, what's the landscape, 
 what barriers exist, what feature gaps need closing, what to do next."""
 
 [[timeslots]]
-startTime="13:20"
+startTime="13:50"
 speakers=["@lidel"]
 title="State of IPFS and HTTP (TBD)"
 description=""
 
 [[timeslots]]
-startTime="13:40"
+startTime="14:10"
 speakers=["@RangerMauve?"]
 title="Agregore `fetch()`, a multi-protocol abstraction"
 description="""This talk will look at Peer to Peer URLs and how they can be used
 in tandem with HTTP-like APIs within webapps using custom protocol handlers."""
 
 [[timeslots]]
-startTime="14:00"
+startTime="14:30"
 speakers=["@fabricedesre"]
 title="IPFS and Content Discovery"
 description="""Incumbent Mobile OSes centralize content discovery in their app
 stores. Let's explore how we could change that with IPFS!"""
 
 [[timeslots]]
-startTime="14:20"
+startTime="14:40"
 speakers=["@meandavejustice"]
 title="Manifest V3 and the road forward for IPFS browser extensions"
 description=""
 
 [[timeslots]]
-startTime="14:40"
+startTime="15:00"
 speakers=["@ikreymer"]
 title="Saving the web to IPFS while you browse with Webrecorder tools"
 description="Will provide a quick overview of Webrecorder tools and how they support saving web sites using the browser, from a single page to many TBs of data, and accessing high fidelity web archives from IPFS. Will cover ongoing work, research and challenges."
 
 [[timeslots]]
-startTime="14:50"
-speakers=[]
-title="Open Slot: Lightning talk"
-description=""
-
-[[timeslots]]
-startTime="15:00"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
 startTime="15:20"
-speakers=[]
-title="Workshop: Define an IPFS Application Model for the Web Platform"
-description="""Work as a group to draft an application model for IPFS which 
-aligns with web content models and APIs or redefines them as needed - such as
-handling content loaded from a CID, publishing to IPFS directly from web content
-or what an event model for IPFS content might be."""
-
-[[timeslots]]
-startTime="15:40"
 speakers=["@marten-seemann"]
 title="Challenges in Browser Connectivity"
 description="""While full nodes can use transports like TCP and QUIC, this is not
 an option for web browsers. Instead, we have to fall back to protocols like WebSocket,
 WebTransport and WebRTC. And even for those, the browser API severly limits what we
 can do."""
-
-[[timeslots]]
-startTime="16:20"
-speakers=[]
-title="Workshop: Threat modeling IPFS in web browsers"
-description="Sprint exercise to identify common user tasks and enumerate possible threats against them."
-
-[[timeslots]]
-startTime="17:00"
-speakers=[]
-title="Workshop: Draft an IPFS network architecture plan for native browser integration"
-description="""Work as a group to draft a network architecture plan which
-integrates natively in existing web platform implementations"""
