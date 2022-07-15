@@ -128,6 +128,12 @@ title="Break"
 description=""
 
 [[timeslots]]
+startTime="15:20"
+speakers=["@mriise"]
+title="Rust-Libp2p-WASM Demo"
+description="Fast demo demonstrating rust-libp2p running inside the browser with Webassembly"
+
+[[timeslots]]
 startTime="15:30"
 speakers=["@adlrocha"]
 title="Idea/Brainstorm: Implement once, run everywhere"
