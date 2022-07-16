@@ -1,5 +1,5 @@
 # the name of your event
-name = "Scalable Virtual Worlds (tentative)"
+name = "IPVM Planning"
 
 # the name of the group organizing the event
 org = "PL Starfleet"
@@ -10,7 +10,7 @@ dri = "@jbenet"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://discuss.ipfs.io/t/2022-07-16-scalable-virtual-worlds/14638"
+website = "https://discuss.ipfs.io/t/2022-07-15-ipfs-wasm/14642"
 
 # the start date of the event
 date = "2022-07-16"
@@ -19,7 +19,7 @@ date = "2022-07-16"
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 13:00"
+times = "10:00 - 12:00"
 
 # the event venue name (will show up on the event card - TODO)
 venueName = ""
@@ -40,7 +40,7 @@ difficulty = "All Wecome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks", "Workshops"]
+tags = ["Workshop"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -50,34 +50,11 @@ tags = ["Talks", "Workshops"]
 description = """
 **New directions for scalable virtual worlds.**
 
-A half-day workshop exploring how to build scalable virtual worlds, and exploring new directions.
+A short workshop for IPVM planning.
 
 """
 
 [[timeslots]]
 startTime="10:00"
 speakers=["@jbenet"]
-title="IPFS & Virtual Worlds"
-
-[[timeslots]]
-startTime="10:45"
-speakers=["@justinmelillo"]
-title="Building the Monaverse - Composable Rooms with IPFS"
-
-[[timeslots]]
-startTime="11:15"
-speakers=[""]
-title="Open Workshop Slot"
-description="Open Workshop Slot"
-
-[[timeslots]]
-startTime="11:45"
-speakers=["Hilmar Pétursson"]
-title="Building massively scalable virtual worlds"
-description="TBD"
-
-[[timeslots]]
-startTime="12:30"
-speakers=["CCP"]
-title="Visions for the Open Metaverse"
-description="Fireside Chat (TBD)"
+title="Planning workshop for IPVM"
