@@ -48,7 +48,7 @@ export default function Hero({config}) {
             RSVP
           </a>
         </div>}
-        {config.devent.rsvpLink && 
+        {config.devent.recapLink && 
         <div className="space-x-5 mb-10">
           <a
             href={config.devent.recapLink}
