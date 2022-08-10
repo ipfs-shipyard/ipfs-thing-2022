@@ -48,6 +48,16 @@ export default function Hero({config}) {
             RSVP
           </a>
         </div>}
+        {config.devent.rsvpLink && 
+        <div className="space-x-5 mb-10">
+          <a
+            href={config.devent.recapLink}
+            type="button"
+            className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-orange-500 hover:bg-orange-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+          >
+            Recap and Videos
+          </a>
+        </div>}
       </div>
 
 
