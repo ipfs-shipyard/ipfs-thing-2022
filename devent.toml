@@ -29,7 +29,7 @@ link="https://2022.ipfs-thing.io"
 
 # a link to the recap and videos
 # Dependent on https://github.com/ipfs/ipfs-blog/issues/443 first.
-recapLink="https://blog.ipfs.io/FILL_IN"
+recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
 
 # a link to a logo image for the event
 logo="ipfs-thing-logo.png"
