@@ -3,9 +3,13 @@
 const colors = require('./node_modules/tailwindcss/colors');
 const colorSaveList = [];
 const colorExtend = {};
+const deprecatedColors = ['lightBlue', 'trueGray', 'warmGray', 'coolGray', 'blueGray'];
 
 for (const key in colors) {
-  colorExtend[key] = colors[key];
+  const notDeprecated = !deprecatedColors.includes(key)
+  if (notDeprecated) {
+    colorExtend[key] = colors[key];
+  }
 
   [100, 200, 300, 400, 500, 600, 700, 800, 900].forEach(n => {
     colorSaveList.push(`text-${key}-${n}`);
