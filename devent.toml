@@ -1,35 +1,36 @@
 [devent]
 
 # the name of the devent
-name="IPFS þing"
+name="LabWeek22"
 
 # where the event is happening
-location="Reykjavík, Iceland"
+location="Lisbon, Portugal"
 
 # the dates the devent runs
-dateStart = "2022-07-11"
-dateEnd = "2022-07-17"
+dateStart = "2022-10-20"
+dateEnd = "2022-11-4"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
-þing (n). thing, assembly, meeting, council. parliament.
+A decentralized conference hosted by Protocol Labs
 """
 
 description="""
-IPFS þing is a week-long gathering for the IPFS implementors community. There will be talks, workshops, discussion circles, hacking time, and more — all focused on advancing IPFS implementations.
+The Protocol Labs Network is hosting our first ever decentralized conference in Lisbon. Teams in the network will spin up dozens of events across Oct 22-Nov 4. These will take many forms, from summits to unconferences to networking happy hours, and cover a wide array of topics, including decentralized storage, public goods funding, cryptoeconomics, DeSci, and many more. Then you get to choose your own adventure for which ones to attend to make the biggest impact. 
+
+We invite you to join us as we drive breakthroughs in computing to push humanity forward.
 """
 
 
 # a link to the devent website (what domain do you expect to use?)
-link="https://2022.ipfs-thing.io"
+link="https://labweek22.on.fleek.co"
 
 # a link to RSVP for the event
-# Commentng out since the event is in the past.
-# rsvpLink="https://protocollabs.typeform.com/IPFSThing2022"
+rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
 
 # a link to the recap and videos
 # Dependent on https://github.com/ipfs/ipfs-blog/issues/443 first.
-recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
+# recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
 
 # a link to a logo image for the event
 logo="ipfs-thing-logo.png"
@@ -39,13 +40,13 @@ logo="ipfs-thing-logo.png"
 bgimg="harpa.jpg"
 
 # the organizers of the devent (usually a group)
-org="the IPFS Team"
+org="Protocol Labs"
 
 # the website of the organizers
-orglink="https://ipfs.io/team/"
+orglink="https://protocol.ai"
 
 # url for this event repo
-repo="https://github.com/ipfs-shipyard/ipfs-thing-2022"
+repo="https://github.com/pathfindertools/labweek-2022"
 
 # list the participating teams.
 # the format here is:
@@ -69,47 +70,8 @@ teams = [
 # """
 [faq]
 
-"What is IPFS þing?" = """
-  Set in the inspiring and otherworldly landscape of Reykjavík, Iceland, IPFS þing is a collaborative workshop series for the IPFS implementors community. There will be talks, workshops, discussion circles, coworking and hacking time, and more — all focused on advancing IPFS implementations.
-"""
-
-"Who is it for?" = """
-  This event brings together maintainers or core contributors of an IPFS implementation, ranging from production usage to working demo. If this describes you, please join! If you are unsure, email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
-
-  If you are an IPFS user, tooling developer, collaborator, or curious community member, we enthusiastically invite you to IPFS Camp, an epic decentralized event organized by the community, for the community. Details on IPFS Camp are coming soon, and will be announced on [Twitter](https://twitter.com/ipfs).
-"""
-
-"All events are optional?!?" = """
-Yes! This is a choose-your-own-adventure event, so please choose the track(s), sessions, arrival and departure dates, and activities that are interesting and relevant for *you*.
-
-A bunch of us are actively working on putting together a fantastic schedule. We want your suggestions, feedback, and additions as Pull Requests & Issues [here](https://github.com/ipfs-shipyard/ipfs-thing-2022). Please jump in to help make this thing a thing that helps you."""
-
-"I'm in! How do I participate?" = """
-  Each implementation will demo in the IPFS Implementations Showcase on Day 2. However, that's just the beginning. Add yourself to the [Participating Teams](https://github.com/ipfs-shipyard/ipfs-thing-2022/edit/main/devent.toml) section of this website. Then, take a look at the latest sessions schedule. See an important track or session that's missing? Please propose it by [creating a PR to this repo](https://github.com/ipfs-shipyard/ipfs-thing-2022#add-your-event). You can also discuss an idea via [Github issue](https://github.com/ipfs-shipyard/ipfs-thing-2022/issues) before creating the PR.
-"""
-
-"Is there a cost to participate?" = """
-  There is no charge to participate, and all meals during the event are provided. Participants (or their employers) are responsible for flights and accommodations. Several hotel blocks are being reserved and will be added here when confirmed; you are also free to book your own accommodations. 
-"""
-
-"Can I lead a track?" = """
-Yes absolutely! Here's what's involved:
-
-* Identify an IPFS-related topic that you know a thing or two about, and think others should care more about
-* File a PR adding your track [here](http://github.com/ipfs-shipyard/ipfs-thing-2022/pulls/new)
-* Recruit folks you collaborate regularly with to help shape the content of your track
-
-You will have total control over the structure of your track. Morning of talks & afternoon of discussion? Go for it! Required reading before attendance? Sounds great.
-
-Event organizers will work with you to help situate your track in the broader schedule, give feedback, and help to make your event great. We'll get you set up with AV gear, a room, and other logistical support as needed.
-"""
-
-"Can I request travel or childcare assistance?" = """
-  Please email [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io) and we will do our best to accommodate.
-"""
-
-"How do I contact the organizers?" = """
-  You can reach out to us at [ipfs-thing-2022@ipfs.io](mailto:ipfs-thing-2022@ipfs.io).
+"What is LabWeek22" = """
+  Protocol Labs drives breakthroughs in computing to push humanity forward.‌ Together, teams in the network have developed web3 projects like IPFS, Filecoin, and libp2p, and we have ambitious goals to continue to transform and improve computing and the decentralized web.
 """
 
 # schedule section config
@@ -124,7 +86,7 @@ All scheduled events are [optional](/#faq).
 
 [footer.links]
 "IPFS" = "https://ipfs.io"
-"Event Github" = "https://github.com/ipfs-shipyard/ipfs-thing-2022"
+"Event Github" = "https://github.com/pathfindertools/labweek-2022"
 
 [footer.legal]
 "Privacy Policy" = "#"

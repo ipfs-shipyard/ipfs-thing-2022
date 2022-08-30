@@ -1,5 +1,5 @@
 # the name of your event
-name = "Choose Your Icelandic Adventure"
+name = "Choose Your LabWeek Adventure"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -13,7 +13,7 @@ dri = "@yunigraham"
 # website = "https://protocol.ai/labday"
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-10-20"
 
 # how many days the event lasts (1 - N)
 days = 1
