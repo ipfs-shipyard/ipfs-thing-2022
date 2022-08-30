@@ -11,8 +11,8 @@ export default function About({ config }) {
   var teamsEl = (
     <Section title="Participating Teams">
       <div className="container max-w-8xl mx-auto flex flex-wrap gap-20 justify-center items-center align-middle">
-        {teams.map((s) => (
-          <a href={s[1]} target="_blank" alt={s[0]} className="basis-52 h-[100px] inline-block align-middle">
+        {teams.map((s, i) => (
+          <a href={s[1]} target="_blank" alt={s[0]} className="basis-52 h-[100px] inline-block align-middle" key={i}>
             <img src={s[2]} className="object-contain object-center h-full"/>
           </a>
         ))}
@@ -35,8 +35,8 @@ export default function About({ config }) {
     <Section title="FAQ">
       <div className="container max-w-8xl mx-auto">
         <Accordion>
-        {Object.keys(faq).map((q) => (
-          <Accordion.Panel open={true}>
+        {Object.keys(faq).map((q, i) => (
+          <Accordion.Panel open={true} key={i}>
             <Accordion.Title arrowIcon={undefined}>
               <Markdown children={q} />
             </Accordion.Title>

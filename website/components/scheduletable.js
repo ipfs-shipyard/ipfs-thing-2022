@@ -29,12 +29,12 @@ export function ScheduleTable({ events, config }) {
     <>
       <div className={`schedule-days mx-20 pr-20 no-flex grid grid-flow-col-dense grid-cols-${numDays} gap-4 w-[${numDays * 250}px]`}>
         {days.map((d, i) => (
-          <div className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0`}>
+          <div className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0`} key={i}>
             <p className="flex-1 mx-2 text-left">{d.format('ddd')}</p>
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {events.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
+        {events.map((e, i) => (<EventCardWrapper e={e} i={i} key={i} />))}
         <div className={`col-start-1 col-span-${numDays} shrink-0 h-full`}>
           <BlankCard />
         </div>
