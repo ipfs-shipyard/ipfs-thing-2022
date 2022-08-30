@@ -1,14 +1,11 @@
-# ipfs-þing-2022 - Implementors Workshops
+# LabWeek 2022
 
-> þing (n.) thing, assembly, meeting, council. parliament.
+A decentralized conference hosted by Protocol Labs. We are using this github repository and website to coordinate event listings. The website is published to:
+- Staging: https://labweek-2022.vercel.app/
 
-A collaborative series of workshops for IPFS Implementors. We are using this github repository and website to coordinate event listings. The website is published to:
-- https://ipfs.io/ipfs/bafybeifnpoajxgp2bt7vcjcvc67p5fujsxiucotwny7l5fvel4k4cvnkhq/
-- https://ipfs-thing.events/
+## LabWeek 2022 Location and Dates
 
-## ipfs-þing-2022 Location and Dates
-
-ipfs-þing-2022 is happening July 11-17, 2022 at [The Harpa](https://goo.gl/maps/qQkLYrFprPMvAFaj7) in Iceland.
+LabWeek 2022 is happening October 24th to November 2nd, in Lisbon.
 
 ## Decentralized Event
 
@@ -39,7 +36,7 @@ Tracks are a group of sessions with a common theme.
 
 ### What venue do I put?
 
-Room allocations at the Harpa are still TBD. Leave it blank for now, we'll try to assign rooms closer to the event.
+Leave it blank for now, we'll try to assign rooms closer to the event.
 
 ### CSV dump of talks
 
