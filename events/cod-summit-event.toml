@@ -47,5 +47,4 @@ tags = ["Talks", "Workshops"]
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = """
-"""
+description = """Bringing together the Compute Working group to talk about the latest advancements in distribute compute and efficient data processing."""
