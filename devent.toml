@@ -71,8 +71,41 @@ teams = [
 # """
 [faq]
 
+"What is the Protocol Labs Network?" = """
+  Protocol Labs is an open-source research, development, and deployment laboratory. Our projects include IPFS, Filecoin, libp2p, and more. We aim to make human existence orders of magnitude better through technology.
+
+  The Protocol Labs Network includes over 150 independent teams, working together to drive breakthroughs in computing. Our work spans the entire innovation pipeline, from the earliest research ideation to deploying end-user products. We invite like-minded teams and individuals to collaborate with us.
+"""
 "What is LabWeek22" = """
-  Protocol Labs drives breakthroughs in computing to push humanity forward.‌ Together, teams in the network have developed web3 projects like IPFS, Filecoin, and libp2p, and we have ambitious goals to continue to transform and improve computing and the decentralized web.
+  LabWeek22 is our first-ever decentralized conference. Teams in the network will spin up dozens of events over a 10-day period, including research-focused seminars, engineering workshops, summits, unconferences, and happy hours. These events will span a wide array of topics, including decentralized storage, public goods funding, cryptoeconomics, DeSci, and more.
+"""
+"Who is it for?" = """
+  LabWeek22 brings together teams and individuals within the Protocol Labs Network, working together to collaborate on a wide array of topics and areas. Many of these events are open to all interested individuals and collaborators; please see the schedule and register to participate.
+"""
+"All events are optional?!" = """
+  Yes! This is a choose-your-own-adventure event, so please choose the events, sessions, arrival and departure dates, and activities that are interesting and relevant for you.
+
+  A bunch of us are actively working on putting together a fantastic schedule. We want your suggestions, feedback, and additions as Pull Requests & Issues here. Please jump in to help make this thing a thing that helps you.
+"""
+"I’m in! How do I participate?" = """
+  Great! Check out the schedule, and register for any events that you’re interested in. Each event is independently managed, and may have different policies for ticketing and registration. We invite you to join as many events as you are able to.
+"""
+"Can I host an event?" = """
+  Yes, absolutely! Here’s what’s involved:
+  
+  - Identify a topic that you know deeplya thing or two about, and think others should care more about. This can be related to IPFS/Filecoin, Web3, or innovation more generally.
+  - Add your track to the schedule here.
+  - Recruit folks you collaborate with regularly to help shape the content of your event.
+
+  You will have total control over the structure of your event. A morning of talks and an afternoon of discussion? Go for it! Required reading before attendance? Sounds great.
+
+  The LabWeek22Lab Week team will work with you to help situate your track in the broader schedule, give feedback, and help to make your event great. We'll get you set up with AV gear, a room, and other logistical support as needed – see this page for a list of resources, or reach out to labweek22@protocol.ai for help.
+"""
+"Can I request travel or child-care assistance?" = """
+  Please email labweek22@protocol.ai and we will do our best to accommodate.
+"""
+"How do I contact the organizers?" = """
+  You can reach out to us at labweek22@protocol.ai.
 """
 
 # schedule section config
