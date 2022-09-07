@@ -1,0 +1,61 @@
+# the name of your track or event
+name = "Retrieval Markets Summit"
+
+# the name of the group organizing the event
+org = "Protocol Labs"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@patrickwoodhead"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://retrievalmarketssummit.super.site"
+
+# the start date of the event
+date = "2022-10-27"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "11:00 - 19:00 UTC"
+
+# the event venue name (will show up on the event card - TODO)
+venueName = ""
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = ""
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+Alongside the FVM (Filecoin Virtual Machine), the Filecoin Retrieval Market is one of the most important priorities for Filecoin. It unlocks the possibility of mass adoption for the Filecoin Network.
+
+The Retrieval Markets Working Group (RMWG) consists of many teams around the globe, all working on building blocks of a decentralised CDN for the Filecoin Network. The Retrieval Markets Summit in Lisbon will give each team the chance to present what they have built so far and their vision for the future. It will also allow the teams a chance to meet each other and discuss how their solutions can work together. Head to retrieval.market to find out more about the teams and their work.
+
+There will be two tracks at this event.
+
+     1. RMWG 2022 launches and updates
+     2. Retrieval Incentives for the Filecoin Network
+
+This event will include time at the beginning and the end to talk to each other more informally over some food and drinks.
+"""
