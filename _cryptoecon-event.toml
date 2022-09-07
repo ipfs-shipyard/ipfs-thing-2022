@@ -1,0 +1,52 @@
+# the name of your track or event
+name = "CryptoEconDay"
+
+# the name of the group organizing the event
+org = "Protocol Labs"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@zixuanzh"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://www.cryptoeconday.io/"
+
+# the start date of the event
+date = "2022-11-01"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = ""
+
+# the event venue name (will show up on the event card - TODO)
+venueName = ""
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = ""
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks", "Workshops"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+CryptoEconDay is a gathering of Web 3 researchers and practitioners sharing findings, lessons learned, and our most challenging questions around the topic of cryptoeconomics.Cryptoeconomics is an exciting, new field of incentive and mechanism design in cryptographically secured peer-to-peer networks. This interdisciplinary field of study is at the core of every Web3 project, and involves a constellation of knowledge including computer science, network science, statistics, economics, and systems engineering. In an increasingly networked and open world, cryptoeconomics will play a bigger role in coordinating human and machine activities and building a better future.Topics you will hear about are:        → Incentive & token design	     → Modeling & simulation     → Optimal pricing and resource allocation in distributed networks     → Governance process & principles	     → Formation, diffusion, and learning in networks     → Real-world experience & business impact	     → Network analytics & data-driven monitoring
+"""
