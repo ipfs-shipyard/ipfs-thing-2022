@@ -24,11 +24,11 @@ export default function About({ config }) {
   return (
 <>
 
-    <Section title="About">
+    {/* <Section title="About">
         <div className="container max-w-8xl mx-auto">
             <Markdown>{ config.devent.about }</Markdown>
         </div>
-    </Section>
+    </Section> */}
 
     {teamsEl}
 
