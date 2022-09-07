@@ -1,0 +1,53 @@
+# the name of your track or event
+name = "IPFS Camp"
+
+# the name of the group organizing the event
+org = "Protocol Labs"
+
+# the github handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "@yunigraham"
+
+# the website of the event
+# make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
+website = "https://2022.ipfs.camp"
+
+# the start date of the event
+date = "2022-10-28"
+
+# how many days the event lasts (1 - N)
+days = 3
+
+# the event times (shows up in the event card)
+times = ""
+
+# the event venue name (will show up on the event card - TODO)
+venueName = "Convento do Beato"
+
+# the event venue address (will show up on a map -- TODO)
+venueAddress = "Alameda do Beato 40, 1950-042 Lisboa, Portugal"
+
+# the max number of attendees of the event
+attendees = ""
+
+
+# these is unsued:
+# tickets = ""
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Talks", "Workshops"]
+
+# a color, to group key events visually. use sparingly
+# color=""
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you! 
+Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
+"""
