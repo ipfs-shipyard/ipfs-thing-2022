@@ -1,11 +1,12 @@
 # LabWeek 2022
 
 A decentralized conference hosted by Protocol Labs. We are using this github repository and website to coordinate event listings. The website is published to:
-- Staging: https://labweek-2022.vercel.app/
+
+https://labweek2022.on.fleek.co/
 
 ## LabWeek 2022 Location and Dates
 
-LabWeek 2022 is happening October 24th to November 2nd, in Lisbon.
+LabWeek 2022 is happening October 20th to November 4th, in Lisbon.
 
 ## Decentralized Event
 
