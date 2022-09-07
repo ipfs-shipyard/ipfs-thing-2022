@@ -16,7 +16,8 @@ A decentralized conference hosted by Protocol Labs
 """
 
 description="""
-The Protocol Labs Network is hosting our first ever decentralized conference in Lisbon. Teams in the network will spin up dozens of events across Oct 22-Nov 4. These will take many forms, from summits to unconferences to networking happy hours, and cover a wide array of topics, including decentralized storage, public goods funding, cryptoeconomics, DeSci, and many more. Then you get to choose your own adventure for which ones to attend to make the biggest impact. 
+
+The Protocol Labs Network is gathering in Lisbon for our first ever decentralized conference. Teams in the network will collaborate on a variety of topics, including decentralized storage, public goods funding, cryptoeconomics, DeSci, and more.
 
 We invite you to join us as we drive breakthroughs in computing to push humanity forward.
 """
@@ -33,11 +34,11 @@ rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
 
 # a link to a logo image for the event
-logo="ipfs-thing-logo.png"
+logo="logo-gradient.svg"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="harpa.jpg"
+bgimg="chasm.png"
 
 # the organizers of the devent (usually a group)
 org="Protocol Labs"

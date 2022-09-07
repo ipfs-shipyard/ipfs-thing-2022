@@ -14,11 +14,11 @@ export default function Header({config}) {
           rounded={true}
         >
           <Navbar.Brand href='/'>
-            <img
+            {/* <img
               src={config.devent.logo}
               className="mr-3 h-6 sm:h-9"
               alt={config.devent.name}
-            />
+            /> */}
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
               {config.devent.name}
             </span>
