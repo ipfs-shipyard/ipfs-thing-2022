@@ -8,6 +8,7 @@ export function Layout({ children, config }) {
       <Head>
         <title>{config.devent.name}</title>
         <BaseScript />
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Header config={config} />
