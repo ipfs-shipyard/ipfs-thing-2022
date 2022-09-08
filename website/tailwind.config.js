@@ -40,7 +40,10 @@ module.exports = {
         '19': '19',
         '20': '20',
       }
-    }
+    },
+    fontFamily: {
+      'exo': ['"Exo"', 'sans-serif'],
+    },
   },
   plugins: [
     require('flowbite/plugin'),
