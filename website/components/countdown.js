@@ -36,15 +36,17 @@ export default function Countdown({targetDate}) {
   }
   
   return (
-    <div className="container max-w-8xl mx-auto -mt-3 mb-3 px-20">
-    <div className="bg-blue-500 rounded-lg text-white py-8">
-      <div className="flex gap-12 justify-center ">
-        <Counter value={timeLeft.days} label="DAYS" />
-        <Counter value={timeLeft.hours} label="HRS" />
-        <Counter value={timeLeft.minutes} label="MIN" />
-        <Counter value={timeLeft.seconds} label="SEC" />
+    <div className="relative z-2 w-full px-20 min-h-[10vh] mt-28 -mb-10">
+      <div className="container max-w-8xl mx-auto">
+        <div className="bg-blue-500 rounded-lg text-white py-8">
+          <div className="flex gap-12 justify-center ">
+            <Counter value={timeLeft.days} label="DAYS" />
+            <Counter value={timeLeft.hours} label="HRS" />
+            <Counter value={timeLeft.minutes} label="MIN" />
+            <Counter value={timeLeft.seconds} label="SEC" />
+          </div>
+        </div>
       </div>
     </div>
-  </div>
   )
 }

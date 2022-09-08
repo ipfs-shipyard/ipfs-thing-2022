@@ -6,10 +6,10 @@ export default function Hero({ config }) {
     <div className="overflow-hidden lg:flex bg-left bg-no-repeat bg-cover bg-color object-fit" >
       <div className="relative overflow-hidden text-gray-300 lg:flex w-full">
         <div className="container lg:flex max-w-8xl mx-auto">
+          <div className="absolute inset-0 overflow-hidden">
+            <img className="absolute bottom-0 left-1/2 transform -translate-x-1/4" src={config.devent.bgimg} style={{ minWidth: "1600px" }} />
+          </div>
           <div className="relative w-full sm:p-8 lg:pt-20 lg:pb-40">
-            <div className="absolute inset-0 overflow-hidden">
-              <img className="absolute bottom-0 left-1/2 transform -translate-x-1/4" src={config.devent.bgimg} style={{ minWidth: "1600px" }} />
-            </div>
             <div className="relative z-1 mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3">
               <div className='flex ml-6'>
                 <div className='flex-none w-24 h-24 mt-4'>
