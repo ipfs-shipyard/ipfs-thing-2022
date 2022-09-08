@@ -1,14 +1,9 @@
-// index.js
-import Head from 'next/head'
-import Link from "next/link";
-import Hero from "../components/hero.js"
-import {Layout, Section} from "../components/layout.js"
-import {ScheduleTable} from "../components/scheduletable.js"
-import {AddEventModal} from "../components/event.js"
-import ScrollContainer from 'react-indiana-drag-scroll'
-import About from "../components/about.js"
-import Countdown from "../components/countdown"
 import {loadEvents, loadConfig} from "../lib/data.js"
+import FAQ from "../components/faq.js"
+import Countdown from "../components/countdown"
+import Hero from "../components/hero.js"
+import Layout from "../components/layout.js"
+import Teams from "../components/teams.js"
 import ScheduleSection from '../components/scheduleSection.js';
 
 export default function Index({ events, config }) {
@@ -20,8 +15,9 @@ export default function Index({ events, config }) {
           Check their websites for information on ticketing.
         </div>
       <ScheduleSection config={config} events={events} />
-      <About config={config} />
+      <Teams config={config} />
       <Countdown targetDate="2022/10/20 01:00" />
+      <FAQ config={config} />
     </Layout>
   )
 }
