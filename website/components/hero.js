@@ -1,5 +1,6 @@
 import dayjs from 'dayjs'
 import Markdown from './markdown'
+import Button from './button'
 
 export default function Hero({ config }) {
   return (
@@ -11,11 +12,11 @@ export default function Hero({ config }) {
           </div>
           <div className="relative w-full sm:p-8 lg:pt-20 lg:pb-40">
             <div className="relative z-1 mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3">
-              <div className='flex ml-6'>
+              <div className='lg:flex sm: ml-6'>
                 <div className='flex-none w-24 h-24 mt-4'>
                   <img src={config.devent.logo} width="1600" />
                 </div>
-                <div className='flex-grow text-left ml-6'>
+                <div className='flex-grow text-left lg:ml-6'>
                   <div className="mt-4 font-bold text-black mb-2 text-6xl">
                     {config.devent.name}
                   </div>
@@ -36,13 +37,7 @@ export default function Hero({ config }) {
 
                 {config.devent.rsvpLink &&
                   <div className="space-x-5 mb-10">
-                    <a
-                      href={config.devent.rsvpLink}
-                      type="button"
-                      className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-blue-500 hover:bg-blue-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    >
-                      RSVP
-                    </a>
+                    <Button href={config.devent.rsvpLink} className="mt-8" target="_blank">RSVP</Button>
                   </div>}
                 {config.devent.recapLink &&
                   <div className="space-x-5 mb-10">
