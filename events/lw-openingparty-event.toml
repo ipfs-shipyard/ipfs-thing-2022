@@ -1,38 +1,38 @@
 # the name of your track or event
-name = "Unconf and Miscellaneous Sessions"
+name = "Lab Week Opening Party"
 
 # the name of the group organizing the event
-org = "PL Starfleet"
+org = "Spaceport"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@biglep"
+dri = "@androowoo"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://discuss.ipfs.io/t/unconf-and-miscellaneous-sessions/14676"
+website = ""
 
 # the start date of the event
-date = "2022-07-13"
+date = "2022-10-24"
 
 # how many days the event lasts (1 - N)
-days = 4
+days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 18:00"
+times = ""
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Harpa - Haaloft"
+venueName = "Estufa Fria"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Parque Eduardo VII, 1070-051 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = "20"
+attendees = ""
 
 
 # these is unsued:
-# tickets = "Waitlist"
+# tickets = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -40,14 +40,12 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Open time"]
+tags = ["", ""]
 
 # a color, to group key events visually. use sparingly
-#color="slate"
+# color=""
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-There is a space to schedule sessions that emerge out of other conversations or for sessions that don't fit other places.
-More details for scheduling are in the IPFS Discourse topic: https://discuss.ipfs.io/t/unconf-and-miscellaneous-sessions/14676
 """

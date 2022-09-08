@@ -1,60 +1,51 @@
-# the name of your event
-name = "IPVM Planning"
+# the name of your track or event
+name = "ConsensusLab Summit"
 
 # the name of the group organizing the event
-org = "PL Starfleet"
+org = "Consensus Lab Team"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@jbenet"
+dri = "@jsoares"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://discuss.ipfs.io/t/2022-07-15-ipfs-wasm/14642"
+website = ""
 
 # the start date of the event
-date = "2022-07-16"
+date = "2022-10-26"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 12:00"
+times = ""
 
 # the event venue name (will show up on the event card - TODO)
-venueName = ""
+venueName = "Time Out Market"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = ""
+venueAddress = "Av. 24 de Julho 49, 1200-479 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = "50"
+attendees = ""
 
 
 # these is unsued:
-# tickets = "Waitlist"
+# tickets = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Wecome"
+difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Workshop"]
+tags = [""]
 
 # a color, to group key events visually. use sparingly
-# color="purple"
+# color=""
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-**New directions for scalable virtual worlds.**
-
-A short workshop for IPVM planning.
-
 """
-
-[[timeslots]]
-startTime="10:00"
-speakers=["@jbenet"]
-title="Planning workshop for IPVM"

@@ -1,37 +1,38 @@
-# the name of your event
-name = "Choose Your Icelandic Adventure"
+# the name of your track or event
+name = "Launchpad Social"
 
 # the name of the group organizing the event
-org = "Protocol Labs"
+org = "Launchpad Team"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yunigraham"
+dri = "@hanahrz"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-# website = "https://protocol.ai/labday"
+website = ""
 
 # the start date of the event
-date = "2022-07-11"
+date = "2022-10-26"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 18:00"
+times = ""
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Multiple locations (announcing soon)"
+venueName = ""
 
 # the event venue address (will show up on a map -- TODO)
 venueAddress = ""
 
 # the max number of attendees of the event
-attendees = "Varies"
+attendees = ""
+
 
 # these is unsued:
-# tickets = "Waitlist"
+# tickets = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -39,23 +40,12 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Outing", "WIP"]
+tags = [""]
 
 # a color, to group key events visually. use sparingly
-color="slate"
+# color=""
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-We are arranging some exciting activties. Sign up is first come, first serve. These will run simultaneously. 
-*Please note, in order to secure the non-private tours, we need an accuate number of RSVPs to complete the booking. If this is something you're interested in attending, please sign up. 
-
-
-Sign up through the links below: 
-
-- *Golden Circle Tour: https://lu.ma/ipfsthing-gc-11
-- *Volcanic Wonders of Reykjanes Geopark: https://lu.ma/ipfsthing-hotlava-11
-- Whale Watching & Videy Island Visit: https://lu.ma/ipfsthing-whales-11
-
-Be prepared for the weather! Bring jackets and wear comfortable, water resistant shoes. 
 """

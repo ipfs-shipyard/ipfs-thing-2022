@@ -1,5 +1,5 @@
-# the name of your event
-name = "Whale Museum Dinner"
+# the name of your track or event
+name = "IPFS Camp"
 
 # the name of the group organizing the event
 org = "Protocol Labs"
@@ -10,29 +10,29 @@ dri = "@yunigraham"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://lu.ma/ipfsthing-whaledinner-13"
+website = "https://2022.ipfs.camp"
 
 # the start date of the event
-date = "2022-07-13"
+date = "2022-10-28"
 
 # how many days the event lasts (1 - N)
-days = 1
+days = 3
 
 # the event times (shows up in the event card)
-times = "19:00 - 22:00"
+times = ""
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Whales of Iceland Museum"
+venueName = "Convento do Beato"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Fiskislóð 23-25, 101 Reykjavík, Iceland"
+venueAddress = "Alameda do Beato 40, 1950-042 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = "100"
+attendees = ""
 
 
 # these is unsued:
-# tickets = "Waitlist"
+# tickets = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -40,13 +40,14 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Dinner"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
-color="indigo"
+# color=""
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-​Come dine with us among the giants at the Whales of Iceland Museum. We will have a short performance by Mugison, one of the most well known Icelandic musicians. Guests are also permitted to tour the museum.
+IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you! 
+Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
 """

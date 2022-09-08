@@ -8,6 +8,7 @@ export function Layout({ children, config }) {
       <Head>
         <title>{config.devent.name}</title>
         <BaseScript />
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Header config={config} />
@@ -28,7 +29,7 @@ export function Section({ title, className, children }) {
   return (
     <div className={`w-full px-20 py-10 min-h-[10vh] ${className}`} id={ slugify(title) }>
       <div className="container max-w-8xl mx-auto pb-10">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-3xl text-center font-bold">
           {title}
         </h1>
       </div>

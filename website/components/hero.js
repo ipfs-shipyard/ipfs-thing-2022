@@ -1,73 +1,62 @@
 import dayjs from 'dayjs'
 import Markdown from './markdown'
+import Button from './button'
 
-export default function Hero({config}) {
+export default function Hero({ config }) {
   return (
-<div className="overflow-hidden lg:flex
-  bg-center bg-no-repeat bg-cover bg-color"
-  style={{backgroundImage: `url(${config.devent.bgimg})`}} >
-<div className="relative overflow-hidden text-gray-300 lg:flex w-full
-   bg-black/40
-   ">
-<div className="relative overflow-hidden text-gray-300 lg:flex w-full">
-<div className="container lg:flex max-w-8xl mx-auto">
-
-  <div className="w-full sm:p-8 lg:p-5 lg:min-h-[80vh]">
-    <div className="mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3 justify-center">
-
-      <div className='lg:mt-10'>
-        <div className='w-72 h-72 mx-auto mt-4 lg:w-xs lg:h-xs lg:float-left lg:mr-3'>
-          <img src={config.devent.logo} />
-        </div>
-        <div className='text-center basis-full lg:basis-2/3 lg:text-left lg:pt-8'>
-          <div className="mt-4 font-bold text-white pt-8 pb-2 text-6xl">
-            {config.devent.name}
+    <div className="overflow-hidden lg:flex bg-left bg-no-repeat bg-cover bg-color object-fit" >
+      <div className="relative overflow-hidden text-gray-300 lg:flex w-full">
+        <div className="container lg:flex max-w-8xl mx-auto">
+          <div className="absolute inset-0 overflow-hidden">
+            <img className="absolute bottom-0 left-1/2 transform -translate-x-1/4" src={config.devent.bgimg} style={{ minWidth: "1600px" }} />
           </div>
-          <div className="text-md italic text-white lg:mt-2 my-3 prose leading-7">
-            {config.devent.tagline}
+          <div className="relative w-full sm:p-8 lg:pt-20 lg:pb-40">
+            <div className="relative z-1 mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3">
+              <div className='lg:flex sm: ml-6'>
+                <div className='flex-none w-24 h-24 mt-4'>
+                  <img src={config.devent.logo} width="1600" />
+                </div>
+                <div className='flex-grow text-left lg:ml-6'>
+                  <div className="mt-4 font-bold text-black mb-2 text-6xl">
+                    {config.devent.name}
+                  </div>
+                  <div className="text-lg text-black lg:mt-2 font-bold">
+                    {config.devent.tagline}
+                  </div>
+                </div>
+              </div>
+
+              <div className='basis-1/3 pl-3 mx-2 my-5'>
+                <div className="text-2xl text-black">
+                  {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}{config.devent.location && ` • ${config.devent.location}`}
+                </div>
+
+                <div className="text-md text-black prose leading-7">
+                  <Markdown >{config.devent.description}</Markdown>
+                </div>
+
+                {config.devent.rsvpLink &&
+                  <div className="space-x-5 mb-10">
+                    <Button href={config.devent.rsvpLink} className="mt-8" target="_blank">RSVP</Button>
+                  </div>}
+                {config.devent.recapLink &&
+                  <div className="space-x-5 mb-10">
+                    <a
+                      href={config.devent.recapLink}
+                      type="button"
+                      className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-primary hover:bg-blue-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    >
+                      Recap and Videos
+                    </a>
+                  </div>}
+              </div>
+
+
+            </div>
           </div>
         </div>
       </div>
-
-      <div className='basis-1/3 pl-3 mx-2 mt-5 mb-14 lg:my-5'>
-        <div className="text-2xl text-white font-bold pb-5">
-          {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}{config.devent.location && ` • ${config.devent.location}`}
-        </div>
-
-        <div className="text-lg text-white prose leading-7">
-          <Markdown >{config.devent.description}</Markdown>
-        </div>
-
-        {config.devent.rsvpLink && 
-        <div className="space-x-5 mb-10">
-          <a
-            href={config.devent.rsvpLink}
-            type="button"
-            className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-orange-500 hover:bg-orange-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-          >
-            RSVP
-          </a>
-        </div>}
-        {config.devent.recapLink && 
-        <div className="space-x-5 mb-10">
-          <a
-            href={config.devent.recapLink}
-            type="button"
-            className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-orange-500 hover:bg-orange-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-          >
-            Recap and Videos
-          </a>
-        </div>}
-      </div>
-
-
     </div>
-  </div>
-
-</div>
-</div>
-</div>
-</div>
   )
 }
 

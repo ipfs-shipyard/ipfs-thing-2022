@@ -1,5 +1,6 @@
-import { Navbar, Button, DarkThemeToggle } from 'flowbite-react'
+import { Navbar, DarkThemeToggle } from 'flowbite-react'
 import Link from 'next/link'
+import Button from './button'
 
 export default function Header({config}) {
   //<DarkThemeToggle />
@@ -24,12 +25,7 @@ export default function Header({config}) {
             </span>
           </Navbar.Brand>
           <div className="flex md:order-2">
-
-            <Link href="/schedule">
-              <Button gradientDuoTone="greenToBlue">
-                Schedule
-              </Button>
-            </Link>
+            <Button href='/resources' target="_blank">Resources</Button>
             <Navbar.Toggle />
           </div>
           <Navbar.Collapse>

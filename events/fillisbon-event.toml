@@ -1,38 +1,38 @@
-# the name of your event
-name = "Closing Dinner @ Borg Restaurant"
+# the name of your track or event
+name = "FIL Lisbon"
 
 # the name of the group organizing the event
-org = "Protocol Labs"
+org = "Filecoin Foundation"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "@yunigraham"
+dri = ""
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
-website = "https://lu.ma/ipfsthing-borgdinner-16"
+website = "https://hub.fil.org/fil-lisbon"
 
 # the start date of the event
-date = "2022-07-16"
+date = "2022-11-30"
 
 # how many days the event lasts (1 - N)
-days = 1
+days = 2
 
 # the event times (shows up in the event card)
-times = "19:00 - 22:00"
+times = ""
 
 # the event venue name (will show up on the event card - TODO)
-venueName = "Borg Restaurant"
+venueName = "LX Factory"
 
 # the event venue address (will show up on a map -- TODO)
-venueAddress = "Pósthússtræti 11, 101 Reykjavík, Iceland"
+venueAddress = "R. Rodrigues de Faria 103, 1300-501 Lisboa, Portugal"
 
 # the max number of attendees of the event
-attendees = "100"
+attendees = ""
 
 
 # these is unsued:
-# tickets = "Waitlist"
+# tickets = ""
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -40,15 +40,15 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Dinner"]
+tags = ["Talks", "Workshops"]
 
 # a color, to group key events visually. use sparingly
-color="indigo"
+# color=""
 
 # a description of the event.
 # will show up when the user clicks the event card.
 description = """
-​We are closing this thing out in style - art deco to be exact! This is the last organized dinner of IPFS Thing 2022. Thank you so much for coming all the way to Reykjavik for the advancement of all things IPFS ...see what I did there?
+ A two-day event with insightful talks from top-notch speakers, panel discussions from the world's foremost Filecoin ecosystem participants and Web3 co-builders. Our unmatched speaker lineup will dive into Filecoin and Web3, taking you through the Filecoin world of FVM, NFTs, the metaverse, and beyond to be a part of the Web3 wave.
 
-We are looking forward to seeing you there!
+There are talks, meetups, workshops, hackathons & happy hours, together with music and fun across the city to bring together developers, storage providers, ecosystem partners, investors, and clients across the whole blockchain industry. Let's connect in Lisbon!
 """
